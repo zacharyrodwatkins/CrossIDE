@@ -29,8 +29,8 @@ To compile or flash the FPGA you can use the functions in cross_ide.sh.
 
 ```
 source scripts/cross_ide.sh
-   hexcompile <assembly file>
-   flash  <compiled file>
+hexcompile <assembly file>
+flash  <compiled file>
 ``` 
 
 If you want to use these all the time just add source scripts/cross_ide.sh
