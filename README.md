@@ -24,7 +24,7 @@ by just running
 wine CrossIDE.exe
 ```
 
-The thing is that the built in options for build and flash won't work. 
+The thing is that the built in options for build and flash won't work. You may as well use whatever text editor you like.
 To compile or flash the FPGA you can use the functions in cross_ide.sh. 
 
 ```
