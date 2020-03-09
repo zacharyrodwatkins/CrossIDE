@@ -33,5 +33,5 @@ hexcompile <assembly file>
 flash  <compiled file>
 ``` 
 
-If you want to use these all the time just add source scripts/cross_ide.sh
+If you want to use these all the time just add source scripts/cross_ide.sh to your
 ~/.bashrc
