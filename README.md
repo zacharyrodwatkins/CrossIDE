@@ -9,7 +9,9 @@ distros.
 
 You need to have wine installed to run CrossIDE and the assembly compiler
 
-'''sudo apt-get install wine64'''
+'''
+sudo apt-get install wine64
+'''
 
 You also need quartus installed, but y'all should have already done that. 
 
@@ -18,12 +20,15 @@ You also need quartus installed, but y'all should have already done that.
 You can use the CrossIDE text editor if you want, and can open up CrossIDE 
 by just running 
 
-'''wine CrossIDE.exe'''
+'''
+wine CrossIDE.exe
+'''
 
 The thing is that the built in options for build and flash won't work. 
 To compile or flash the FPGA you can use the functions in cross_ide.sh. 
 
-'''source scripts/cross_ide.sh
+'''
+source scripts/cross_ide.sh
    hexcompile <assembly file>
    flash  <compiled file>
 ''' 
