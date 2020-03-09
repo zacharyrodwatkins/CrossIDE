@@ -1,0 +1,45 @@
+<PRJ>
+     `project1.prj` `project1.prj`
+     `c51sm.bat` `ld  %pathne% %obj%`
+     `c51sm.bat` `cc "%pathne%"`
+     `` ``
+     1
+</PRJ>
+
+Source Files
+<C>
+`file1.c` `file1.c`
+   `c51sm.bat` `cc "%pathne%"`
+   `` ``
+   `` ``
+   0
+`file2.c` `file2.c`
+   `c51sm.bat` `cc "%pathne%"`
+   `` ``
+   `` ``
+   0
+`file3.c` `file3.c`
+   `c51sm.bat` `cc "%pathne%"`
+   `` ``
+   `` ``
+   0
+</C>
+
+Header Files
+<H>
+`header1.h` `header1.h`
+   `` ``
+   `` ``
+   `` ``
+   0
+</H>
+
+Resource Files
+<R>
+`c51sm.bat` `c51sm.bat`
+   `` ``
+   `` ``
+   `` ``
+   0
+</R>
+

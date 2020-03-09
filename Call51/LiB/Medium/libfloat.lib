@@ -1,0 +1,10828 @@
+<CALL51LIB>
+
+<INDEX>
+      4250
+<MODULE>
+atof 11
+_atof,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fsadd 7522
+fsadd_direct_entry,R_CSEG,0003,0000
+___fsadd,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fsdiv 9321
+___fsdiv,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fseq 12407
+___fseq,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fsgt 13492
+___fsgt,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fslt 14946
+___fslt,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fscmp 16400
+fs_compare_uint32,R_CSEG,0000,0000
+fs_check_negative_zeros,R_CSEG,001E,0000
+</MODULE>
+
+<MODULE>
+fsmul 18218
+___fsmul,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fsneq 20340
+___fsneq,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fssub 21417
+___fssub,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+uchar2fs 22398
+___uchar2fs,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+uint2fs 23398
+___uint2fs,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+ulong2fs 24398
+___ulong2fs,R_CSEG,0000,0000
+ulong2fs_doit,R_CSEG,0009,0000
+</MODULE>
+
+<MODULE>
+schar2fs 25549
+___schar2fs,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+sint2fs 26549
+___sint2fs,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+slong2fs 27551
+slong2fs_doit,R_CSEG,0009,0000
+___slong2fs,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fs2uchar 28826
+___fs2uchar,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fs2uint 29816
+___fs2uint,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fs2ulong 30813
+___fs2ulong,R_CSEG,0000,0000
+fs2ulong_begin,R_CSEG,0002,0000
+</MODULE>
+
+<MODULE>
+fs2schar 32161
+___fs2schar,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fs2sint 33789
+___fs2sint,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fs2slong 35319
+___fs2slong,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fabsf 37062
+_fabsf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+frexpf 37974
+_frexpf_PARM_2,R_PSEG,0000,0003
+_frexpf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+ldexpf 40611
+_ldexpf_PARM_2,R_PSEG,0000,0002
+_ldexpf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+expf 43468
+_expf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+powf 52178
+_powf,R_CSEG,0000,0000
+_powf_PARM_2,R_PSEG,0000,0004
+</MODULE>
+
+<MODULE>
+sincosf 54244
+_sincosf_PARM_2,R_BSEG,0000,0001
+_sincosf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+sinf 64253
+_sinf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+cosf 65386
+_cosf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+logf 66525
+_logf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+log10f 74263
+_log10f,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+sqrtf 75387
+_sqrtf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+tancotf 80874
+_tancotf_PARM_2,R_BSEG,0000,0001
+_tancotf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+tanf 91410
+_tanf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+cotf 92438
+_cotf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+asincosf 94332
+_asincosf,R_CSEG,0000,0000
+_asincosf_PARM_2,R_BSEG,0000,0001
+</MODULE>
+
+<MODULE>
+asinf 106465
+_asinf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+acosf 108148
+_acosf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+atanf 109831
+_atanf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+atan2f 120598
+_atan2f,R_CSEG,0000,0000
+_atan2f_PARM_2,R_PSEG,0000,0004
+</MODULE>
+
+<MODULE>
+sincoshf 125605
+_sincoshf_PARM_2,R_BSEG,0000,0001
+_sincoshf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+sinhf 135825
+_sinhf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+coshf 136860
+_coshf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+tanhf 137895
+_tanhf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+floorf 145020
+_floorf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+ceilf 147238
+_ceilf,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+modff 149492
+_modff_PARM_2,R_PSEG,0000,0003
+_modff,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+errno 151445
+_errno,R_PSEG,0000,0002
+</MODULE>
+
+<MODULE>
+fsget1arg 152321
+fsgetarg,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fsget2args 153334
+fsgetargs,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fsnormalize 154491
+fs_normalize_a,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fsreturnval 155829
+fs_return_inf,R_CSEG,0037,0000
+fs_round_and_return,R_CSEG,0000,0000
+fs_direct_return,R_CSEG,0029,0000
+fs_return_nan,R_CSEG,0044,0000
+fs_return_zero,R_CSEG,0021,0000
+fs_zerocheck_return,R_CSEG,0018,0000
+</MODULE>
+
+<MODULE>
+fsrshift 157358
+fs_rshift_a,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+fsswapargs 158721
+fs_swap_a_b,R_CSEG,0000,0000
+</MODULE>
+
+</INDEX>
+
+<FILES>
+
+<FILE>
+atof
+<OBJ>
+<MODULE>
+atof
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0003,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?2,data,0009,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0006,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,029D,NO
+</SEGMENTS>
+<LOCALS>
+L002003?,R_CSEG,002D,0000
+L002002?,R_CSEG,0016,0000
+L002097?,R_CSEG,01F9,0000
+L002092?,R_CSEG,01BA,0000
+L002091?,R_CSEG,01A8,0000
+_atof_dot_flag_1_30,R_BSEG,0002,0001
+_atof_iexp_1_30,R_PSEG,0005,0001
+_atof_sign_1_30,R_BSEG,0000,0001
+_atof_sloc0_1_0,?lib?dseg?2,0000,0001
+L002067?,R_CSEG,0028,0000
+L002064?,R_CSEG,0034,0000
+L002079?,R_CSEG,00A0,0000
+L002078?,R_CSEG,009D,0000
+_atof_sloc1_1_0,?lib?dseg?2,0001,0001
+L002075?,R_CSEG,007F,0000
+L002085?,R_CSEG,017D,0000
+L002084?,R_CSEG,017A,0000
+L002083?,R_CSEG,0161,0000
+_atof_iexp_off_1_30,R_PSEG,0004,0001
+_atof_sloc2_1_0,?lib?dseg?2,0002,0004
+_atof_esign_1_30,R_BSEG,0001,0001
+L002019?,R_CSEG,01A8,0000
+L002018?,R_CSEG,019E,0000
+L002013?,R_CSEG,00B8,0000
+L002029?,R_CSEG,027B,0000
+L002027?,R_CSEG,01F1,0000
+L002025?,R_CSEG,023D,0000
+_atof_sloc3_1_0,?lib?dseg?2,0006,0003
+L002023?,R_CSEG,01E6,0000
+L002039?,R_CSEG,01AC,0000
+L002037?,R_CSEG,0164,0000
+L002036?,R_CSEG,0159,0000
+L002035?,R_CSEG,00A0,0000
+L002034?,R_CSEG,006C,0000
+L002033?,R_CSEG,0088,0000
+L002031?,R_CSEG,028D,0000
+L002042?,R_CSEG,01DB,0000
+_atof_value_1_30,R_PSEG,0000,0004
+L002009?,R_CSEG,005C,0000
+L002008?,R_CSEG,004C,0000
+</LOCALS>
+<PUBLICS>
+_atof,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+__gptrget,any,0000,0000
+___fsmul,any,0000,0000
+___fsadd,any,0000,0000
+__gptrput,any,0000,0000
+___sint2fs,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+78 data8(_atof_iexp_off_1_30;)
+E4
+F2
+78 data8(_atof_iexp_1_30;)
+E4
+F2
+C2 bit(_atof_dot_flag_1_30;)
+8A 05
+8B 06
+8C 07
+8D 82
+8E 83
+8F F0
+12 addr16(__gptrget;)  
+F5 data8(_atof_sloc0_1_0;)
+74 20
+B5 data8(_atof_sloc0_1_0;) rel3(L002067?;)
+80 rel2(L002003?;)
+74 09
+B5 data8(_atof_sloc0_1_0;) rel3(L002064?;)
+0D
+BD 00 rel3(L002002?;)
+0E
+80 rel2(L002002?;)
+8D 02
+8E 03
+8F 04
+74 2D
+B5 data8(_atof_sloc0_1_0;) rel3(L002008?;)
+D2 bit(_atof_sign_1_30;)
+74 01
+2D
+FA
+E4
+3E
+FB
+8F 04
+80 rel2(L002009?;)
+C2 bit(_atof_sign_1_30;)
+74 2B
+B5 data8(_atof_sloc0_1_0;) rel3(L002009?;)
+74 01
+2D
+FA
+E4
+3E
+FB
+8F 04
+78 data8(_atof_value_1_30;)
+E4
+F2
+08
+F2
+08
+F2
+08
+F2
+8A data8(_atof_sloc3_1_0;)
+8B data8(_atof_sloc3_1_0;0x0001;+;)
+8C data8(_atof_sloc3_1_0;0x0002;+;)
+85 data8(_atof_sloc3_1_0;) 82
+85 data8(_atof_sloc3_1_0;0x0001;+;) 83
+85 data8(_atof_sloc3_1_0;0x0002;+;) F0
+12 addr16(__gptrget;)  
+F5 data8(_atof_sloc0_1_0;)
+AD data8(_atof_sloc0_1_0;)
+BD 30 rel3(L002075?;)
+40 rel2(L002033?;)
+E5 data8(_atof_sloc0_1_0;)
+FD
+24 C6
+50 rel2(L002035?;)
+85 data8(_atof_sloc3_1_0;) 82
+85 data8(_atof_sloc3_1_0;0x0001;+;) 83
+85 data8(_atof_sloc3_1_0;0x0002;+;) F0
+12 addr16(__gptrget;)  
+F5 data8(_atof_sloc0_1_0;)
+74 2E
+B5 data8(_atof_sloc0_1_0;) rel3(L002078?;)
+80 rel2(L002079?;)
+02 addr16(L002037?;)  
+85 data8(_atof_sloc3_1_0;) 82
+85 data8(_atof_sloc3_1_0;0x0001;+;) 83
+85 data8(_atof_sloc3_1_0;0x0002;+;) F0
+12 addr16(__gptrget;)  
+F5 data8(_atof_sloc1_1_0;)
+74 2E
+B5 data8(_atof_sloc1_1_0;) rel3(L002013?;)
+D2 bit(_atof_dot_flag_1_30;)
+02 addr16(L002036?;)  
+78 data8(_atof_value_1_30;)
+E2
+C0 E0
+08
+E2
+C0 E0
+08
+E2
+C0 E0
+08
+E2
+C0 E0
+90 00 00
+75 F0 20
+74 41
+12 addr16(___fsmul;)  
+85 82 data8(_atof_sloc2_1_0;)
+85 83 data8(_atof_sloc2_1_0;0x0001;+;)
+85 F0 data8(_atof_sloc2_1_0;0x0002;+;)
+F5 data8(_atof_sloc2_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+78 data8(_atof_value_1_30;)
+E5 data8(_atof_sloc2_1_0;)
+F2
+08
+E5 data8(_atof_sloc2_1_0;0x0001;+;)
+F2
+08
+E5 data8(_atof_sloc2_1_0;0x0002;+;)
+F2
+08
+E5 data8(_atof_sloc2_1_0;0x0003;+;)
+F2
+E5 data8(_atof_sloc1_1_0;)
+FD
+33
+95 E0
+FE
+ED
+24 D0
+F5 82
+EE
+34 FF
+F5 83
+12 addr16(___sint2fs;)  
+85 82 data8(_atof_sloc2_1_0;)
+85 83 data8(_atof_sloc2_1_0;0x0001;+;)
+85 F0 data8(_atof_sloc2_1_0;0x0002;+;)
+F5 data8(_atof_sloc2_1_0;0x0003;+;)
+C0 data8(_atof_sloc2_1_0;)
+C0 data8(_atof_sloc2_1_0;0x0001;+;)
+C0 data8(_atof_sloc2_1_0;0x0002;+;)
+C0 data8(_atof_sloc2_1_0;0x0003;+;)
+78 data8(_atof_value_1_30;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fsadd;)  
+85 82 data8(_atof_sloc2_1_0;)
+85 83 data8(_atof_sloc2_1_0;0x0001;+;)
+85 F0 data8(_atof_sloc2_1_0;0x0002;+;)
+F5 data8(_atof_sloc2_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+78 data8(_atof_value_1_30;)
+E5 data8(_atof_sloc2_1_0;)
+F2
+08
+E5 data8(_atof_sloc2_1_0;0x0001;+;)
+F2
+08
+E5 data8(_atof_sloc2_1_0;0x0002;+;)
+F2
+08
+E5 data8(_atof_sloc2_1_0;0x0003;+;)
+F2
+30 bit(_atof_dot_flag_1_30;) rel3(L002036?;)
+78 data8(_atof_iexp_off_1_30;)
+E2
+14
+F2
+05 data8(_atof_sloc3_1_0;)
+E4
+B5 data8(_atof_sloc3_1_0;) rel3(L002083?;)
+05 data8(_atof_sloc3_1_0;0x0001;+;)
+02 addr16(L002034?;)  
+74 DF
+55 data8(_atof_sloc0_1_0;)
+FD
+85 data8(_atof_sloc3_1_0;) 82
+85 data8(_atof_sloc3_1_0;0x0001;+;) 83
+85 data8(_atof_sloc3_1_0;0x0002;+;) F0
+12 addr16(__gptrput;)  
+BD 45 rel3(L002084?;)
+80 rel2(L002085?;)
+02 addr16(L002023?;)  
+74 01
+25 data8(_atof_sloc3_1_0;)
+FA
+E4
+35 data8(_atof_sloc3_1_0;0x0001;+;)
+FB
+AC data8(_atof_sloc3_1_0;0x0002;+;)
+8A 82
+8B 83
+8C F0
+12 addr16(__gptrget;)  
+FD
+BD 2D rel3(L002018?;)
+D2 bit(_atof_esign_1_30;)
+0A
+BA 00 rel3(L002019?;)
+0B
+80 rel2(L002019?;)
+C2 bit(_atof_esign_1_30;)
+BD 2B rel3(L002019?;)
+0A
+BA 00 rel3(L002091?;)
+0B
+78 data8(_atof_iexp_1_30;)
+E4
+F2
+8A 82
+8B 83
+8C F0
+12 addr16(__gptrget;)  
+FD
+FE
+BE 30 rel3(L002092?;)
+40 rel2(L002042?;)
+8D 06
+EE
+24 C6
+40 rel2(L002042?;)
+78 data8(_atof_iexp_1_30;)
+E2
+75 F0 0A
+A4
+F2
+ED
+24 D0
+FD
+78 data8(_atof_iexp_1_30;)
+E2
+2D
+F2
+0A
+BA 00 rel3(L002039?;)
+0B
+80 rel2(L002039?;)
+30 bit(_atof_esign_1_30;) rel3(L002023?;)
+78 data8(_atof_iexp_1_30;)
+E2
+D3
+F4
+34 00
+F2
+78 data8(_atof_iexp_1_30;)
+79 data8(_atof_iexp_off_1_30;)
+E3
+C5 F0
+E2
+25 F0
+F2
+78 data8(_atof_iexp_1_30;)
+E2
+70 rel2(L002097?;)
+02 addr16(L002029?;)  
+78 data8(_atof_iexp_1_30;)
+E2
+30 E7 rel3(L002025?;)
+78 data8(_atof_value_1_30;)
+E2
+C0 E0
+08
+E2
+C0 E0
+08
+E2
+C0 E0
+08
+E2
+C0 E0
+90 CC CD
+75 F0 CC
+74 3D
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+78 data8(_atof_value_1_30;)
+EA
+F2
+08
+EB
+F2
+08
+EC
+F2
+08
+ED
+F2
+78 data8(_atof_iexp_1_30;)
+E2
+24 01
+F2
+80 rel2(L002027?;)
+78 data8(_atof_value_1_30;)
+E2
+C0 E0
+08
+E2
+C0 E0
+08
+E2
+C0 E0
+08
+E2
+C0 E0
+90 00 00
+75 F0 20
+74 41
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+78 data8(_atof_value_1_30;)
+EA
+F2
+08
+EB
+F2
+08
+EC
+F2
+08
+ED
+F2
+78 data8(_atof_iexp_1_30;)
+E2
+14
+F2
+02 addr16(L002027?;)  
+30 bit(_atof_sign_1_30;) rel3(L002031?;)
+78 data8(_atof_value_1_30;)
+E2
+F2
+08
+E2
+F2
+08
+E2
+F2
+08
+E2
+B2 E7
+F2
+78 data8(_atof_value_1_30;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fsadd
+<OBJ>
+<MODULE>
+fsadd
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0059,NO
+</SEGMENTS>
+<LOCALS>
+L00010?,R_CSEG,0011,0000
+L00021?,R_CSEG,0035,0000
+L00022?,R_CSEG,0038,0000
+L00020?,R_CSEG,0021,0000
+L00025?,R_CSEG,0053,0000
+_dummy,R_CSEG,0000,0000
+L00005?,R_CSEG,000C,0000
+L00011?,R_CSEG,0019,0000
+</LOCALS>
+<PUBLICS>
+fsadd_direct_entry,R_CSEG,0003,0000
+___fsadd,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+fs_swap_a_b,any,0000,0000
+fs_round_and_return,any,0000,0000
+fs_normalize_a,any,0000,0000
+fsgetargs,any,0000,0000
+fs_rshift_a,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+12 addr16(fsgetargs;)  
+79 00
+E5 83
+B5 82 rel3(L00005?;)
+80 rel2(L00011?;)
+50 rel2(L00010?;)
+12 addr16(fs_swap_a_b;)  
+E5 83
+C3
+95 82
+12 addr16(fs_rshift_a;)  
+E5 D0
+C4
+65 D0
+20 E1 rel3(L00022?;)
+EA
+2D
+FA
+EB
+3E
+FB
+EC
+3F
+FC
+50 rel2(L00021?;)
+74 01
+12 addr16(fs_rshift_a;)  
+EC
+44 80
+FC
+02 addr16(fs_round_and_return;)  
+C3
+EA
+9D
+FA
+EB
+9E
+FB
+EC
+9F
+FC
+50 rel2(L00025?;)
+C3
+E4
+99
+F9
+E4
+9A
+FA
+E4
+9B
+FB
+E4
+9C
+FC
+B2 D1
+12 addr16(fs_normalize_a;)  
+02 addr16(fs_round_and_return;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fsdiv
+<OBJ>
+<MODULE>
+fsdiv
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0004,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,011F,NO
+</SEGMENTS>
+<LOCALS>
+L00010?,R_CSEG,005C,0000
+saved_r5,R_OSEG,0000,0001
+saved_r6,R_OSEG,0001,0001
+saved_r7,R_OSEG,0002,0001
+_dummy,R_CSEG,0000,0000
+L00001?,R_CSEG,0008,0000
+L00002?,R_CSEG,0011,0000
+saved_b,R_OSEG,0003,0001
+L00003?,R_CSEG,0014,0000
+L00004?,R_CSEG,001A,0000
+L00009?,R_CSEG,0046,0000
+L00005?,R_CSEG,0027,0000
+L00006?,R_CSEG,002A,0000
+L00007?,R_CSEG,0032,0000
+L00008?,R_CSEG,003E,0000
+L00011?,R_CSEG,00AC,0000
+L00012?,R_CSEG,00BF,0000
+L00013?,R_CSEG,010E,0000
+L00014?,R_CSEG,011C,0000
+</LOCALS>
+<PUBLICS>
+___fsdiv,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+fs_return_inf,any,0000,0000
+fs_return_nan,any,0000,0000
+fs_return_zero,any,0000,0000
+fsgetargs,any,0000,0000
+fs_zerocheck_return,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+12 addr16(fsgetargs;)  
+30 D5 rel3(L00001?;)
+B2 D1
+BF 00 rel3(L00003?;)
+BC 00 rel3(L00002?;)
+02 addr16(fs_return_nan;)  
+02 addr16(fs_return_inf;)  
+BC 00 rel3(L00004?;)
+02 addr16(fs_return_zero;)  
+E5 83
+B4 FF rel3(L00006?;)
+E5 82
+B4 FF rel3(L00005?;)
+02 addr16(fs_return_nan;)  
+02 addr16(fs_return_zero;)  
+E5 82
+B4 FF rel3(L00007?;)
+02 addr16(fs_return_inf;)  
+C3
+95 83
+50 rel2(L00008?;)
+24 7F
+40 rel2(L00009?;)
+02 addr16(fs_return_zero;)  
+24 80
+14
+50 rel2(L00009?;)
+02 addr16(fs_return_inf;)  
+C0 E0
+E4
+CC
+CB
+CA
+F9
+</CODE>
+<CODE R_CSEG>
+8D data8(saved_r5;)
+8E data8(saved_r6;)
+8F data8(saved_r7;)
+EF
+54 F0
+C4
+F5 data8(saved_b;)
+75 83 06
+85 data8(saved_b;) F0
+EB
+84
+F5 82
+E9
+C4
+F9
+EA
+C4
+FA
+EB
+C4
+FB
+EC
+54 0F
+C4
+78 03
+D6
+FC
+18
+EB
+D6
+FB
+18
+EA
+D6
+FA
+85 82 F0
+ED
+A4
+A8 F0
+FD
+85 82 F0
+EE
+A4
+28
+FE
+E4
+35 F0
+F8
+85 82 F0
+EF
+A4
+28
+FF
+E4
+35 F0
+F8
+E9
+9D
+F9
+EA
+9E
+FA
+EB
+9F
+FB
+EC
+98
+FC
+AD data8(saved_r5;)
+AE data8(saved_r6;)
+AF data8(saved_r7;)
+30 E7 rel3(L00012?;)
+15 82
+E9
+2D
+F9
+EA
+3E
+FA
+EB
+3F
+FB
+E4
+3C
+FC
+80 rel2(L00011?;)
+C0 82
+D5 83 rel3(L00010?;)
+C3
+E9
+33
+F9
+EA
+33
+FA
+EB
+33
+FB
+EC
+33
+FC
+C3
+E9
+9D
+EA
+9E
+EB
+9F
+EC
+94 00
+B3
+E4
+13
+F9
+D0 02
+D0 E0
+C4
+4A
+FA
+D0 03
+D0 E0
+C4
+4B
+FB
+D0 04
+D0 E0
+F5 F0
+54 0F
+C4
+4C
+FC
+D0 82
+15 82
+30 F4 rel3(L00013?;)
+D3
+EC
+13
+FC
+EB
+13
+FB
+EA
+13
+FA
+E9
+13
+F9
+05 82
+E9
+30 E7 rel3(L00014?;)
+74 01
+2A
+FA
+E4
+3B
+FB
+E4
+3C
+FC
+02 addr16(fs_zerocheck_return;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fseq
+<OBJ>
+<MODULE>
+fseq
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0011,NO
+</SEGMENTS>
+<LOCALS>
+_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+___fseq,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+fs_compare_uint32,any,0000,0000
+fs_check_negative_zeros,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+FF
+A8 81
+18
+18
+12 addr16(fs_check_negative_zeros;)  
+12 addr16(fs_compare_uint32;)  
+E9
+64 01
+F5 82
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fsgt
+<OBJ>
+<MODULE>
+fsgt
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0030,NO
+</SEGMENTS>
+<LOCALS>
+ab_negative,R_CSEG,001E,0000
+skip_invert,R_CSEG,002B,0000
+ab_positive,R_CSEG,001C,0000
+a_negative,R_CSEG,0015,0000
+ab_different,R_CSEG,0027,0000
+a_positive,R_CSEG,000E,0000
+_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+___fsgt,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+fs_compare_uint32,any,0000,0000
+fs_check_negative_zeros,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+FF
+A8 81
+18
+18
+12 addr16(fs_check_negative_zeros;)  
+D2 D1
+33
+E6
+40 rel2(a_negative;)
+30 E7 rel3(ab_positive;)
+75 82 01
+22
+20 E7 rel3(ab_negative;)
+75 82 00
+22
+C2 D1
+12 addr16(fs_compare_uint32;)  
+E9
+70 rel2(ab_different;)
+F5 82
+22
+30 D1 rel3(skip_invert;)
+B3
+E4
+33
+F5 82
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fslt
+<OBJ>
+<MODULE>
+fslt
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0030,NO
+</SEGMENTS>
+<LOCALS>
+ab_negative,R_CSEG,001E,0000
+skip_invert,R_CSEG,002B,0000
+ab_positive,R_CSEG,001C,0000
+a_negative,R_CSEG,0015,0000
+ab_different,R_CSEG,0027,0000
+a_positive,R_CSEG,000E,0000
+_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+___fslt,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+fs_compare_uint32,any,0000,0000
+fs_check_negative_zeros,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+FF
+A8 81
+18
+18
+12 addr16(fs_check_negative_zeros;)  
+D2 D1
+33
+E6
+40 rel2(a_negative;)
+30 E7 rel3(ab_positive;)
+75 82 00
+22
+20 E7 rel3(ab_negative;)
+75 82 01
+22
+C2 D1
+12 addr16(fs_compare_uint32;)  
+E9
+70 rel2(ab_different;)
+F5 82
+22
+20 D1 rel3(skip_invert;)
+B3
+E4
+33
+F5 82
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fscmp
+<OBJ>
+<MODULE>
+fscmp
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0049,NO
+</SEGMENTS>
+<LOCALS>
+a_not_neg_zero_cleanup,R_CSEG,002F,0000
+b_not_neg_zero_cleanup_1,R_CSEG,0047,0000
+b_not_neg_zero_cleanup_2,R_CSEG,0046,0000
+b_not_neg_zero_cleanup_3,R_CSEG,0045,0000
+compare32_done,R_CSEG,001D,0000
+a_check,R_CSEG,001E,0000
+_dummy,R_CSEG,0000,0000
+b_check,R_CSEG,0030,0000
+b_not_neg_zero,R_CSEG,0048,0000
+a_not_neg_zero,R_CSEG,0030,0000
+</LOCALS>
+<PUBLICS>
+fs_compare_uint32,R_CSEG,0000,0000
+fs_check_negative_zeros,R_CSEG,001E,0000
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+79 01
+AA 82
+E6
+8F 82
+B5 82 rel3(compare32_done;)
+18
+E6
+B5 F0 rel3(compare32_done;)
+18
+E6
+B5 83 rel3(compare32_done;)
+18
+E6
+8A 82
+B5 82 rel3(compare32_done;)
+79 00
+22
+B4 80 rel3(a_not_neg_zero;)
+E5 F0
+70 rel2(a_not_neg_zero_cleanup;)
+E5 83
+70 rel2(a_not_neg_zero_cleanup;)
+E5 82
+70 rel2(a_not_neg_zero_cleanup;)
+7F 00
+EF
+B6 80 rel3(b_not_neg_zero;)
+18
+B6 00 rel3(b_not_neg_zero_cleanup_1;)
+18
+B6 00 rel3(b_not_neg_zero_cleanup_2;)
+18
+B6 00 rel3(b_not_neg_zero_cleanup_3;)
+08
+08
+08
+76 00
+22
+08
+08
+08
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fsmul
+<OBJ>
+<MODULE>
+fsmul
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,00A3,NO
+</SEGMENTS>
+<LOCALS>
+L00010?,R_CSEG,00A0,0000
+_dummy,R_CSEG,0000,0000
+L00001?,R_CSEG,0006,0000
+L00002?,R_CSEG,0009,0000
+L00003?,R_CSEG,0011,0000
+L00004?,R_CSEG,0019,0000
+L00005?,R_CSEG,0021,0000
+L00006?,R_CSEG,002C,0000
+L00007?,R_CSEG,0034,0000
+</LOCALS>
+<PUBLICS>
+___fsmul,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+fs_return_inf,any,0000,0000
+fs_round_and_return,any,0000,0000
+fs_return_zero,any,0000,0000
+fs_normalize_a,any,0000,0000
+fsgetargs,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+12 addr16(fsgetargs;)  
+BC 00 rel3(L00002?;)
+02 addr16(fs_return_zero;)  
+EF
+60 rel2(L00001?;)
+30 D5 rel3(L00003?;)
+B2 D1
+E5 83
+B4 FF rel3(L00004?;)
+02 addr16(fs_return_inf;)  
+E5 82
+B4 FF rel3(L00005?;)
+02 addr16(fs_return_inf;)  
+25 83
+40 rel2(L00006?;)
+24 82
+40 rel2(L00007?;)
+02 addr16(fs_return_zero;)  
+24 83
+14
+50 rel2(L00007?;)
+02 addr16(fs_return_inf;)  
+F5 82
+EA
+8D F0
+A4
+A8 F0
+EA
+8E F0
+A4
+28
+F8
+E4
+35 F0
+F9
+EB
+8D F0
+A4
+28
+E9
+35 F0
+F9
+E4
+33
+CA
+8F F0
+A4
+29
+F9
+EA
+35 F0
+FA
+EB
+F8
+8E F0
+A4
+29
+F9
+EA
+35 F0
+FA
+E4
+33
+FB
+EC
+8D F0
+A4
+29
+F9
+EA
+35 F0
+FA
+E4
+3B
+FB
+E8
+8F F0
+A4
+2A
+FA
+EB
+35 F0
+FB
+E4
+33
+CC
+FD
+8E F0
+A4
+2A
+FA
+EB
+35 F0
+FB
+E4
+3C
+FC
+ED
+8F F0
+A4
+2B
+FB
+EC
+35 F0
+FC
+20 E7 rel3(L00010?;)
+12 addr16(fs_normalize_a;)  
+02 addr16(fs_round_and_return;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fsneq
+<OBJ>
+<MODULE>
+fsneq
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,000E,NO
+</SEGMENTS>
+<LOCALS>
+_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+___fsneq,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+fs_compare_uint32,any,0000,0000
+fs_check_negative_zeros,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+FF
+A8 81
+18
+18
+12 addr16(fs_check_negative_zeros;)  
+12 addr16(fs_compare_uint32;)  
+89 82
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fssub
+<OBJ>
+<MODULE>
+fssub
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,000B,NO
+</SEGMENTS>
+<LOCALS>
+_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+___fssub,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+___fsadd,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+A8 81
+18
+18
+C6
+B2 E7
+C6
+02 addr16(___fsadd;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+uchar2fs
+<OBJ>
+<MODULE>
+uchar2fs
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,000B,NO
+</SEGMENTS>
+<LOCALS>
+_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+___uchar2fs,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+ulong2fs_doit,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+E4
+AC 82
+FB
+FA
+F9
+74 86
+02 addr16(ulong2fs_doit;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+uint2fs
+<OBJ>
+<MODULE>
+uint2fs
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,000C,NO
+</SEGMENTS>
+<LOCALS>
+_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+___uint2fs,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+ulong2fs_doit,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+E4
+AC 83
+AB 82
+FA
+F9
+74 8E
+02 addr16(ulong2fs_doit;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+ulong2fs
+<OBJ>
+<MODULE>
+ulong2fs
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0013,NO
+</SEGMENTS>
+<LOCALS>
+long2fs_doit,R_CSEG,000B,0000
+_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+___ulong2fs,R_CSEG,0000,0000
+ulong2fs_doit,R_CSEG,0009,0000
+</PUBLICS>
+<EXTERNALS>
+fs_round_and_return,any,0000,0000
+fs_normalize_a,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+FC
+AB F0
+AA 83
+A9 82
+74 9E
+C2 D1
+F5 82
+12 addr16(fs_normalize_a;)  
+02 addr16(fs_round_and_return;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+schar2fs
+<OBJ>
+<MODULE>
+schar2fs
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,000B,NO
+</SEGMENTS>
+<LOCALS>
+_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+___schar2fs,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+slong2fs_doit,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AC 82
+E4
+FB
+FA
+F9
+74 86
+02 addr16(slong2fs_doit;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+sint2fs
+<OBJ>
+<MODULE>
+sint2fs
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,000D,NO
+</SEGMENTS>
+<LOCALS>
+_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+___sint2fs,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+slong2fs_doit,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AC 83
+AB 82
+7A 00
+79 00
+74 8E
+02 addr16(slong2fs_doit;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+slong2fs
+<OBJ>
+<MODULE>
+slong2fs
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,002D,NO
+</SEGMENTS>
+<LOCALS>
+slong2fs_positive,R_CSEG,0027,0000
+_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+slong2fs_doit,R_CSEG,0009,0000
+___slong2fs,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+fs_round_and_return,any,0000,0000
+fs_normalize_a,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+FC
+AB F0
+AA 83
+A9 82
+74 9E
+F5 82
+C2 D1
+EC
+30 E7 rel3(slong2fs_positive;)
+D2 D1
+E9
+F4
+24 01
+F9
+EA
+F4
+34 00
+FA
+EB
+F4
+34 00
+FB
+EC
+F4
+34 00
+FC
+12 addr16(fs_normalize_a;)  
+02 addr16(fs_round_and_return;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fs2uchar
+<OBJ>
+<MODULE>
+fs2uchar
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0008,NO
+</SEGMENTS>
+<LOCALS>
+_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+___fs2uchar,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+fs2ulong_begin,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+7F 86
+12 addr16(fs2ulong_begin;)  
+F5 82
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fs2uint
+<OBJ>
+<MODULE>
+fs2uint
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,000B,NO
+</SEGMENTS>
+<LOCALS>
+_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+___fs2uint,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+fs2ulong_begin,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+7F 8E
+12 addr16(fs2ulong_begin;)  
+F5 83
+85 F0 82
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fs2ulong
+<OBJ>
+<MODULE>
+fs2ulong
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0027,NO
+</SEGMENTS>
+<LOCALS>
+fs2ulong_int_ok,R_CSEG,001A,0000
+fs2ulong_int,R_CSEG,000B,0000
+_dummy,R_CSEG,0000,0000
+fs2ulong_done,R_CSEG,001F,0000
+</LOCALS>
+<PUBLICS>
+___fs2ulong,R_CSEG,0000,0000
+fs2ulong_begin,R_CSEG,0002,0000
+</PUBLICS>
+<EXTERNALS>
+fsgetarg,any,0000,0000
+fs_return_zero,any,0000,0000
+fs_rshift_a,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+7F 9E
+12 addr16(fsgetarg;)  
+30 D1 rel3(fs2ulong_int;)
+02 addr16(fs_return_zero;)  
+C3
+EF
+95 82
+50 rel2(fs2ulong_int_ok;)
+74 FF
+F5 F0
+F5 83
+F5 82
+22
+79 00
+12 addr16(fs_rshift_a;)  
+89 82
+8A 83
+8B F0
+EC
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fs2schar
+<OBJ>
+<MODULE>
+fs2schar
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,003D,NO
+</SEGMENTS>
+<LOCALS>
+fs2schar_pos,R_CSEG,0029,0000
+fs2schar_neg,R_CSEG,0012,0000
+fs2schar_maxval_pos,R_CSEG,0039,0000
+fs2schar_not_zero,R_CSEG,000F,0000
+fs2schar_maxval_neg,R_CSEG,0025,0000
+fs2schar_clr_a,R_CSEG,000E,0000
+_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+___fs2schar,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+___fs2slong,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+12 addr16(___fs2slong;)  
+70 rel2(fs2schar_not_zero;)
+E5 82
+45 83
+45 F0
+70 rel2(fs2schar_clr_a;)
+22
+E4
+30 D1 rel3(fs2schar_pos;)
+F4
+70 rel2(fs2schar_maxval_neg;)
+E5 F0
+F4
+70 rel2(fs2schar_maxval_neg;)
+E5 83
+F4
+70 rel2(fs2schar_maxval_neg;)
+E5 82
+30 E7 rel3(fs2schar_maxval_neg;)
+22
+75 82 80
+22
+70 rel2(fs2schar_maxval_pos;)
+E5 F0
+70 rel2(fs2schar_maxval_pos;)
+E5 83
+70 rel2(fs2schar_maxval_pos;)
+E5 82
+20 E7 rel3(fs2schar_maxval_pos;)
+22
+75 82 7F
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fs2sint
+<OBJ>
+<MODULE>
+fs2sint
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0034,NO
+</SEGMENTS>
+<LOCALS>
+fs2sint_maxval_neg,R_CSEG,0020,0000
+fs2sint_not_zero,R_CSEG,000F,0000
+fs2sint_pos,R_CSEG,0024,0000
+_dummy,R_CSEG,0000,0000
+fs2sint_clr_a,R_CSEG,000E,0000
+fs2sint_maxval_pos,R_CSEG,0030,0000
+fs2sint_neg,R_CSEG,0012,0000
+</LOCALS>
+<PUBLICS>
+___fs2sint,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+___fs2slong,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+12 addr16(___fs2slong;)  
+70 rel2(fs2sint_not_zero;)
+E5 82
+45 83
+45 F0
+70 rel2(fs2sint_clr_a;)
+22
+E4
+30 D1 rel3(fs2sint_pos;)
+F4
+70 rel2(fs2sint_maxval_neg;)
+E5 F0
+F4
+70 rel2(fs2sint_maxval_neg;)
+E5 83
+30 E7 rel3(fs2sint_maxval_neg;)
+22
+90 80 00
+22
+70 rel2(fs2sint_maxval_pos;)
+E5 F0
+70 rel2(fs2sint_maxval_pos;)
+E5 83
+20 E7 rel3(fs2sint_maxval_pos;)
+22
+90 7F FF
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fs2slong
+<OBJ>
+<MODULE>
+fs2slong
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,005B,NO
+</SEGMENTS>
+<LOCALS>
+fs2slong_not_zero,R_CSEG,0034,0000
+fs2slong_clr_a,R_CSEG,0033,0000
+fs2slong_maxval_neg,R_CSEG,0046,0000
+fs2slong_pos,R_CSEG,0038,0000
+_dummy,R_CSEG,0000,0000
+fs2slong_int_ok,R_CSEG,000A,0000
+fs2slong_maxval,R_CSEG,0043,0000
+fs2slong_neg,R_CSEG,0012,0000
+fs2slong_maxval_pos,R_CSEG,0050,0000
+</LOCALS>
+<PUBLICS>
+___fs2slong,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+fsgetarg,any,0000,0000
+fs_rshift_a,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+12 addr16(fsgetarg;)  
+C3
+74 9E
+95 82
+40 rel2(fs2slong_maxval;)
+79 00
+12 addr16(fs_rshift_a;)  
+30 D1 rel3(fs2slong_pos;)
+E9
+F4
+24 01
+F5 82
+EA
+F4
+34 00
+F5 83
+EB
+F4
+34 00
+F5 F0
+EC
+F4
+34 00
+70 rel2(fs2slong_not_zero;)
+E5 82
+45 83
+45 F0
+70 rel2(fs2slong_clr_a;)
+22
+E4
+30 E7 rel3(fs2slong_maxval_neg;)
+22
+EC
+20 E7 rel3(fs2slong_maxval_pos;)
+89 82
+8A 83
+8B F0
+22
+30 D1 rel3(fs2slong_maxval_pos;)
+E4
+F5 82
+F5 83
+F5 F0
+74 80
+22
+74 FF
+F5 82
+F5 83
+F5 F0
+74 7F
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fabsf
+<OBJ>
+<MODULE>
+fabsf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0003,NO
+</SEGMENTS>
+<LOCALS>
+_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+_fabsf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+C2 E7
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+frexpf
+<OBJ>
+<MODULE>
+frexpf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?1,data,0000,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0007,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0008,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,00C1,NO
+</SEGMENTS>
+<LOCALS>
+L002003?,R_CSEG,0035,0000
+_frexpf_fl_1_24,R_PSEG,0003,0004
+_frexpf_i_1_24,R_OSEG,0000,0004
+_frexpf_sloc0_1_0,R_OSEG,0004,0004
+</LOCALS>
+<PUBLICS>
+_frexpf_PARM_2,R_PSEG,0000,0003
+_frexpf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+__gptrput,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+78 data8(_frexpf_fl_1_24;)
+EA
+F2
+08
+EB
+F2
+08
+EC
+F2
+08
+ED
+F2
+78 data8(_frexpf_fl_1_24;)
+E2
+F5 data8(_frexpf_sloc0_1_0;)
+08
+E2
+F5 data8(_frexpf_sloc0_1_0;0x0001;+;)
+08
+E2
+F5 data8(_frexpf_sloc0_1_0;0x0002;+;)
+08
+E2
+F5 data8(_frexpf_sloc0_1_0;0x0003;+;)
+AE data8(_frexpf_sloc0_1_0;0x0002;+;)
+A2 E7
+CE
+33
+CE
+33
+CE
+54 01
+30 E0 rel3(L002003?;)
+44 FE
+33
+95 E0
+8E data8(_frexpf_i_1_24;)
+E4
+F5 data8(_frexpf_i_1_24;0x0001;+;)
+F5 data8(_frexpf_i_1_24;0x0002;+;)
+F5 data8(_frexpf_i_1_24;0x0003;+;)
+E5 data8(_frexpf_i_1_24;)
+24 82
+F5 data8(_frexpf_i_1_24;)
+E5 data8(_frexpf_i_1_24;0x0001;+;)
+34 FF
+F5 data8(_frexpf_i_1_24;0x0001;+;)
+E5 data8(_frexpf_i_1_24;0x0002;+;)
+34 FF
+F5 data8(_frexpf_i_1_24;0x0002;+;)
+E5 data8(_frexpf_i_1_24;0x0003;+;)
+34 FF
+F5 data8(_frexpf_i_1_24;0x0003;+;)
+78 data8(_frexpf_PARM_2;)
+E2
+FC
+08
+E2
+FD
+08
+E2
+FA
+AE data8(_frexpf_i_1_24;)
+AF data8(_frexpf_i_1_24;0x0001;+;)
+8C 82
+8D 83
+8A F0
+EE
+12 addr16(__gptrput;)  
+A3
+EF
+12 addr16(__gptrput;)  
+AA data8(_frexpf_sloc0_1_0;)
+AB data8(_frexpf_sloc0_1_0;0x0001;+;)
+74 7F
+55 data8(_frexpf_sloc0_1_0;0x0002;+;)
+FC
+74 80
+55 data8(_frexpf_sloc0_1_0;0x0003;+;)
+FD
+78 data8(_frexpf_fl_1_24;)
+EA
+F2
+08
+EB
+F2
+08
+EC
+F2
+08
+ED
+F2
+78 data8(_frexpf_fl_1_24;)
+E2
+FA
+08
+E2
+FB
+08
+E2
+FC
+08
+E2
+FD
+43 05 3F
+78 data8(_frexpf_fl_1_24;)
+EA
+F2
+08
+EB
+F2
+08
+EC
+F2
+08
+ED
+F2
+78 data8(_frexpf_fl_1_24;)
+E2
+FA
+08
+E2
+FB
+08
+E2
+FC
+08
+E2
+8A 82
+8B 83
+8C F0
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+ldexpf
+<OBJ>
+<MODULE>
+ldexpf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?1,data,0000,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0006,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,000C,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,00BD,NO
+</SEGMENTS>
+<LOCALS>
+L002003?,R_CSEG,0035,0000
+_ldexpf_sloc0_1_0,R_OSEG,0004,0004
+_ldexpf_fl_1_24,R_PSEG,0002,0004
+_ldexpf_e_1_24,R_OSEG,0000,0004
+_ldexpf_sloc1_1_0,R_OSEG,0008,0004
+</LOCALS>
+<PUBLICS>
+_ldexpf_PARM_2,R_PSEG,0000,0002
+_ldexpf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+78 data8(_ldexpf_fl_1_24;)
+EA
+F2
+08
+EB
+F2
+08
+EC
+F2
+08
+ED
+F2
+78 data8(_ldexpf_fl_1_24;)
+E2
+F5 data8(_ldexpf_sloc0_1_0;)
+08
+E2
+F5 data8(_ldexpf_sloc0_1_0;0x0001;+;)
+08
+E2
+F5 data8(_ldexpf_sloc0_1_0;0x0002;+;)
+08
+E2
+F5 data8(_ldexpf_sloc0_1_0;0x0003;+;)
+AE data8(_ldexpf_sloc0_1_0;0x0002;+;)
+A2 E7
+CE
+33
+CE
+33
+CE
+54 01
+30 E0 rel3(L002003?;)
+44 FE
+33
+95 E0
+8E data8(_ldexpf_e_1_24;)
+75 data8(_ldexpf_e_1_24;0x0001;+;) 00
+75 data8(_ldexpf_e_1_24;0x0002;+;) 00
+75 data8(_ldexpf_e_1_24;0x0003;+;) 00
+78 data8(_ldexpf_PARM_2;)
+E2
+FC
+08
+E2
+FD
+E2
+33
+95 E0
+FA
+FB
+EC
+25 data8(_ldexpf_e_1_24;)
+F5 data8(_ldexpf_e_1_24;)
+ED
+35 data8(_ldexpf_e_1_24;0x0001;+;)
+F5 data8(_ldexpf_e_1_24;0x0001;+;)
+EA
+35 data8(_ldexpf_e_1_24;0x0002;+;)
+F5 data8(_ldexpf_e_1_24;0x0002;+;)
+EB
+35 data8(_ldexpf_e_1_24;0x0003;+;)
+F5 data8(_ldexpf_e_1_24;0x0003;+;)
+AA data8(_ldexpf_e_1_24;)
+7B 00
+8A data8(_ldexpf_sloc1_1_0;0x0002;+;)
+EB
+54 01
+A2 E0
+C5 data8(_ldexpf_sloc1_1_0;0x0002;+;)
+13
+C5 data8(_ldexpf_sloc1_1_0;0x0002;+;)
+13
+C5 data8(_ldexpf_sloc1_1_0;0x0002;+;)
+F5 data8(_ldexpf_sloc1_1_0;0x0003;+;)
+75 data8(_ldexpf_sloc1_1_0;0x0001;+;) 00
+75 data8(_ldexpf_sloc1_1_0;) 00
+AE data8(_ldexpf_sloc0_1_0;)
+AF data8(_ldexpf_sloc0_1_0;0x0001;+;)
+74 7F
+55 data8(_ldexpf_sloc0_1_0;0x0002;+;)
+FA
+74 80
+55 data8(_ldexpf_sloc0_1_0;0x0003;+;)
+FB
+E5 data8(_ldexpf_sloc1_1_0;)
+42 06
+E5 data8(_ldexpf_sloc1_1_0;0x0001;+;)
+42 07
+E5 data8(_ldexpf_sloc1_1_0;0x0002;+;)
+42 02
+E5 data8(_ldexpf_sloc1_1_0;0x0003;+;)
+42 03
+78 data8(_ldexpf_fl_1_24;)
+EE
+F2
+08
+EF
+F2
+08
+EA
+F2
+08
+EB
+F2
+78 data8(_ldexpf_fl_1_24;)
+E2
+FA
+08
+E2
+FB
+08
+E2
+FC
+08
+E2
+8A 82
+8B 83
+8C F0
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+expf
+<OBJ>
+<MODULE>
+expf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0001,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?1,data,001A,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0399,NO
+</SEGMENTS>
+<LOCALS>
+L002005?,R_CSEG,0080,0000
+L002003?,R_CSEG,004E,0000
+L002002?,R_CSEG,0041,0000
+_expf_y_1_24,?lib?dseg?1,0010,0004
+_expf_r_1_24,?lib?dseg?1,0008,0004
+_expf_z_1_24,?lib?dseg?1,000C,0004
+_expf_xn_1_24,?lib?dseg?1,0000,0004
+_expf_sloc0_1_0,?lib?dseg?1,0016,0004
+L002016?,R_CSEG,038D,0000
+L002014?,R_CSEG,0163,0000
+L002012?,R_CSEG,0108,0000
+L002010?,R_CSEG,00C3,0000
+_expf_n_1_24,?lib?dseg?1,0014,0002
+L002034?,R_CSEG,0163,0000
+L002032?,R_CSEG,0108,0000
+_expf_g_1_24,?lib?dseg?1,0004,0004
+_expf_sign_1_24,R_BSEG,0000,0001
+L002007?,R_CSEG,00BC,0000
+</LOCALS>
+<PUBLICS>
+_expf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+___fsgt,any,0000,0000
+___fs2sint,any,0000,0000
+___fslt,any,0000,0000
+___fsmul,any,0000,0000
+___fsadd,any,0000,0000
+___fssub,any,0000,0000
+_errno,any,0000,0000
+_ldexpf_PARM_2,any,0000,0000
+___sint2fs,any,0000,0000
+___fsdiv,any,0000,0000
+_ldexpf,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+C0 02
+C0 03
+C0 04
+C0 05
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fslt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+EE
+70 rel2(L002002?;)
+8A data8(_expf_y_1_24;)
+8B data8(_expf_y_1_24;0x0001;+;)
+8C data8(_expf_y_1_24;0x0002;+;)
+8D data8(_expf_y_1_24;0x0003;+;)
+C2 bit(_expf_sign_1_24;)
+80 rel2(L002003?;)
+8A data8(_expf_y_1_24;)
+8B data8(_expf_y_1_24;0x0001;+;)
+8C data8(_expf_y_1_24;0x0002;+;)
+ED
+B2 E7
+F5 data8(_expf_y_1_24;0x0003;+;)
+D2 bit(_expf_sign_1_24;)
+74 95
+C0 E0
+74 BF
+C0 E0
+74 D6
+C0 E0
+74 33
+C0 E0
+85 data8(_expf_y_1_24;) 82
+85 data8(_expf_y_1_24;0x0001;+;) 83
+85 data8(_expf_y_1_24;0x0002;+;) F0
+E5 data8(_expf_y_1_24;0x0003;+;)
+12 addr16(___fslt;)  
+AC 82
+E5 81
+24 FC
+F5 81
+EC
+60 rel2(L002005?;)
+90 00 00
+75 F0 80
+74 3F
+22
+74 18
+C0 E0
+74 72
+C0 E0
+74 B1
+C0 E0
+74 42
+C0 E0
+85 data8(_expf_y_1_24;) 82
+85 data8(_expf_y_1_24;0x0001;+;) 83
+85 data8(_expf_y_1_24;0x0002;+;) F0
+E5 data8(_expf_y_1_24;0x0003;+;)
+12 addr16(___fsgt;)  
+AC 82
+E5 81
+24 FC
+F5 81
+EC
+60 rel2(L002010?;)
+30 bit(_expf_sign_1_24;) rel3(L002007?;)
+78 data8(_errno;)
+74 22
+F2
+E4
+08
+F2
+90 FF FF
+74 7F
+F5 F0
+22
+90 00 00
+E4
+F5 F0
+22
+C0 data8(_expf_y_1_24;)
+C0 data8(_expf_y_1_24;0x0001;+;)
+C0 data8(_expf_y_1_24;0x0002;+;)
+C0 data8(_expf_y_1_24;0x0003;+;)
+90 AA 3B
+75 F0 B8
+74 3F
+12 addr16(___fsmul;)  
+85 82 data8(_expf_z_1_24;)
+85 83 data8(_expf_z_1_24;0x0001;+;)
+85 F0 data8(_expf_z_1_24;0x0002;+;)
+F5 data8(_expf_z_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+85 data8(_expf_z_1_24;) 82
+85 data8(_expf_z_1_24;0x0001;+;) 83
+85 data8(_expf_z_1_24;0x0002;+;) F0
+E5 data8(_expf_z_1_24;0x0003;+;)
+12 addr16(___fs2sint;)  
+85 82 data8(_expf_n_1_24;)
+E5 83
+F5 data8(_expf_n_1_24;0x0001;+;)
+30 E7 rel3(L002012?;)
+15 data8(_expf_n_1_24;)
+74 FF
+B5 data8(_expf_n_1_24;) rel3(L002032?;)
+15 data8(_expf_n_1_24;0x0001;+;)
+85 data8(_expf_n_1_24;) 82
+85 data8(_expf_n_1_24;0x0001;+;) 83
+12 addr16(___sint2fs;)  
+AE 82
+AF 83
+AA F0
+FB
+C0 06
+C0 07
+C0 02
+C0 03
+85 data8(_expf_z_1_24;) 82
+85 data8(_expf_z_1_24;0x0001;+;) 83
+85 data8(_expf_z_1_24;0x0002;+;) F0
+E5 data8(_expf_z_1_24;0x0003;+;)
+12 addr16(___fssub;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+E4
+C0 E0
+C0 E0
+C0 E0
+74 3F
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fslt;)  
+AA 82
+E5 81
+24 FC
+F5 81
+EA
+70 rel2(L002014?;)
+05 data8(_expf_n_1_24;)
+E4
+B5 data8(_expf_n_1_24;) rel3(L002034?;)
+05 data8(_expf_n_1_24;0x0001;+;)
+85 data8(_expf_n_1_24;) 82
+85 data8(_expf_n_1_24;0x0001;+;) 83
+12 addr16(___sint2fs;)  
+85 82 data8(_expf_xn_1_24;)
+85 83 data8(_expf_xn_1_24;0x0001;+;)
+85 F0 data8(_expf_xn_1_24;0x0002;+;)
+F5 data8(_expf_xn_1_24;0x0003;+;)
+C0 data8(_expf_xn_1_24;)
+C0 data8(_expf_xn_1_24;0x0001;+;)
+C0 data8(_expf_xn_1_24;0x0002;+;)
+C0 data8(_expf_xn_1_24;0x0003;+;)
+90 80 00
+75 F0 31
+74 3F
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 06
+C0 07
+C0 02
+C0 03
+85 data8(_expf_y_1_24;) 82
+85 data8(_expf_y_1_24;0x0001;+;) 83
+85 data8(_expf_y_1_24;0x0002;+;) F0
+E5 data8(_expf_y_1_24;0x0003;+;)
+12 addr16(___fssub;)  
+85 82 data8(_expf_sloc0_1_0;)
+85 83 data8(_expf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_expf_sloc0_1_0;0x0002;+;)
+F5 data8(_expf_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_expf_xn_1_24;)
+C0 data8(_expf_xn_1_24;0x0001;+;)
+C0 data8(_expf_xn_1_24;0x0002;+;)
+C0 data8(_expf_xn_1_24;0x0003;+;)
+90 80 83
+75 F0 5E
+74 B9
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 06
+C0 07
+C0 02
+C0 03
+85 data8(_expf_sloc0_1_0;) 82
+85 data8(_expf_sloc0_1_0;0x0001;+;) 83
+85 data8(_expf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_expf_sloc0_1_0;0x0003;+;)
+12 addr16(___fssub;)  
+85 82 data8(_expf_g_1_24;)
+85 83 data8(_expf_g_1_24;0x0001;+;)
+85 F0 data8(_expf_g_1_24;0x0002;+;)
+F5 data8(_expf_g_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_expf_g_1_24;)
+C0 data8(_expf_g_1_24;0x0001;+;)
+C0 data8(_expf_g_1_24;0x0002;+;)
+C0 data8(_expf_g_1_24;0x0003;+;)
+85 data8(_expf_g_1_24;) 82
+85 data8(_expf_g_1_24;0x0001;+;) 83
+85 data8(_expf_g_1_24;0x0002;+;) F0
+E5 data8(_expf_g_1_24;0x0003;+;)
+12 addr16(___fsmul;)  
+85 82 data8(_expf_z_1_24;)
+85 83 data8(_expf_z_1_24;0x0001;+;)
+85 F0 data8(_expf_z_1_24;0x0002;+;)
+F5 data8(_expf_z_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_expf_z_1_24;)
+C0 data8(_expf_z_1_24;0x0001;+;)
+C0 data8(_expf_z_1_24;0x0002;+;)
+C0 data8(_expf_z_1_24;0x0003;+;)
+90 53 08
+75 F0 88
+74 3B
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 3E
+C0 E0
+8E 82
+8F 83
+8A F0
+EB
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 data8(_expf_g_1_24;)
+C0 data8(_expf_g_1_24;0x0001;+;)
+C0 data8(_expf_g_1_24;0x0002;+;)
+C0 data8(_expf_g_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsmul;)  
+85 82 data8(_expf_r_1_24;)
+85 83 data8(_expf_r_1_24;0x0001;+;)
+85 F0 data8(_expf_r_1_24;0x0002;+;)
+F5 data8(_expf_r_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_expf_z_1_24;)
+C0 data8(_expf_z_1_24;0x0001;+;)
+C0 data8(_expf_z_1_24;0x0002;+;)
+C0 data8(_expf_z_1_24;0x0003;+;)
+90 BF 5B
+75 F0 4C
+74 3D
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+E4
+C0 E0
+C0 E0
+C0 E0
+74 3F
+C0 E0
+8E 82
+8F 83
+8A F0
+EB
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 data8(_expf_r_1_24;)
+C0 data8(_expf_r_1_24;0x0001;+;)
+C0 data8(_expf_r_1_24;0x0002;+;)
+C0 data8(_expf_r_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fssub;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+85 data8(_expf_r_1_24;) 82
+85 data8(_expf_r_1_24;0x0001;+;) 83
+85 data8(_expf_r_1_24;0x0002;+;) F0
+E5 data8(_expf_r_1_24;0x0003;+;)
+12 addr16(___fsdiv;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+E4
+C0 E0
+C0 E0
+C0 E0
+74 3F
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsadd;)  
+85 82 data8(_expf_r_1_24;)
+85 83 data8(_expf_r_1_24;0x0001;+;)
+85 F0 data8(_expf_r_1_24;0x0002;+;)
+F5 data8(_expf_r_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+78 data8(_ldexpf_PARM_2;)
+74 01
+25 data8(_expf_n_1_24;)
+F2
+E4
+35 data8(_expf_n_1_24;0x0001;+;)
+08
+F2
+85 data8(_expf_r_1_24;) 82
+85 data8(_expf_r_1_24;0x0001;+;) 83
+85 data8(_expf_r_1_24;0x0002;+;) F0
+E5 data8(_expf_r_1_24;0x0003;+;)
+12 addr16(_ldexpf;)  
+85 82 data8(_expf_z_1_24;)
+85 83 data8(_expf_z_1_24;0x0001;+;)
+85 F0 data8(_expf_z_1_24;0x0002;+;)
+F5 data8(_expf_z_1_24;0x0003;+;)
+30 bit(_expf_sign_1_24;) rel3(L002016?;)
+C0 data8(_expf_z_1_24;)
+C0 data8(_expf_z_1_24;0x0001;+;)
+C0 data8(_expf_z_1_24;0x0002;+;)
+C0 data8(_expf_z_1_24;0x0003;+;)
+90 00 00
+75 F0 80
+74 3F
+12 addr16(___fsdiv;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+8C F0
+ED
+22
+85 data8(_expf_z_1_24;) 82
+85 data8(_expf_z_1_24;0x0001;+;) 83
+85 data8(_expf_z_1_24;0x0002;+;) F0
+E5 data8(_expf_z_1_24;0x0003;+;)
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+powf
+<OBJ>
+<MODULE>
+powf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?2,data,0000,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0004,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,00DD,NO
+</SEGMENTS>
+<LOCALS>
+L002006?,R_CSEG,009A,0000
+L002004?,R_CSEG,0065,0000
+L002002?,R_CSEG,0023,0000
+</LOCALS>
+<PUBLICS>
+_powf,R_CSEG,0000,0000
+_powf_PARM_2,R_PSEG,0000,0004
+</PUBLICS>
+<EXTERNALS>
+___fsgt,any,0000,0000
+___fseq,any,0000,0000
+___fsmul,any,0000,0000
+_expf,any,0000,0000
+_logf,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+78 data8(_powf_PARM_2;)
+E2
+F5 F0
+08
+E2
+42 F0
+08
+E2
+42 F0
+08
+E2
+45 F0
+70 rel2(L002002?;)
+90 00 00
+75 F0 80
+74 3F
+22
+C0 02
+C0 03
+C0 04
+C0 05
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 3F
+C0 E0
+78 data8(_powf_PARM_2;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fseq;)  
+AE 82
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+EE
+60 rel2(L002004?;)
+8A 82
+8B 83
+8C F0
+ED
+22
+C0 02
+C0 03
+C0 04
+C0 05
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsgt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+EE
+70 rel2(L002006?;)
+90 00 00
+E4
+F5 F0
+22
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(_logf;)  
+AA 82
+AB 83
+AC F0
+FD
+78 data8(_powf_PARM_2;)
+E2
+C0 E0
+08
+E2
+C0 E0
+08
+E2
+C0 E0
+08
+E2
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+8C F0
+ED
+02 addr16(_expf;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+sincosf
+<OBJ>
+<MODULE>
+sincosf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0002,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?1,data,0014,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0004,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0448,NO
+</SEGMENTS>
+<LOCALS>
+L002006?,R_CSEG,00A3,0000
+L002005?,R_CSEG,005B,0000
+L002002?,R_CSEG,0094,0000
+_sincosf_r_1_24,?lib?dseg?1,0004,0004
+_sincosf_XN_1_24,?lib?dseg?1,000C,0004
+_sincosf_sign_1_24,R_BSEG,0001,0001
+_sincosf_sloc0_1_0,?lib?dseg?1,0010,0004
+_sincosf_x_1_23,R_PSEG,0000,0004
+L002018?,R_CSEG,0440,0000
+L002017?,R_CSEG,0438,0000
+L002014?,R_CSEG,0428,0000
+L002012?,R_CSEG,018B,0000
+L002010?,R_CSEG,014C,0000
+_sincosf_g_1_24,?lib?dseg?1,0008,0004
+L002031?,R_CSEG,02E8,0000
+_sincosf_f_1_24,?lib?dseg?1,0000,0004
+L002008?,R_CSEG,00E6,0000
+</LOCALS>
+<PUBLICS>
+_sincosf_PARM_2,R_BSEG,0000,0001
+_sincosf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+_fabsf,any,0000,0000
+___fsgt,any,0000,0000
+___fs2sint,any,0000,0000
+___fslt,any,0000,0000
+___fsmul,any,0000,0000
+___fsadd,any,0000,0000
+___fssub,any,0000,0000
+_errno,any,0000,0000
+___sint2fs,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+78 data8(_sincosf_x_1_23;)
+EA
+F2
+08
+EB
+F2
+08
+EC
+F2
+08
+ED
+F2
+30 bit(_sincosf_PARM_2;) rel3(L002005?;)
+78 data8(_sincosf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(_fabsf;)  
+AE 82
+AF 83
+AA F0
+FB
+74 DB
+C0 E0
+74 0F
+C0 E0
+74 C9
+C0 E0
+74 3F
+C0 E0
+8E 82
+8F 83
+8A F0
+EB
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C2 bit(_sincosf_sign_1_24;)
+80 rel2(L002006?;)
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+78 data8(_sincosf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fslt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+EE
+60 rel2(L002002?;)
+78 data8(_sincosf_x_1_23;)
+E2
+FA
+08
+E2
+FB
+08
+E2
+FC
+08
+E2
+B2 E7
+FD
+D2 bit(_sincosf_sign_1_24;)
+80 rel2(L002006?;)
+78 data8(_sincosf_x_1_23;)
+E2
+FA
+08
+E2
+FB
+08
+E2
+FC
+08
+E2
+FD
+C2 bit(_sincosf_sign_1_24;)
+C0 02
+C0 03
+C0 04
+C0 05
+E4
+C0 E0
+74 0C
+C0 E0
+74 49
+C0 E0
+74 46
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsgt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+EE
+60 rel2(L002008?;)
+78 data8(_errno;)
+74 22
+F2
+E4
+08
+F2
+90 00 00
+E4
+F5 F0
+22
+C0 02
+C0 03
+C0 04
+C0 05
+90 F9 83
+75 F0 A2
+74 3E
+12 addr16(___fsmul;)  
+85 82 data8(_sincosf_sloc0_1_0;)
+85 83 data8(_sincosf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_sincosf_sloc0_1_0;0x0002;+;)
+F5 data8(_sincosf_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+E4
+C0 E0
+C0 E0
+C0 E0
+74 3F
+C0 E0
+85 data8(_sincosf_sloc0_1_0;) 82
+85 data8(_sincosf_sloc0_1_0;0x0001;+;) 83
+85 data8(_sincosf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_sincosf_sloc0_1_0;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_sincosf_sloc0_1_0;)
+85 83 data8(_sincosf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_sincosf_sloc0_1_0;0x0002;+;)
+F5 data8(_sincosf_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+85 data8(_sincosf_sloc0_1_0;) 82
+85 data8(_sincosf_sloc0_1_0;0x0001;+;) 83
+85 data8(_sincosf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_sincosf_sloc0_1_0;0x0003;+;)
+12 addr16(___fs2sint;)  
+AE 82
+AF 83
+EE
+30 E0 rel3(L002010?;)
+B2 bit(_sincosf_sign_1_24;)
+8E 82
+8F 83
+12 addr16(___sint2fs;)  
+85 82 data8(_sincosf_XN_1_24;)
+85 83 data8(_sincosf_XN_1_24;0x0001;+;)
+85 F0 data8(_sincosf_XN_1_24;0x0002;+;)
+F5 data8(_sincosf_XN_1_24;0x0003;+;)
+30 bit(_sincosf_PARM_2;) rel3(L002012?;)
+E4
+C0 E0
+C0 E0
+C0 E0
+74 3F
+C0 E0
+85 data8(_sincosf_XN_1_24;) 82
+85 data8(_sincosf_XN_1_24;0x0001;+;) 83
+85 data8(_sincosf_XN_1_24;0x0002;+;) F0
+E5 data8(_sincosf_XN_1_24;0x0003;+;)
+12 addr16(___fssub;)  
+85 82 data8(_sincosf_XN_1_24;)
+85 83 data8(_sincosf_XN_1_24;0x0001;+;)
+85 F0 data8(_sincosf_XN_1_24;0x0002;+;)
+F5 data8(_sincosf_XN_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+78 data8(_sincosf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(_fabsf;)  
+AA 82
+AB 83
+AC F0
+FD
+C0 02
+C0 03
+C0 04
+C0 05
+12 addr16(___fs2sint;)  
+12 addr16(___sint2fs;)  
+85 82 data8(_sincosf_r_1_24;)
+85 83 data8(_sincosf_r_1_24;0x0001;+;)
+85 F0 data8(_sincosf_r_1_24;0x0002;+;)
+F5 data8(_sincosf_r_1_24;0x0003;+;)
+D0 05
+D0 04
+D0 03
+D0 02
+C0 data8(_sincosf_r_1_24;)
+C0 data8(_sincosf_r_1_24;0x0001;+;)
+C0 data8(_sincosf_r_1_24;0x0002;+;)
+C0 data8(_sincosf_r_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fssub;)  
+85 82 data8(_sincosf_g_1_24;)
+85 83 data8(_sincosf_g_1_24;0x0001;+;)
+85 F0 data8(_sincosf_g_1_24;0x0002;+;)
+F5 data8(_sincosf_g_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_sincosf_XN_1_24;)
+C0 data8(_sincosf_XN_1_24;0x0001;+;)
+C0 data8(_sincosf_XN_1_24;0x0002;+;)
+C0 data8(_sincosf_XN_1_24;0x0003;+;)
+90 00 00
+75 F0 49
+74 40
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 06
+C0 07
+C0 02
+C0 03
+85 data8(_sincosf_r_1_24;) 82
+85 data8(_sincosf_r_1_24;0x0001;+;) 83
+85 data8(_sincosf_r_1_24;0x0002;+;) F0
+E5 data8(_sincosf_r_1_24;0x0003;+;)
+12 addr16(___fssub;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 data8(_sincosf_g_1_24;)
+C0 data8(_sincosf_g_1_24;0x0001;+;)
+C0 data8(_sincosf_g_1_24;0x0002;+;)
+C0 data8(_sincosf_g_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsadd;)  
+85 82 data8(_sincosf_sloc0_1_0;)
+85 83 data8(_sincosf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_sincosf_sloc0_1_0;0x0002;+;)
+F5 data8(_sincosf_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_sincosf_XN_1_24;)
+C0 data8(_sincosf_XN_1_24;0x0001;+;)
+C0 data8(_sincosf_XN_1_24;0x0002;+;)
+C0 data8(_sincosf_XN_1_24;0x0003;+;)
+90 AA 22
+75 F0 7D
+74 3A
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 06
+C0 07
+C0 02
+C0 03
+85 data8(_sincosf_sloc0_1_0;) 82
+85 data8(_sincosf_sloc0_1_0;0x0001;+;) 83
+85 data8(_sincosf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_sincosf_sloc0_1_0;0x0003;+;)
+12 addr16(___fssub;)  
+85 82 data8(_sincosf_f_1_24;)
+85 83 data8(_sincosf_f_1_24;0x0001;+;)
+85 F0 data8(_sincosf_f_1_24;0x0002;+;)
+F5 data8(_sincosf_f_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_sincosf_f_1_24;)
+C0 data8(_sincosf_f_1_24;0x0001;+;)
+C0 data8(_sincosf_f_1_24;0x0002;+;)
+C0 data8(_sincosf_f_1_24;0x0003;+;)
+85 data8(_sincosf_f_1_24;) 82
+85 data8(_sincosf_f_1_24;0x0001;+;) 83
+85 data8(_sincosf_f_1_24;0x0002;+;) F0
+E5 data8(_sincosf_f_1_24;0x0003;+;)
+12 addr16(___fsmul;)  
+85 82 data8(_sincosf_g_1_24;)
+85 83 data8(_sincosf_g_1_24;0x0001;+;)
+85 F0 data8(_sincosf_g_1_24;0x0002;+;)
+F5 data8(_sincosf_g_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+74 F3
+C0 E0
+74 FF
+C0 E0
+74 7F
+C0 E0
+74 33
+C0 E0
+85 data8(_sincosf_g_1_24;) 82
+85 data8(_sincosf_g_1_24;0x0001;+;) 83
+85 data8(_sincosf_g_1_24;0x0002;+;) F0
+E5 data8(_sincosf_g_1_24;0x0003;+;)
+12 addr16(___fsgt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+EE
+70 rel2(L002031?;)
+02 addr16(L002014?;)  
+C0 data8(_sincosf_g_1_24;)
+C0 data8(_sincosf_g_1_24;0x0001;+;)
+C0 data8(_sincosf_g_1_24;0x0002;+;)
+C0 data8(_sincosf_g_1_24;0x0003;+;)
+90 9C 5B
+75 F0 2E
+74 36
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+74 22
+C0 E0
+74 B2
+C0 E0
+74 4F
+C0 E0
+74 B9
+C0 E0
+8E 82
+8F 83
+8A F0
+EB
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 data8(_sincosf_g_1_24;)
+C0 data8(_sincosf_g_1_24;0x0001;+;)
+C0 data8(_sincosf_g_1_24;0x0002;+;)
+C0 data8(_sincosf_g_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+74 3E
+C0 E0
+74 87
+C0 E0
+74 08
+C0 E0
+74 3C
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 data8(_sincosf_g_1_24;)
+C0 data8(_sincosf_g_1_24;0x0001;+;)
+C0 data8(_sincosf_g_1_24;0x0002;+;)
+C0 data8(_sincosf_g_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+74 A4
+C0 E0
+74 AA
+C0 E0
+74 2A
+C0 E0
+74 BE
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 data8(_sincosf_g_1_24;)
+C0 data8(_sincosf_g_1_24;0x0001;+;)
+C0 data8(_sincosf_g_1_24;0x0002;+;)
+C0 data8(_sincosf_g_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsmul;)  
+85 82 data8(_sincosf_r_1_24;)
+85 83 data8(_sincosf_r_1_24;0x0001;+;)
+85 F0 data8(_sincosf_r_1_24;0x0002;+;)
+F5 data8(_sincosf_r_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_sincosf_r_1_24;)
+C0 data8(_sincosf_r_1_24;0x0001;+;)
+C0 data8(_sincosf_r_1_24;0x0002;+;)
+C0 data8(_sincosf_r_1_24;0x0003;+;)
+85 data8(_sincosf_f_1_24;) 82
+85 data8(_sincosf_f_1_24;0x0001;+;) 83
+85 data8(_sincosf_f_1_24;0x0002;+;) F0
+E5 data8(_sincosf_f_1_24;0x0003;+;)
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+85 data8(_sincosf_f_1_24;) 82
+85 data8(_sincosf_f_1_24;0x0001;+;) 83
+85 data8(_sincosf_f_1_24;0x0002;+;) F0
+E5 data8(_sincosf_f_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_sincosf_f_1_24;)
+85 83 data8(_sincosf_f_1_24;0x0001;+;)
+85 F0 data8(_sincosf_f_1_24;0x0002;+;)
+F5 data8(_sincosf_f_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+30 bit(_sincosf_sign_1_24;) rel3(L002017?;)
+AA data8(_sincosf_f_1_24;)
+AB data8(_sincosf_f_1_24;0x0001;+;)
+AC data8(_sincosf_f_1_24;0x0002;+;)
+E5 data8(_sincosf_f_1_24;0x0003;+;)
+B2 E7
+FD
+80 rel2(L002018?;)
+AA data8(_sincosf_f_1_24;)
+AB data8(_sincosf_f_1_24;0x0001;+;)
+AC data8(_sincosf_f_1_24;0x0002;+;)
+AD data8(_sincosf_f_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+ED
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+sinf
+<OBJ>
+<MODULE>
+sinf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0025,NO
+</SEGMENTS>
+<LOCALS>
+L002002?,R_CSEG,0019,0000
+</LOCALS>
+<PUBLICS>
+_sinf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+_sincosf_PARM_2,any,0000,0000
+_sincosf,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+EA
+4B
+4C
+8D F0
+C2 F7
+45 F0
+70 rel2(L002002?;)
+90 00 00
+E4
+F5 F0
+22
+C2 bit(_sincosf_PARM_2;)
+8A 82
+8B 83
+8C F0
+ED
+02 addr16(_sincosf;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+cosf
+<OBJ>
+<MODULE>
+cosf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0027,NO
+</SEGMENTS>
+<LOCALS>
+L002002?,R_CSEG,001B,0000
+</LOCALS>
+<PUBLICS>
+_cosf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+_sincosf_PARM_2,any,0000,0000
+_sincosf,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+EA
+4B
+4C
+8D F0
+C2 F7
+45 F0
+70 rel2(L002002?;)
+90 00 00
+75 F0 80
+74 3F
+22
+D2 bit(_sincosf_PARM_2;)
+8A 82
+8B 83
+8C F0
+ED
+02 addr16(_sincosf;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+logf
+<OBJ>
+<MODULE>
+logf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?1,data,001E,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0325,NO
+</SEGMENTS>
+<LOCALS>
+L002005?,R_CSEG,0179,0000
+L002004?,R_CSEG,0126,0000
+L002002?,R_CSEG,0044,0000
+_logf_xn_1_24,?lib?dseg?1,0014,0004
+_logf_f_1_24,?lib?dseg?1,0004,0004
+_logf_n_1_24,?lib?dseg?1,0018,0002
+_logf_sloc0_1_0,?lib?dseg?1,001A,0004
+_logf_znum_1_24,?lib?dseg?1,0010,0004
+_logf_w_1_24,?lib?dseg?1,000C,0004
+L002012?,R_CSEG,012F,0000
+_logf_z_1_24,?lib?dseg?1,0008,0004
+_logf_Rz_1_24,?lib?dseg?1,0000,0004
+</LOCALS>
+<PUBLICS>
+_logf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+___fsgt,any,0000,0000
+___fsmul,any,0000,0000
+___fsadd,any,0000,0000
+_frexpf_PARM_2,any,0000,0000
+___fssub,any,0000,0000
+_errno,any,0000,0000
+___sint2fs,any,0000,0000
+___fsdiv,any,0000,0000
+_frexpf,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+C0 02
+C0 03
+C0 04
+C0 05
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsgt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+EE
+70 rel2(L002002?;)
+78 data8(_errno;)
+74 21
+F2
+E4
+08
+F2
+90 00 00
+E4
+F5 F0
+22
+78 data8(_frexpf_PARM_2;)
+74 data8(_logf_n_1_24;)
+F2
+08
+E4
+F2
+08
+74 40
+F2
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(_frexpf;)  
+85 82 data8(_logf_f_1_24;)
+85 83 data8(_logf_f_1_24;0x0001;+;)
+85 F0 data8(_logf_f_1_24;0x0002;+;)
+F5 data8(_logf_f_1_24;0x0003;+;)
+E4
+C0 E0
+C0 E0
+C0 E0
+74 3F
+C0 E0
+85 data8(_logf_f_1_24;) 82
+85 data8(_logf_f_1_24;0x0001;+;) 83
+85 data8(_logf_f_1_24;0x0002;+;) F0
+E5 data8(_logf_f_1_24;0x0003;+;)
+12 addr16(___fssub;)  
+85 82 data8(_logf_znum_1_24;)
+85 83 data8(_logf_znum_1_24;0x0001;+;)
+85 F0 data8(_logf_znum_1_24;0x0002;+;)
+F5 data8(_logf_znum_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+74 F3
+C0 E0
+74 04
+C0 E0
+74 35
+C0 E0
+74 3F
+C0 E0
+85 data8(_logf_f_1_24;) 82
+85 data8(_logf_f_1_24;0x0001;+;) 83
+85 data8(_logf_f_1_24;0x0002;+;) F0
+E5 data8(_logf_f_1_24;0x0003;+;)
+12 addr16(___fsgt;)  
+AC 82
+E5 81
+24 FC
+F5 81
+EC
+60 rel2(L002004?;)
+E4
+C0 E0
+C0 E0
+C0 E0
+74 3F
+C0 E0
+85 data8(_logf_znum_1_24;) 82
+85 data8(_logf_znum_1_24;0x0001;+;) 83
+85 data8(_logf_znum_1_24;0x0002;+;) F0
+E5 data8(_logf_znum_1_24;0x0003;+;)
+12 addr16(___fssub;)  
+85 82 data8(_logf_znum_1_24;)
+85 83 data8(_logf_znum_1_24;0x0001;+;)
+85 F0 data8(_logf_znum_1_24;0x0002;+;)
+F5 data8(_logf_znum_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_logf_f_1_24;)
+C0 data8(_logf_f_1_24;0x0001;+;)
+C0 data8(_logf_f_1_24;0x0002;+;)
+C0 data8(_logf_f_1_24;0x0003;+;)
+90 00 00
+E4
+F5 F0
+74 3F
+12 addr16(___fsmul;)  
+AC 82
+AD 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+E4
+C0 E0
+C0 E0
+C0 E0
+74 3F
+C0 E0
+8C 82
+8D 83
+8A F0
+EB
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+80 rel2(L002005?;)
+15 data8(_logf_n_1_24;)
+74 FF
+B5 data8(_logf_n_1_24;) rel3(L002012?;)
+15 data8(_logf_n_1_24;0x0001;+;)
+C0 data8(_logf_znum_1_24;)
+C0 data8(_logf_znum_1_24;0x0001;+;)
+C0 data8(_logf_znum_1_24;0x0002;+;)
+C0 data8(_logf_znum_1_24;0x0003;+;)
+90 00 00
+E4
+F5 F0
+74 3F
+12 addr16(___fsmul;)  
+85 82 data8(_logf_sloc0_1_0;)
+85 83 data8(_logf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_logf_sloc0_1_0;0x0002;+;)
+F5 data8(_logf_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+E4
+C0 E0
+C0 E0
+C0 E0
+74 3F
+C0 E0
+85 data8(_logf_sloc0_1_0;) 82
+85 data8(_logf_sloc0_1_0;0x0001;+;) 83
+85 data8(_logf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_logf_sloc0_1_0;0x0003;+;)
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+85 data8(_logf_znum_1_24;) 82
+85 data8(_logf_znum_1_24;0x0001;+;) 83
+85 data8(_logf_znum_1_24;0x0002;+;) F0
+E5 data8(_logf_znum_1_24;0x0003;+;)
+12 addr16(___fsdiv;)  
+85 82 data8(_logf_z_1_24;)
+85 83 data8(_logf_z_1_24;0x0001;+;)
+85 F0 data8(_logf_z_1_24;0x0002;+;)
+F5 data8(_logf_z_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_logf_z_1_24;)
+C0 data8(_logf_z_1_24;0x0001;+;)
+C0 data8(_logf_z_1_24;0x0002;+;)
+C0 data8(_logf_z_1_24;0x0003;+;)
+85 data8(_logf_z_1_24;) 82
+85 data8(_logf_z_1_24;0x0001;+;) 83
+85 data8(_logf_z_1_24;0x0002;+;) F0
+E5 data8(_logf_z_1_24;0x0003;+;)
+12 addr16(___fsmul;)  
+85 82 data8(_logf_w_1_24;)
+85 83 data8(_logf_w_1_24;0x0001;+;)
+85 F0 data8(_logf_w_1_24;0x0002;+;)
+F5 data8(_logf_w_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_logf_w_1_24;)
+C0 data8(_logf_w_1_24;0x0001;+;)
+C0 data8(_logf_w_1_24;0x0002;+;)
+C0 data8(_logf_w_1_24;0x0003;+;)
+90 7E 3D
+75 F0 0D
+74 BF
+12 addr16(___fsmul;)  
+85 82 data8(_logf_sloc0_1_0;)
+85 83 data8(_logf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_logf_sloc0_1_0;0x0002;+;)
+F5 data8(_logf_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+74 3A
+C0 E0
+74 3F
+C0 E0
+74 D4
+C0 E0
+74 C0
+C0 E0
+85 data8(_logf_w_1_24;) 82
+85 data8(_logf_w_1_24;0x0001;+;) 83
+85 data8(_logf_w_1_24;0x0002;+;) F0
+E5 data8(_logf_w_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+AC 82
+AD 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 04
+C0 05
+C0 02
+C0 03
+85 data8(_logf_sloc0_1_0;) 82
+85 data8(_logf_sloc0_1_0;0x0001;+;) 83
+85 data8(_logf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_logf_sloc0_1_0;0x0003;+;)
+12 addr16(___fsdiv;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+85 data8(_logf_z_1_24;) 82
+85 data8(_logf_z_1_24;0x0001;+;) 83
+85 data8(_logf_z_1_24;0x0002;+;) F0
+E5 data8(_logf_z_1_24;0x0003;+;)
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+85 data8(_logf_z_1_24;) 82
+85 data8(_logf_z_1_24;0x0001;+;) 83
+85 data8(_logf_z_1_24;0x0002;+;) F0
+E5 data8(_logf_z_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_logf_Rz_1_24;)
+85 83 data8(_logf_Rz_1_24;0x0001;+;)
+85 F0 data8(_logf_Rz_1_24;0x0002;+;)
+F5 data8(_logf_Rz_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+85 data8(_logf_n_1_24;) 82
+85 data8(_logf_n_1_24;0x0001;+;) 83
+12 addr16(___sint2fs;)  
+85 82 data8(_logf_xn_1_24;)
+85 83 data8(_logf_xn_1_24;0x0001;+;)
+85 F0 data8(_logf_xn_1_24;0x0002;+;)
+F5 data8(_logf_xn_1_24;0x0003;+;)
+C0 data8(_logf_xn_1_24;)
+C0 data8(_logf_xn_1_24;0x0001;+;)
+C0 data8(_logf_xn_1_24;0x0002;+;)
+C0 data8(_logf_xn_1_24;0x0003;+;)
+90 80 83
+75 F0 5E
+74 B9
+12 addr16(___fsmul;)  
+AC 82
+AD 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 data8(_logf_Rz_1_24;)
+C0 data8(_logf_Rz_1_24;0x0001;+;)
+C0 data8(_logf_Rz_1_24;0x0002;+;)
+C0 data8(_logf_Rz_1_24;0x0003;+;)
+8C 82
+8D 83
+8A F0
+EB
+12 addr16(___fsadd;)  
+85 82 data8(_logf_sloc0_1_0;)
+85 83 data8(_logf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_logf_sloc0_1_0;0x0002;+;)
+F5 data8(_logf_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_logf_xn_1_24;)
+C0 data8(_logf_xn_1_24;0x0001;+;)
+C0 data8(_logf_xn_1_24;0x0002;+;)
+C0 data8(_logf_xn_1_24;0x0003;+;)
+90 80 00
+75 F0 31
+74 3F
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 06
+C0 07
+C0 02
+C0 03
+85 data8(_logf_sloc0_1_0;) 82
+85 data8(_logf_sloc0_1_0;0x0001;+;) 83
+85 data8(_logf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_logf_sloc0_1_0;0x0003;+;)
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+8C F0
+ED
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+log10f
+<OBJ>
+<MODULE>
+log10f
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0032,NO
+</SEGMENTS>
+<LOCALS>
+</LOCALS>
+<PUBLICS>
+_log10f,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+___fsmul,any,0000,0000
+_logf,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+12 addr16(_logf;)  
+AA 82
+AB 83
+AC F0
+FD
+C0 02
+C0 03
+C0 04
+C0 05
+90 5B D9
+75 F0 DE
+74 3E
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+8C F0
+ED
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+sqrtf
+<OBJ>
+<MODULE>
+sqrtf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?2,data,000E,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,020F,NO
+</SEGMENTS>
+<LOCALS>
+L002004?,R_CSEG,0055,0000
+_sqrtf_y_1_24,?lib?dseg?2,0004,0004
+_sqrtf_f_1_24,?lib?dseg?2,0000,0004
+_sqrtf_sloc0_1_0,?lib?dseg?2,000A,0004
+L002010?,R_CSEG,01E5,0000
+_sqrtf_n_1_24,?lib?dseg?2,0008,0002
+L002021?,R_CSEG,01E5,0000
+L002008?,R_CSEG,0092,0000
+L002007?,R_CSEG,001A,0000
+</LOCALS>
+<PUBLICS>
+_sqrtf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+___fseq,any,0000,0000
+___fslt,any,0000,0000
+___fsmul,any,0000,0000
+___fsadd,any,0000,0000
+__divsint,any,0000,0000
+_frexpf_PARM_2,any,0000,0000
+_errno,any,0000,0000
+_ldexpf_PARM_2,any,0000,0000
+___fsdiv,any,0000,0000
+__divsint_PARM_2,any,0000,0000
+_frexpf,any,0000,0000
+_ldexpf,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+EA
+4B
+4C
+8D F0
+C2 F7
+45 F0
+70 rel2(L002007?;)
+8A 82
+8B 83
+8C F0
+ED
+22
+C0 02
+C0 03
+C0 04
+C0 05
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 3F
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fseq;)  
+AE 82
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+EE
+60 rel2(L002004?;)
+90 00 00
+75 F0 80
+74 3F
+22
+C0 02
+C0 03
+C0 04
+C0 05
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fslt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+EE
+60 rel2(L002008?;)
+78 data8(_errno;)
+74 21
+F2
+E4
+08
+F2
+90 00 00
+E4
+F5 F0
+22
+78 data8(_frexpf_PARM_2;)
+74 data8(_sqrtf_n_1_24;)
+F2
+08
+E4
+F2
+08
+74 40
+F2
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(_frexpf;)  
+85 82 data8(_sqrtf_f_1_24;)
+85 83 data8(_sqrtf_f_1_24;0x0001;+;)
+85 F0 data8(_sqrtf_f_1_24;0x0002;+;)
+F5 data8(_sqrtf_f_1_24;0x0003;+;)
+C0 data8(_sqrtf_f_1_24;)
+C0 data8(_sqrtf_f_1_24;0x0001;+;)
+C0 data8(_sqrtf_f_1_24;0x0002;+;)
+C0 data8(_sqrtf_f_1_24;0x0003;+;)
+90 14 BA
+75 F0 17
+74 3F
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+74 A8
+C0 E0
+74 A9
+C0 E0
+74 D5
+C0 E0
+74 3E
+C0 E0
+8E 82
+8F 83
+8A F0
+EB
+12 addr16(___fsadd;)  
+85 82 data8(_sqrtf_y_1_24;)
+85 83 data8(_sqrtf_y_1_24;0x0001;+;)
+85 F0 data8(_sqrtf_y_1_24;0x0002;+;)
+F5 data8(_sqrtf_y_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_sqrtf_y_1_24;)
+C0 data8(_sqrtf_y_1_24;0x0001;+;)
+C0 data8(_sqrtf_y_1_24;0x0002;+;)
+C0 data8(_sqrtf_y_1_24;0x0003;+;)
+85 data8(_sqrtf_f_1_24;) 82
+85 data8(_sqrtf_f_1_24;0x0001;+;) 83
+85 data8(_sqrtf_f_1_24;0x0002;+;) F0
+E5 data8(_sqrtf_f_1_24;0x0003;+;)
+12 addr16(___fsdiv;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 06
+C0 07
+C0 02
+C0 03
+85 data8(_sqrtf_y_1_24;) 82
+85 data8(_sqrtf_y_1_24;0x0001;+;) 83
+85 data8(_sqrtf_y_1_24;0x0002;+;) F0
+E5 data8(_sqrtf_y_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_sqrtf_y_1_24;)
+85 83 data8(_sqrtf_y_1_24;0x0001;+;)
+85 F0 data8(_sqrtf_y_1_24;0x0002;+;)
+F5 data8(_sqrtf_y_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+78 data8(_ldexpf_PARM_2;)
+74 FE
+F2
+08
+74 FF
+F2
+85 data8(_sqrtf_y_1_24;) 82
+85 data8(_sqrtf_y_1_24;0x0001;+;) 83
+85 data8(_sqrtf_y_1_24;0x0002;+;) F0
+E5 data8(_sqrtf_y_1_24;0x0003;+;)
+12 addr16(_ldexpf;)  
+85 82 data8(_sqrtf_sloc0_1_0;)
+85 83 data8(_sqrtf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_sqrtf_sloc0_1_0;0x0002;+;)
+F5 data8(_sqrtf_sloc0_1_0;0x0003;+;)
+C0 data8(_sqrtf_y_1_24;)
+C0 data8(_sqrtf_y_1_24;0x0001;+;)
+C0 data8(_sqrtf_y_1_24;0x0002;+;)
+C0 data8(_sqrtf_y_1_24;0x0003;+;)
+85 data8(_sqrtf_f_1_24;) 82
+85 data8(_sqrtf_f_1_24;0x0001;+;) 83
+85 data8(_sqrtf_f_1_24;0x0002;+;) F0
+E5 data8(_sqrtf_f_1_24;0x0003;+;)
+12 addr16(___fsdiv;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 06
+C0 07
+C0 02
+C0 03
+85 data8(_sqrtf_sloc0_1_0;) 82
+85 data8(_sqrtf_sloc0_1_0;0x0001;+;) 83
+85 data8(_sqrtf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_sqrtf_sloc0_1_0;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_sqrtf_y_1_24;)
+85 83 data8(_sqrtf_y_1_24;0x0001;+;)
+85 F0 data8(_sqrtf_y_1_24;0x0002;+;)
+F5 data8(_sqrtf_y_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+E5 data8(_sqrtf_n_1_24;)
+30 E0 rel3(L002010?;)
+C0 data8(_sqrtf_y_1_24;)
+C0 data8(_sqrtf_y_1_24;0x0001;+;)
+C0 data8(_sqrtf_y_1_24;0x0002;+;)
+C0 data8(_sqrtf_y_1_24;0x0003;+;)
+90 04 F3
+75 F0 35
+74 3F
+12 addr16(___fsmul;)  
+85 82 data8(_sqrtf_y_1_24;)
+85 83 data8(_sqrtf_y_1_24;0x0001;+;)
+85 F0 data8(_sqrtf_y_1_24;0x0002;+;)
+F5 data8(_sqrtf_y_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+05 data8(_sqrtf_n_1_24;)
+E4
+B5 data8(_sqrtf_n_1_24;) rel3(L002021?;)
+05 data8(_sqrtf_n_1_24;0x0001;+;)
+78 data8(__divsint_PARM_2;)
+74 02
+F2
+E4
+08
+F2
+85 data8(_sqrtf_n_1_24;) 82
+85 data8(_sqrtf_n_1_24;0x0001;+;) 83
+12 addr16(__divsint;)  
+AA 82
+AB 83
+78 data8(_ldexpf_PARM_2;)
+EA
+F2
+08
+EB
+F2
+85 data8(_sqrtf_y_1_24;) 82
+85 data8(_sqrtf_y_1_24;0x0001;+;) 83
+85 data8(_sqrtf_y_1_24;0x0002;+;) F0
+E5 data8(_sqrtf_y_1_24;0x0003;+;)
+02 addr16(_ldexpf;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+tancotf
+<OBJ>
+<MODULE>
+tancotf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0001,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?1,data,001A,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0004,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,043C,NO
+</SEGMENTS>
+<LOCALS>
+L002005?,R_CSEG,0377,0000
+L002004?,R_CSEG,0260,0000
+_tancotf_n_1_24,?lib?dseg?1,0014,0002
+L002002?,R_CSEG,0060,0000
+_tancotf_xn_1_24,?lib?dseg?1,0008,0004
+_tancotf_xden_1_24,?lib?dseg?1,0010,0004
+_tancotf_sloc0_1_0,?lib?dseg?1,0016,0004
+_tancotf_x_1_23,R_PSEG,0000,0004
+_tancotf_xnum_1_24,?lib?dseg?1,000C,0004
+L002018?,R_CSEG,00D9,0000
+L002017?,R_CSEG,00CD,0000
+L002013?,R_CSEG,03E3,0000
+_tancotf_g_1_24,?lib?dseg?1,0004,0004
+L002010?,R_CSEG,0411,0000
+_tancotf_f_1_24,?lib?dseg?1,0000,0004
+L002007?,R_CSEG,03B1,0000
+</LOCALS>
+<PUBLICS>
+_tancotf_PARM_2,R_BSEG,0000,0001
+_tancotf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+_fabsf,any,0000,0000
+___fsgt,any,0000,0000
+___fs2sint,any,0000,0000
+___fslt,any,0000,0000
+___fsmul,any,0000,0000
+___fsadd,any,0000,0000
+___fssub,any,0000,0000
+_errno,any,0000,0000
+___sint2fs,any,0000,0000
+___fsdiv,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+78 data8(_tancotf_x_1_23;)
+EA
+F2
+08
+EB
+F2
+08
+EC
+F2
+08
+ED
+F2
+78 data8(_tancotf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(_fabsf;)  
+AE 82
+AF 83
+AA F0
+FB
+E4
+C0 E0
+74 08
+C0 E0
+74 C9
+C0 E0
+74 45
+C0 E0
+8E 82
+8F 83
+8A F0
+EB
+12 addr16(___fsgt;)  
+AA 82
+E5 81
+24 FC
+F5 81
+EA
+60 rel2(L002002?;)
+78 data8(_errno;)
+74 22
+F2
+E4
+08
+F2
+90 00 00
+E4
+F5 F0
+22
+78 data8(_tancotf_x_1_23;)
+E2
+C0 E0
+08
+E2
+C0 E0
+08
+E2
+C0 E0
+08
+E2
+C0 E0
+90 F9 83
+75 F0 22
+74 3F
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+78 data8(_tancotf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fsgt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+EE
+60 rel2(L002017?;)
+75 data8(_tancotf_sloc0_1_0;) 00
+75 data8(_tancotf_sloc0_1_0;0x0001;+;) 00
+75 data8(_tancotf_sloc0_1_0;0x0002;+;) 00
+75 data8(_tancotf_sloc0_1_0;0x0003;+;) 3F
+80 rel2(L002018?;)
+75 data8(_tancotf_sloc0_1_0;) 00
+75 data8(_tancotf_sloc0_1_0;0x0001;+;) 00
+75 data8(_tancotf_sloc0_1_0;0x0002;+;) 00
+75 data8(_tancotf_sloc0_1_0;0x0003;+;) BF
+C0 data8(_tancotf_sloc0_1_0;)
+C0 data8(_tancotf_sloc0_1_0;0x0001;+;)
+C0 data8(_tancotf_sloc0_1_0;0x0002;+;)
+C0 data8(_tancotf_sloc0_1_0;0x0003;+;)
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fs2sint;)  
+85 82 data8(_tancotf_n_1_24;)
+85 83 data8(_tancotf_n_1_24;0x0001;+;)
+12 addr16(___sint2fs;)  
+85 82 data8(_tancotf_xn_1_24;)
+85 83 data8(_tancotf_xn_1_24;0x0001;+;)
+85 F0 data8(_tancotf_xn_1_24;0x0002;+;)
+F5 data8(_tancotf_xn_1_24;0x0003;+;)
+78 data8(_tancotf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fs2sint;)  
+12 addr16(___sint2fs;)  
+85 82 data8(_tancotf_xnum_1_24;)
+85 83 data8(_tancotf_xnum_1_24;0x0001;+;)
+85 F0 data8(_tancotf_xnum_1_24;0x0002;+;)
+F5 data8(_tancotf_xnum_1_24;0x0003;+;)
+C0 data8(_tancotf_xnum_1_24;)
+C0 data8(_tancotf_xnum_1_24;0x0001;+;)
+C0 data8(_tancotf_xnum_1_24;0x0002;+;)
+C0 data8(_tancotf_xnum_1_24;0x0003;+;)
+78 data8(_tancotf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fssub;)  
+85 82 data8(_tancotf_xden_1_24;)
+85 83 data8(_tancotf_xden_1_24;0x0001;+;)
+85 F0 data8(_tancotf_xden_1_24;0x0002;+;)
+F5 data8(_tancotf_xden_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_tancotf_xn_1_24;)
+C0 data8(_tancotf_xn_1_24;0x0001;+;)
+C0 data8(_tancotf_xn_1_24;0x0002;+;)
+C0 data8(_tancotf_xn_1_24;0x0003;+;)
+90 00 00
+75 F0 C9
+74 3F
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 06
+C0 07
+C0 02
+C0 03
+85 data8(_tancotf_xnum_1_24;) 82
+85 data8(_tancotf_xnum_1_24;0x0001;+;) 83
+85 data8(_tancotf_xnum_1_24;0x0002;+;) F0
+E5 data8(_tancotf_xnum_1_24;0x0003;+;)
+12 addr16(___fssub;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 data8(_tancotf_xden_1_24;)
+C0 data8(_tancotf_xden_1_24;0x0001;+;)
+C0 data8(_tancotf_xden_1_24;0x0002;+;)
+C0 data8(_tancotf_xden_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsadd;)  
+85 82 data8(_tancotf_sloc0_1_0;)
+85 83 data8(_tancotf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_tancotf_sloc0_1_0;0x0002;+;)
+F5 data8(_tancotf_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_tancotf_xn_1_24;)
+C0 data8(_tancotf_xn_1_24;0x0001;+;)
+C0 data8(_tancotf_xn_1_24;0x0002;+;)
+C0 data8(_tancotf_xn_1_24;0x0003;+;)
+90 AA 22
+75 F0 FD
+74 39
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 06
+C0 07
+C0 02
+C0 03
+85 data8(_tancotf_sloc0_1_0;) 82
+85 data8(_tancotf_sloc0_1_0;0x0001;+;) 83
+85 data8(_tancotf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_tancotf_sloc0_1_0;0x0003;+;)
+12 addr16(___fssub;)  
+85 82 data8(_tancotf_f_1_24;)
+85 83 data8(_tancotf_f_1_24;0x0001;+;)
+85 F0 data8(_tancotf_f_1_24;0x0002;+;)
+F5 data8(_tancotf_f_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+85 data8(_tancotf_f_1_24;) 82
+85 data8(_tancotf_f_1_24;0x0001;+;) 83
+85 data8(_tancotf_f_1_24;0x0002;+;) F0
+E5 data8(_tancotf_f_1_24;0x0003;+;)
+12 addr16(_fabsf;)  
+AE 82
+AF 83
+AA F0
+FB
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 39
+C0 E0
+8E 82
+8F 83
+8A F0
+EB
+12 addr16(___fslt;)  
+AA 82
+E5 81
+24 FC
+F5 81
+EA
+60 rel2(L002004?;)
+85 data8(_tancotf_f_1_24;) data8(_tancotf_xnum_1_24;)
+85 data8(_tancotf_f_1_24;0x0001;+;) data8(_tancotf_xnum_1_24;0x0001;+;)
+85 data8(_tancotf_f_1_24;0x0002;+;) data8(_tancotf_xnum_1_24;0x0002;+;)
+85 data8(_tancotf_f_1_24;0x0003;+;) data8(_tancotf_xnum_1_24;0x0003;+;)
+75 data8(_tancotf_xden_1_24;) 00
+75 data8(_tancotf_xden_1_24;0x0001;+;) 00
+75 data8(_tancotf_xden_1_24;0x0002;+;) 80
+75 data8(_tancotf_xden_1_24;0x0003;+;) 3F
+02 addr16(L002005?;)  
+C0 data8(_tancotf_f_1_24;)
+C0 data8(_tancotf_f_1_24;0x0001;+;)
+C0 data8(_tancotf_f_1_24;0x0002;+;)
+C0 data8(_tancotf_f_1_24;0x0003;+;)
+85 data8(_tancotf_f_1_24;) 82
+85 data8(_tancotf_f_1_24;0x0001;+;) 83
+85 data8(_tancotf_f_1_24;0x0002;+;) F0
+E5 data8(_tancotf_f_1_24;0x0003;+;)
+12 addr16(___fsmul;)  
+85 82 data8(_tancotf_g_1_24;)
+85 83 data8(_tancotf_g_1_24;0x0001;+;)
+85 F0 data8(_tancotf_g_1_24;0x0002;+;)
+F5 data8(_tancotf_g_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_tancotf_g_1_24;)
+C0 data8(_tancotf_g_1_24;0x0001;+;)
+C0 data8(_tancotf_g_1_24;0x0002;+;)
+C0 data8(_tancotf_g_1_24;0x0003;+;)
+90 33 B8
+75 F0 C4
+74 BD
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 data8(_tancotf_f_1_24;)
+C0 data8(_tancotf_f_1_24;0x0001;+;)
+C0 data8(_tancotf_f_1_24;0x0002;+;)
+C0 data8(_tancotf_f_1_24;0x0003;+;)
+8E 82
+8F 83
+8A F0
+EB
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 data8(_tancotf_f_1_24;)
+C0 data8(_tancotf_f_1_24;0x0001;+;)
+C0 data8(_tancotf_f_1_24;0x0002;+;)
+C0 data8(_tancotf_f_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsadd;)  
+85 82 data8(_tancotf_xnum_1_24;)
+85 83 data8(_tancotf_xnum_1_24;0x0001;+;)
+85 F0 data8(_tancotf_xnum_1_24;0x0002;+;)
+F5 data8(_tancotf_xnum_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_tancotf_g_1_24;)
+C0 data8(_tancotf_g_1_24;0x0001;+;)
+C0 data8(_tancotf_g_1_24;0x0002;+;)
+C0 data8(_tancotf_g_1_24;0x0003;+;)
+90 33 75
+75 F0 1F
+74 3C
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+74 AF
+C0 E0
+74 B7
+C0 E0
+74 DB
+C0 E0
+74 BE
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 data8(_tancotf_g_1_24;)
+C0 data8(_tancotf_g_1_24;0x0001;+;)
+C0 data8(_tancotf_g_1_24;0x0002;+;)
+C0 data8(_tancotf_g_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 3F
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsadd;)  
+85 82 data8(_tancotf_xden_1_24;)
+85 83 data8(_tancotf_xden_1_24;0x0001;+;)
+85 F0 data8(_tancotf_xden_1_24;0x0002;+;)
+F5 data8(_tancotf_xden_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+E5 data8(_tancotf_n_1_24;)
+30 E0 rel3(L002013?;)
+30 bit(_tancotf_PARM_2;) rel3(L002007?;)
+AA data8(_tancotf_xnum_1_24;)
+AB data8(_tancotf_xnum_1_24;0x0001;+;)
+AC data8(_tancotf_xnum_1_24;0x0002;+;)
+E5 data8(_tancotf_xnum_1_24;0x0003;+;)
+B2 E7
+FD
+C0 data8(_tancotf_xden_1_24;)
+C0 data8(_tancotf_xden_1_24;0x0001;+;)
+C0 data8(_tancotf_xden_1_24;0x0002;+;)
+C0 data8(_tancotf_xden_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsdiv;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+8C F0
+ED
+22
+AA data8(_tancotf_xden_1_24;)
+AB data8(_tancotf_xden_1_24;0x0001;+;)
+AC data8(_tancotf_xden_1_24;0x0002;+;)
+E5 data8(_tancotf_xden_1_24;0x0003;+;)
+B2 E7
+FD
+C0 data8(_tancotf_xnum_1_24;)
+C0 data8(_tancotf_xnum_1_24;0x0001;+;)
+C0 data8(_tancotf_xnum_1_24;0x0002;+;)
+C0 data8(_tancotf_xnum_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsdiv;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+8C F0
+ED
+22
+30 bit(_tancotf_PARM_2;) rel3(L002010?;)
+C0 data8(_tancotf_xnum_1_24;)
+C0 data8(_tancotf_xnum_1_24;0x0001;+;)
+C0 data8(_tancotf_xnum_1_24;0x0002;+;)
+C0 data8(_tancotf_xnum_1_24;0x0003;+;)
+85 data8(_tancotf_xden_1_24;) 82
+85 data8(_tancotf_xden_1_24;0x0001;+;) 83
+85 data8(_tancotf_xden_1_24;0x0002;+;) F0
+E5 data8(_tancotf_xden_1_24;0x0003;+;)
+12 addr16(___fsdiv;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+8C F0
+ED
+22
+C0 data8(_tancotf_xden_1_24;)
+C0 data8(_tancotf_xden_1_24;0x0001;+;)
+C0 data8(_tancotf_xden_1_24;0x0002;+;)
+C0 data8(_tancotf_xden_1_24;0x0003;+;)
+85 data8(_tancotf_xnum_1_24;) 82
+85 data8(_tancotf_xnum_1_24;0x0001;+;) 83
+85 data8(_tancotf_xnum_1_24;0x0002;+;) F0
+E5 data8(_tancotf_xnum_1_24;0x0003;+;)
+12 addr16(___fsdiv;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+8C F0
+ED
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+tanf
+<OBJ>
+<MODULE>
+tanf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0013,NO
+</SEGMENTS>
+<LOCALS>
+</LOCALS>
+<PUBLICS>
+_tanf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+_tancotf_PARM_2,any,0000,0000
+_tancotf,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+C2 bit(_tancotf_PARM_2;)
+8A 82
+8B 83
+8C F0
+ED
+02 addr16(_tancotf;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+cotf
+<OBJ>
+<MODULE>
+cotf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0004,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0091,NO
+</SEGMENTS>
+<LOCALS>
+L002005?,R_CSEG,0085,0000
+L002002?,R_CSEG,007D,0000
+_cotf_y_1_25,R_DSEG,0000,0004
+</LOCALS>
+<PUBLICS>
+_cotf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+_fabsf,any,0000,0000
+___fslt,any,0000,0000
+_tancotf_PARM_2,any,0000,0000
+_errno,any,0000,0000
+_tancotf,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+C0 02
+C0 03
+C0 04
+C0 05
+12 addr16(_fabsf;)  
+85 82 data8(_cotf_y_1_25;)
+85 83 data8(_cotf_y_1_25;0x0001;+;)
+85 F0 data8(_cotf_y_1_25;0x0002;+;)
+F5 data8(_cotf_y_1_25;0x0003;+;)
+74 60
+C0 E0
+74 42
+C0 E0
+74 A2
+C0 E0
+74 0D
+C0 E0
+85 data8(_cotf_y_1_25;) 82
+85 data8(_cotf_y_1_25;0x0001;+;) 83
+85 data8(_cotf_y_1_25;0x0002;+;) F0
+E5 data8(_cotf_y_1_25;0x0003;+;)
+12 addr16(___fslt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+EE
+60 rel2(L002005?;)
+78 data8(_errno;)
+74 22
+F2
+E4
+08
+F2
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fslt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+EE
+60 rel2(L002002?;)
+90 FF FF
+75 F0 7F
+74 FF
+22
+90 FF FF
+74 7F
+F5 F0
+22
+D2 bit(_tancotf_PARM_2;)
+8A 82
+8B 83
+8C F0
+ED
+02 addr16(_tancotf;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+asincosf
+<OBJ>
+<MODULE>
+asincosf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0002,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?1,data,0010,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0010,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0004,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,048D,NO
+</SEGMENTS>
+<LOCALS>
+L002005?,R_CSEG,017B,0000
+L002004?,R_CSEG,0154,0000
+L002002?,R_CSEG,00C8,0000
+_asincosf_y_1_24,?lib?dseg?1,0000,0004
+_asincosf_b_1_24,R_CONST,0008,0000
+_asincosf_r_1_24,?lib?dseg?1,0008,0004
+_asincosf_quartPI_1_24,R_BSEG,0001,0001
+_asincosf_g_1_24,?lib?dseg?1,0004,0004
+L002016?,R_CSEG,0481,0000
+L002015?,R_CSEG,03E6,0000
+L002010?,R_CSEG,0372,0000
+L002028?,R_CSEG,02D0,0000
+L002026?,R_CSEG,0091,0000
+_asincosf_sloc0_1_0,?lib?dseg?1,000C,0004
+_asincosf_x_1_23,R_PSEG,0000,0004
+_asincosf_a_1_24,R_CONST,0000,0000
+L002008?,R_CSEG,02C3,0000
+L002007?,R_CSEG,006A,0000
+</LOCALS>
+<PUBLICS>
+_asincosf,R_CSEG,0000,0000
+_asincosf_PARM_2,R_BSEG,0000,0001
+</PUBLICS>
+<EXTERNALS>
+_fabsf,any,0000,0000
+___fsgt,any,0000,0000
+___fslt,any,0000,0000
+___fsmul,any,0000,0000
+___fsadd,any,0000,0000
+_sqrtf,any,0000,0000
+___fssub,any,0000,0000
+_errno,any,0000,0000
+_ldexpf_PARM_2,any,0000,0000
+___fsdiv,any,0000,0000
+_ldexpf,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+78 data8(_asincosf_x_1_23;)
+EA
+F2
+08
+EB
+F2
+08
+EC
+F2
+08
+ED
+F2
+A2 bit(_asincosf_PARM_2;)
+92 data8(_asincosf_quartPI_1_24;)
+78 data8(_asincosf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(_fabsf;)  
+85 82 data8(_asincosf_y_1_24;)
+85 83 data8(_asincosf_y_1_24;0x0001;+;)
+85 F0 data8(_asincosf_y_1_24;0x0002;+;)
+F5 data8(_asincosf_y_1_24;0x0003;+;)
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 39
+C0 E0
+85 data8(_asincosf_y_1_24;) 82
+85 data8(_asincosf_y_1_24;0x0001;+;) 83
+85 data8(_asincosf_y_1_24;0x0002;+;) F0
+E5 data8(_asincosf_y_1_24;0x0003;+;)
+12 addr16(___fslt;)  
+AC 82
+E5 81
+24 FC
+F5 81
+EC
+60 rel2(L002007?;)
+85 data8(_asincosf_y_1_24;) data8(_asincosf_r_1_24;)
+85 data8(_asincosf_y_1_24;0x0001;+;) data8(_asincosf_r_1_24;0x0001;+;)
+85 data8(_asincosf_y_1_24;0x0002;+;) data8(_asincosf_r_1_24;0x0002;+;)
+85 data8(_asincosf_y_1_24;0x0003;+;) data8(_asincosf_r_1_24;0x0003;+;)
+02 addr16(L002008?;)  
+E4
+C0 E0
+C0 E0
+C0 E0
+74 3F
+C0 E0
+85 data8(_asincosf_y_1_24;) 82
+85 data8(_asincosf_y_1_24;0x0001;+;) 83
+85 data8(_asincosf_y_1_24;0x0002;+;) F0
+E5 data8(_asincosf_y_1_24;0x0003;+;)
+12 addr16(___fsgt;)  
+AC 82
+E5 81
+24 FC
+F5 81
+EC
+70 rel2(L002026?;)
+02 addr16(L002004?;)  
+B2 bit(_asincosf_quartPI_1_24;)
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 3F
+C0 E0
+85 data8(_asincosf_y_1_24;) 82
+85 data8(_asincosf_y_1_24;0x0001;+;) 83
+85 data8(_asincosf_y_1_24;0x0002;+;) F0
+E5 data8(_asincosf_y_1_24;0x0003;+;)
+12 addr16(___fsgt;)  
+AC 82
+E5 81
+24 FC
+F5 81
+EC
+60 rel2(L002002?;)
+78 data8(_errno;)
+74 21
+F2
+E4
+08
+F2
+90 00 00
+E4
+F5 F0
+22
+C0 data8(_asincosf_y_1_24;)
+C0 data8(_asincosf_y_1_24;0x0001;+;)
+C0 data8(_asincosf_y_1_24;0x0002;+;)
+C0 data8(_asincosf_y_1_24;0x0003;+;)
+90 00 00
+75 F0 80
+74 3F
+12 addr16(___fssub;)  
+85 82 data8(_asincosf_g_1_24;)
+85 83 data8(_asincosf_g_1_24;0x0001;+;)
+85 F0 data8(_asincosf_g_1_24;0x0002;+;)
+F5 data8(_asincosf_g_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+78 data8(_ldexpf_PARM_2;)
+74 FF
+F2
+08
+74 FF
+F2
+85 data8(_asincosf_g_1_24;) 82
+85 data8(_asincosf_g_1_24;0x0001;+;) 83
+85 data8(_asincosf_g_1_24;0x0002;+;) F0
+E5 data8(_asincosf_g_1_24;0x0003;+;)
+12 addr16(_ldexpf;)  
+85 82 data8(_asincosf_g_1_24;)
+85 83 data8(_asincosf_g_1_24;0x0001;+;)
+85 F0 data8(_asincosf_g_1_24;0x0002;+;)
+F5 data8(_asincosf_g_1_24;0x0003;+;)
+12 addr16(_sqrtf;)  
+85 82 data8(_asincosf_y_1_24;)
+85 83 data8(_asincosf_y_1_24;0x0001;+;)
+85 F0 data8(_asincosf_y_1_24;0x0002;+;)
+F5 data8(_asincosf_y_1_24;0x0003;+;)
+C0 data8(_asincosf_y_1_24;)
+C0 data8(_asincosf_y_1_24;0x0001;+;)
+C0 data8(_asincosf_y_1_24;0x0002;+;)
+C0 data8(_asincosf_y_1_24;0x0003;+;)
+85 data8(_asincosf_y_1_24;) 82
+85 data8(_asincosf_y_1_24;0x0001;+;) 83
+85 data8(_asincosf_y_1_24;0x0002;+;) F0
+E5 data8(_asincosf_y_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_asincosf_sloc0_1_0;)
+85 83 data8(_asincosf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_asincosf_sloc0_1_0;0x0002;+;)
+F5 data8(_asincosf_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+85 data8(_asincosf_sloc0_1_0;) data8(_asincosf_y_1_24;)
+85 data8(_asincosf_sloc0_1_0;0x0001;+;) data8(_asincosf_y_1_24;0x0001;+;)
+85 data8(_asincosf_sloc0_1_0;0x0002;+;) data8(_asincosf_y_1_24;0x0002;+;)
+E5 data8(_asincosf_sloc0_1_0;0x0003;+;)
+B2 E7
+F5 data8(_asincosf_y_1_24;0x0003;+;)
+80 rel2(L002005?;)
+C0 data8(_asincosf_y_1_24;)
+C0 data8(_asincosf_y_1_24;0x0001;+;)
+C0 data8(_asincosf_y_1_24;0x0002;+;)
+C0 data8(_asincosf_y_1_24;0x0003;+;)
+85 data8(_asincosf_y_1_24;) 82
+85 data8(_asincosf_y_1_24;0x0001;+;) 83
+85 data8(_asincosf_y_1_24;0x0002;+;) F0
+E5 data8(_asincosf_y_1_24;0x0003;+;)
+12 addr16(___fsmul;)  
+85 82 data8(_asincosf_g_1_24;)
+85 83 data8(_asincosf_g_1_24;0x0001;+;)
+85 F0 data8(_asincosf_g_1_24;0x0002;+;)
+F5 data8(_asincosf_g_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_asincosf_g_1_24;)
+C0 data8(_asincosf_g_1_24;0x0001;+;)
+C0 data8(_asincosf_g_1_24;0x0002;+;)
+C0 data8(_asincosf_g_1_24;0x0003;+;)
+90 20 65
+75 F0 01
+74 BF
+12 addr16(___fsmul;)  
+AC 82
+AD 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+74 6B
+C0 E0
+74 16
+C0 E0
+74 6F
+C0 E0
+74 3F
+C0 E0
+8C 82
+8D 83
+8A F0
+EB
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 data8(_asincosf_g_1_24;)
+C0 data8(_asincosf_g_1_24;0x0001;+;)
+C0 data8(_asincosf_g_1_24;0x0002;+;)
+C0 data8(_asincosf_g_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsmul;)  
+85 82 data8(_asincosf_sloc0_1_0;)
+85 83 data8(_asincosf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_asincosf_sloc0_1_0;0x0002;+;)
+F5 data8(_asincosf_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+74 0B
+C0 E0
+74 8D
+C0 E0
+74 B1
+C0 E0
+74 C0
+C0 E0
+85 data8(_asincosf_g_1_24;) 82
+85 data8(_asincosf_g_1_24;0x0001;+;) 83
+85 data8(_asincosf_g_1_24;0x0002;+;) F0
+E5 data8(_asincosf_g_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 data8(_asincosf_g_1_24;)
+C0 data8(_asincosf_g_1_24;0x0001;+;)
+C0 data8(_asincosf_g_1_24;0x0002;+;)
+C0 data8(_asincosf_g_1_24;0x0003;+;)
+8E 82
+8F 83
+8A F0
+EB
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+74 F0
+C0 E0
+74 50
+C0 E0
+74 B3
+C0 E0
+74 40
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+85 data8(_asincosf_sloc0_1_0;) 82
+85 data8(_asincosf_sloc0_1_0;0x0001;+;) 83
+85 data8(_asincosf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_asincosf_sloc0_1_0;0x0003;+;)
+12 addr16(___fsdiv;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+85 data8(_asincosf_y_1_24;) 82
+85 data8(_asincosf_y_1_24;0x0001;+;) 83
+85 data8(_asincosf_y_1_24;0x0002;+;) F0
+E5 data8(_asincosf_y_1_24;0x0003;+;)
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+85 data8(_asincosf_y_1_24;) 82
+85 data8(_asincosf_y_1_24;0x0001;+;) 83
+85 data8(_asincosf_y_1_24;0x0002;+;) F0
+E5 data8(_asincosf_y_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_asincosf_r_1_24;)
+85 83 data8(_asincosf_r_1_24;0x0001;+;)
+85 F0 data8(_asincosf_r_1_24;0x0002;+;)
+F5 data8(_asincosf_r_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+A2 bit(_asincosf_quartPI_1_24;)
+E4
+33
+FA
+7B 00
+20 bit(_asincosf_PARM_2;) rel3(L002028?;)
+02 addr16(L002015?;)  
+C0 02
+C0 03
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+78 data8(_asincosf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fslt;)  
+AC 82
+E5 81
+24 FC
+F5 81
+D0 03
+D0 02
+EC
+60 rel2(L002010?;)
+8A 04
+EB
+CC
+25 E0
+CC
+33
+CC
+25 E0
+CC
+33
+FD
+EC
+24 data8(_asincosf_b_1_24;)
+F5 82
+ED
+34 data8(_asincosf_b_1_24;0x0008;>>;)
+F5 83
+E4
+93
+F5 data8(_asincosf_sloc0_1_0;)
+A3
+E4
+93
+F5 data8(_asincosf_sloc0_1_0;0x0001;+;)
+A3
+E4
+93
+F5 data8(_asincosf_sloc0_1_0;0x0002;+;)
+A3
+E4
+93
+F5 data8(_asincosf_sloc0_1_0;0x0003;+;)
+C0 data8(_asincosf_r_1_24;)
+C0 data8(_asincosf_r_1_24;0x0001;+;)
+C0 data8(_asincosf_r_1_24;0x0002;+;)
+C0 data8(_asincosf_r_1_24;0x0003;+;)
+85 data8(_asincosf_sloc0_1_0;) 82
+85 data8(_asincosf_sloc0_1_0;0x0001;+;) 83
+85 data8(_asincosf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_asincosf_sloc0_1_0;0x0003;+;)
+12 addr16(___fsadd;)  
+AC 82
+AD 83
+AE F0
+FF
+E5 81
+24 FC
+F5 81
+C0 data8(_asincosf_sloc0_1_0;)
+C0 data8(_asincosf_sloc0_1_0;0x0001;+;)
+C0 data8(_asincosf_sloc0_1_0;0x0002;+;)
+C0 data8(_asincosf_sloc0_1_0;0x0003;+;)
+8C 82
+8D 83
+8E F0
+EF
+12 addr16(___fsadd;)  
+85 82 data8(_asincosf_r_1_24;)
+85 83 data8(_asincosf_r_1_24;0x0001;+;)
+85 F0 data8(_asincosf_r_1_24;0x0002;+;)
+F5 data8(_asincosf_r_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+02 addr16(L002016?;)  
+8A 04
+EB
+CC
+25 E0
+CC
+33
+CC
+25 E0
+CC
+33
+FD
+EC
+24 data8(_asincosf_a_1_24;)
+F5 82
+ED
+34 data8(_asincosf_a_1_24;0x0008;>>;)
+F5 83
+E4
+93
+F5 data8(_asincosf_sloc0_1_0;)
+A3
+E4
+93
+F5 data8(_asincosf_sloc0_1_0;0x0001;+;)
+A3
+E4
+93
+F5 data8(_asincosf_sloc0_1_0;0x0002;+;)
+A3
+E4
+93
+F5 data8(_asincosf_sloc0_1_0;0x0003;+;)
+C0 data8(_asincosf_r_1_24;)
+C0 data8(_asincosf_r_1_24;0x0001;+;)
+C0 data8(_asincosf_r_1_24;0x0002;+;)
+C0 data8(_asincosf_r_1_24;0x0003;+;)
+85 data8(_asincosf_sloc0_1_0;) 82
+85 data8(_asincosf_sloc0_1_0;0x0001;+;) 83
+85 data8(_asincosf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_asincosf_sloc0_1_0;0x0003;+;)
+12 addr16(___fssub;)  
+AC 82
+AD 83
+AE F0
+FF
+E5 81
+24 FC
+F5 81
+C0 data8(_asincosf_sloc0_1_0;)
+C0 data8(_asincosf_sloc0_1_0;0x0001;+;)
+C0 data8(_asincosf_sloc0_1_0;0x0002;+;)
+C0 data8(_asincosf_sloc0_1_0;0x0003;+;)
+8C 82
+8D 83
+8E F0
+EF
+12 addr16(___fsadd;)  
+85 82 data8(_asincosf_r_1_24;)
+85 83 data8(_asincosf_r_1_24;0x0001;+;)
+85 F0 data8(_asincosf_r_1_24;0x0002;+;)
+F5 data8(_asincosf_r_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+02 addr16(L002016?;)  
+EB
+CA
+25 E0
+CA
+33
+CA
+25 E0
+CA
+33
+FB
+EA
+24 data8(_asincosf_a_1_24;)
+F5 82
+EB
+34 data8(_asincosf_a_1_24;0x0008;>>;)
+F5 83
+E4
+93
+F5 data8(_asincosf_sloc0_1_0;)
+A3
+E4
+93
+F5 data8(_asincosf_sloc0_1_0;0x0001;+;)
+A3
+E4
+93
+F5 data8(_asincosf_sloc0_1_0;0x0002;+;)
+A3
+E4
+93
+F5 data8(_asincosf_sloc0_1_0;0x0003;+;)
+C0 data8(_asincosf_r_1_24;)
+C0 data8(_asincosf_r_1_24;0x0001;+;)
+C0 data8(_asincosf_r_1_24;0x0002;+;)
+C0 data8(_asincosf_r_1_24;0x0003;+;)
+85 data8(_asincosf_sloc0_1_0;) 82
+85 data8(_asincosf_sloc0_1_0;0x0001;+;) 83
+85 data8(_asincosf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_asincosf_sloc0_1_0;0x0003;+;)
+12 addr16(___fsadd;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 data8(_asincosf_sloc0_1_0;)
+C0 data8(_asincosf_sloc0_1_0;0x0001;+;)
+C0 data8(_asincosf_sloc0_1_0;0x0002;+;)
+C0 data8(_asincosf_sloc0_1_0;0x0003;+;)
+8E 82
+8F 83
+8A F0
+EB
+12 addr16(___fsadd;)  
+85 82 data8(_asincosf_r_1_24;)
+85 83 data8(_asincosf_r_1_24;0x0001;+;)
+85 F0 data8(_asincosf_r_1_24;0x0002;+;)
+F5 data8(_asincosf_r_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+78 data8(_asincosf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fslt;)  
+AA 82
+E5 81
+24 FC
+F5 81
+EA
+60 rel2(L002016?;)
+E5 data8(_asincosf_r_1_24;0x0003;+;)
+B2 E7
+F5 data8(_asincosf_r_1_24;0x0003;+;)
+85 data8(_asincosf_r_1_24;) 82
+85 data8(_asincosf_r_1_24;0x0001;+;) 83
+85 data8(_asincosf_r_1_24;0x0002;+;) F0
+E5 data8(_asincosf_r_1_24;0x0003;+;)
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+00
+00
+00
+00
+DB
+0F
+49
+3F
+DB
+0F
+C9
+3F
+DB
+0F
+49
+3F
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+asinf
+<OBJ>
+<MODULE>
+asinf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,009B,NO
+</SEGMENTS>
+<LOCALS>
+L002005?,R_CSEG,007D,0000
+L002002?,R_CSEG,008F,0000
+L002008?,R_CSEG,0042,0000
+</LOCALS>
+<PUBLICS>
+_asinf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+___fseq,any,0000,0000
+_asincosf,any,0000,0000
+_asincosf_PARM_2,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+C0 02
+C0 03
+C0 04
+C0 05
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 3F
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fseq;)  
+AE 82
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+EE
+60 rel2(L002008?;)
+90 0F DB
+75 F0 C9
+74 3F
+22
+C0 02
+C0 03
+C0 04
+C0 05
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 BF
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fseq;)  
+AE 82
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+EE
+60 rel2(L002005?;)
+90 0F DB
+75 F0 C9
+74 BF
+22
+EA
+4B
+4C
+8D F0
+C2 F7
+45 F0
+70 rel2(L002002?;)
+90 00 00
+E4
+F5 F0
+22
+C2 bit(_asincosf_PARM_2;)
+8A 82
+8B 83
+8C F0
+ED
+02 addr16(_asincosf;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+acosf
+<OBJ>
+<MODULE>
+acosf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,009B,NO
+</SEGMENTS>
+<LOCALS>
+L002005?,R_CSEG,007B,0000
+L002002?,R_CSEG,008F,0000
+L002008?,R_CSEG,0040,0000
+</LOCALS>
+<PUBLICS>
+_acosf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+___fseq,any,0000,0000
+_asincosf,any,0000,0000
+_asincosf_PARM_2,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+C0 02
+C0 03
+C0 04
+C0 05
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 3F
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fseq;)  
+AE 82
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+EE
+60 rel2(L002008?;)
+90 00 00
+E4
+F5 F0
+22
+C0 02
+C0 03
+C0 04
+C0 05
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 BF
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fseq;)  
+AE 82
+E5 81
+24 FC
+F5 81
+D0 05
+D0 04
+D0 03
+D0 02
+EE
+60 rel2(L002005?;)
+90 0F DB
+75 F0 49
+74 40
+22
+EA
+4B
+4C
+8D F0
+C2 F7
+45 F0
+70 rel2(L002002?;)
+90 0F DB
+75 F0 C9
+74 3F
+22
+D2 bit(_asincosf_PARM_2;)
+8A 82
+8B 83
+8C F0
+ED
+02 addr16(_asincosf;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+atanf
+<OBJ>
+<MODULE>
+atanf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?1,data,001E,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0010,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0004,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,03D5,NO
+</SEGMENTS>
+<LOCALS>
+L002006?,R_CSEG,01F1,0000
+L002004?,R_CSEG,01AB,0000
+L002002?,R_CSEG,0086,0000
+_atanf_sloc1_1_0,?lib?dseg?1,0012,0004
+_atanf_sloc2_1_0,?lib?dseg?1,0016,0004
+_atanf_g_1_24,?lib?dseg?1,0008,0004
+_atanf_x_1_23,R_PSEG,0000,0004
+_atanf_sloc0_1_0,?lib?dseg?1,000E,0004
+_atanf_f_1_24,?lib?dseg?1,0000,0004
+L002011?,R_CSEG,03C9,0000
+L002021?,R_CSEG,01AB,0000
+_atanf_n_1_24,?lib?dseg?1,000C,0002
+L002020?,R_CSEG,00B2,0000
+_atanf_a_1_24,R_CONST,0000,0000
+_atanf_sloc3_1_0,?lib?dseg?1,001A,0004
+_atanf_r_1_24,?lib?dseg?1,0004,0004
+L002009?,R_CSEG,034E,0000
+L002007?,R_CSEG,0336,0000
+</LOCALS>
+<PUBLICS>
+_atanf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+_fabsf,any,0000,0000
+___fsgt,any,0000,0000
+___fslt,any,0000,0000
+___fsmul,any,0000,0000
+___fsadd,any,0000,0000
+___fssub,any,0000,0000
+___fsdiv,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+78 data8(_atanf_x_1_23;)
+EA
+F2
+08
+EB
+F2
+08
+EC
+F2
+08
+ED
+F2
+E4
+F5 data8(_atanf_n_1_24;)
+F5 data8(_atanf_n_1_24;0x0001;+;)
+78 data8(_atanf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(_fabsf;)  
+85 82 data8(_atanf_f_1_24;)
+85 83 data8(_atanf_f_1_24;0x0001;+;)
+85 F0 data8(_atanf_f_1_24;0x0002;+;)
+F5 data8(_atanf_f_1_24;0x0003;+;)
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 3F
+C0 E0
+85 data8(_atanf_f_1_24;) 82
+85 data8(_atanf_f_1_24;0x0001;+;) 83
+85 data8(_atanf_f_1_24;0x0002;+;) F0
+E5 data8(_atanf_f_1_24;0x0003;+;)
+12 addr16(___fsgt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+EE
+60 rel2(L002002?;)
+C0 data8(_atanf_f_1_24;)
+C0 data8(_atanf_f_1_24;0x0001;+;)
+C0 data8(_atanf_f_1_24;0x0002;+;)
+C0 data8(_atanf_f_1_24;0x0003;+;)
+90 00 00
+75 F0 80
+74 3F
+12 addr16(___fsdiv;)  
+85 82 data8(_atanf_f_1_24;)
+85 83 data8(_atanf_f_1_24;0x0001;+;)
+85 F0 data8(_atanf_f_1_24;0x0002;+;)
+F5 data8(_atanf_f_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+75 data8(_atanf_n_1_24;) 02
+E4
+F5 data8(_atanf_n_1_24;0x0001;+;)
+74 A3
+C0 E0
+74 30
+C0 E0
+74 89
+C0 E0
+74 3E
+C0 E0
+85 data8(_atanf_f_1_24;) 82
+85 data8(_atanf_f_1_24;0x0001;+;) 83
+85 data8(_atanf_f_1_24;0x0002;+;) F0
+E5 data8(_atanf_f_1_24;0x0003;+;)
+12 addr16(___fsgt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+EE
+70 rel2(L002020?;)
+02 addr16(L002004?;)  
+C0 data8(_atanf_f_1_24;)
+C0 data8(_atanf_f_1_24;0x0001;+;)
+C0 data8(_atanf_f_1_24;0x0002;+;)
+C0 data8(_atanf_f_1_24;0x0003;+;)
+90 67 AF
+75 F0 3B
+74 3F
+12 addr16(___fsmul;)  
+85 82 data8(_atanf_sloc0_1_0;)
+85 83 data8(_atanf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_atanf_sloc0_1_0;0x0002;+;)
+F5 data8(_atanf_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+E4
+C0 E0
+C0 E0
+C0 E0
+74 3F
+C0 E0
+85 data8(_atanf_sloc0_1_0;) 82
+85 data8(_atanf_sloc0_1_0;0x0001;+;) 83
+85 data8(_atanf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_atanf_sloc0_1_0;0x0003;+;)
+12 addr16(___fssub;)  
+85 82 data8(_atanf_sloc1_1_0;)
+85 83 data8(_atanf_sloc1_1_0;0x0001;+;)
+85 F0 data8(_atanf_sloc1_1_0;0x0002;+;)
+F5 data8(_atanf_sloc1_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+E4
+C0 E0
+C0 E0
+C0 E0
+74 3F
+C0 E0
+85 data8(_atanf_sloc1_1_0;) 82
+85 data8(_atanf_sloc1_1_0;0x0001;+;) 83
+85 data8(_atanf_sloc1_1_0;0x0002;+;) F0
+E5 data8(_atanf_sloc1_1_0;0x0003;+;)
+12 addr16(___fssub;)  
+85 82 data8(_atanf_sloc2_1_0;)
+85 83 data8(_atanf_sloc2_1_0;0x0001;+;)
+85 F0 data8(_atanf_sloc2_1_0;0x0002;+;)
+F5 data8(_atanf_sloc2_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_atanf_f_1_24;)
+C0 data8(_atanf_f_1_24;0x0001;+;)
+C0 data8(_atanf_f_1_24;0x0002;+;)
+C0 data8(_atanf_f_1_24;0x0003;+;)
+85 data8(_atanf_sloc2_1_0;) 82
+85 data8(_atanf_sloc2_1_0;0x0001;+;) 83
+85 data8(_atanf_sloc2_1_0;0x0002;+;) F0
+E5 data8(_atanf_sloc2_1_0;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_atanf_sloc3_1_0;)
+85 83 data8(_atanf_sloc3_1_0;0x0001;+;)
+85 F0 data8(_atanf_sloc3_1_0;0x0002;+;)
+F5 data8(_atanf_sloc3_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+74 D7
+C0 E0
+74 B3
+C0 E0
+74 DD
+C0 E0
+74 3F
+C0 E0
+85 data8(_atanf_f_1_24;) 82
+85 data8(_atanf_f_1_24;0x0001;+;) 83
+85 data8(_atanf_f_1_24;0x0002;+;) F0
+E5 data8(_atanf_f_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+85 data8(_atanf_sloc3_1_0;) 82
+85 data8(_atanf_sloc3_1_0;0x0001;+;) 83
+85 data8(_atanf_sloc3_1_0;0x0002;+;) F0
+E5 data8(_atanf_sloc3_1_0;0x0003;+;)
+12 addr16(___fsdiv;)  
+85 82 data8(_atanf_f_1_24;)
+85 83 data8(_atanf_f_1_24;0x0001;+;)
+85 F0 data8(_atanf_f_1_24;0x0002;+;)
+F5 data8(_atanf_f_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+05 data8(_atanf_n_1_24;)
+E4
+B5 data8(_atanf_n_1_24;) rel3(L002021?;)
+05 data8(_atanf_n_1_24;0x0001;+;)
+85 data8(_atanf_f_1_24;) 82
+85 data8(_atanf_f_1_24;0x0001;+;) 83
+85 data8(_atanf_f_1_24;0x0002;+;) F0
+E5 data8(_atanf_f_1_24;0x0003;+;)
+12 addr16(_fabsf;)  
+AE 82
+AF 83
+AA F0
+FB
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 39
+C0 E0
+8E 82
+8F 83
+8A F0
+EB
+12 addr16(___fslt;)  
+AA 82
+E5 81
+24 FC
+F5 81
+EA
+60 rel2(L002006?;)
+85 data8(_atanf_f_1_24;) data8(_atanf_r_1_24;)
+85 data8(_atanf_f_1_24;0x0001;+;) data8(_atanf_r_1_24;0x0001;+;)
+85 data8(_atanf_f_1_24;0x0002;+;) data8(_atanf_r_1_24;0x0002;+;)
+85 data8(_atanf_f_1_24;0x0003;+;) data8(_atanf_r_1_24;0x0003;+;)
+02 addr16(L002007?;)  
+C0 data8(_atanf_f_1_24;)
+C0 data8(_atanf_f_1_24;0x0001;+;)
+C0 data8(_atanf_f_1_24;0x0002;+;)
+C0 data8(_atanf_f_1_24;0x0003;+;)
+85 data8(_atanf_f_1_24;) 82
+85 data8(_atanf_f_1_24;0x0001;+;) 83
+85 data8(_atanf_f_1_24;0x0002;+;) F0
+E5 data8(_atanf_f_1_24;0x0003;+;)
+12 addr16(___fsmul;)  
+85 82 data8(_atanf_g_1_24;)
+85 83 data8(_atanf_g_1_24;0x0001;+;)
+85 F0 data8(_atanf_g_1_24;0x0002;+;)
+F5 data8(_atanf_g_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_atanf_g_1_24;)
+C0 data8(_atanf_g_1_24;0x0001;+;)
+C0 data8(_atanf_g_1_24;0x0002;+;)
+C0 data8(_atanf_g_1_24;0x0003;+;)
+90 86 91
+75 F0 50
+74 BD
+12 addr16(___fsmul;)  
+85 82 data8(_atanf_sloc3_1_0;)
+85 83 data8(_atanf_sloc3_1_0;0x0001;+;)
+85 F0 data8(_atanf_sloc3_1_0;0x0002;+;)
+F5 data8(_atanf_sloc3_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+74 F6
+C0 E0
+74 10
+C0 E0
+74 F1
+C0 E0
+74 BE
+C0 E0
+85 data8(_atanf_sloc3_1_0;) 82
+85 data8(_atanf_sloc3_1_0;0x0001;+;) 83
+85 data8(_atanf_sloc3_1_0;0x0002;+;) F0
+E5 data8(_atanf_sloc3_1_0;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_atanf_sloc3_1_0;)
+85 83 data8(_atanf_sloc3_1_0;0x0001;+;)
+85 F0 data8(_atanf_sloc3_1_0;0x0002;+;)
+F5 data8(_atanf_sloc3_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_atanf_g_1_24;)
+C0 data8(_atanf_g_1_24;0x0001;+;)
+C0 data8(_atanf_g_1_24;0x0002;+;)
+C0 data8(_atanf_g_1_24;0x0003;+;)
+85 data8(_atanf_sloc3_1_0;) 82
+85 data8(_atanf_sloc3_1_0;0x0001;+;) 83
+85 data8(_atanf_sloc3_1_0;0x0002;+;) F0
+E5 data8(_atanf_sloc3_1_0;0x0003;+;)
+12 addr16(___fsmul;)  
+85 82 data8(_atanf_sloc3_1_0;)
+85 83 data8(_atanf_sloc3_1_0;0x0001;+;)
+85 F0 data8(_atanf_sloc3_1_0;0x0002;+;)
+F5 data8(_atanf_sloc3_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_atanf_f_1_24;)
+C0 data8(_atanf_f_1_24;0x0001;+;)
+C0 data8(_atanf_f_1_24;0x0002;+;)
+C0 data8(_atanf_f_1_24;0x0003;+;)
+85 data8(_atanf_sloc3_1_0;) 82
+85 data8(_atanf_sloc3_1_0;0x0001;+;) 83
+85 data8(_atanf_sloc3_1_0;0x0002;+;) F0
+E5 data8(_atanf_sloc3_1_0;0x0003;+;)
+12 addr16(___fsmul;)  
+85 82 data8(_atanf_sloc3_1_0;)
+85 83 data8(_atanf_sloc3_1_0;0x0001;+;)
+85 F0 data8(_atanf_sloc3_1_0;0x0002;+;)
+F5 data8(_atanf_sloc3_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+74 D3
+C0 E0
+74 CC
+C0 E0
+74 B4
+C0 E0
+74 3F
+C0 E0
+85 data8(_atanf_g_1_24;) 82
+85 data8(_atanf_g_1_24;0x0001;+;) 83
+85 data8(_atanf_g_1_24;0x0002;+;) F0
+E5 data8(_atanf_g_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_atanf_sloc2_1_0;)
+85 83 data8(_atanf_sloc2_1_0;0x0001;+;)
+85 F0 data8(_atanf_sloc2_1_0;0x0002;+;)
+F5 data8(_atanf_sloc2_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_atanf_sloc2_1_0;)
+C0 data8(_atanf_sloc2_1_0;0x0001;+;)
+C0 data8(_atanf_sloc2_1_0;0x0002;+;)
+C0 data8(_atanf_sloc2_1_0;0x0003;+;)
+85 data8(_atanf_sloc3_1_0;) 82
+85 data8(_atanf_sloc3_1_0;0x0001;+;) 83
+85 data8(_atanf_sloc3_1_0;0x0002;+;) F0
+E5 data8(_atanf_sloc3_1_0;0x0003;+;)
+12 addr16(___fsdiv;)  
+85 82 data8(_atanf_sloc3_1_0;)
+85 83 data8(_atanf_sloc3_1_0;0x0001;+;)
+85 F0 data8(_atanf_sloc3_1_0;0x0002;+;)
+F5 data8(_atanf_sloc3_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_atanf_sloc3_1_0;)
+C0 data8(_atanf_sloc3_1_0;0x0001;+;)
+C0 data8(_atanf_sloc3_1_0;0x0002;+;)
+C0 data8(_atanf_sloc3_1_0;0x0003;+;)
+85 data8(_atanf_f_1_24;) 82
+85 data8(_atanf_f_1_24;0x0001;+;) 83
+85 data8(_atanf_f_1_24;0x0002;+;) F0
+E5 data8(_atanf_f_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_atanf_r_1_24;)
+85 83 data8(_atanf_r_1_24;0x0001;+;)
+85 F0 data8(_atanf_r_1_24;0x0002;+;)
+F5 data8(_atanf_r_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C3
+74 01
+95 data8(_atanf_n_1_24;)
+E4
+64 80
+85 data8(_atanf_n_1_24;0x0001;+;) F0
+63 F0 80
+95 F0
+50 rel2(L002009?;)
+E5 data8(_atanf_r_1_24;0x0003;+;)
+B2 E7
+F5 data8(_atanf_r_1_24;0x0003;+;)
+AC data8(_atanf_n_1_24;)
+E5 data8(_atanf_n_1_24;0x0001;+;)
+CC
+25 E0
+CC
+33
+CC
+25 E0
+CC
+33
+FD
+EC
+24 data8(_atanf_a_1_24;)
+F5 82
+ED
+34 data8(_atanf_a_1_24;0x0008;>>;)
+F5 83
+E4
+93
+FC
+A3
+E4
+93
+FD
+A3
+E4
+93
+FA
+A3
+E4
+93
+FB
+C0 04
+C0 05
+C0 02
+C0 03
+85 data8(_atanf_r_1_24;) 82
+85 data8(_atanf_r_1_24;0x0001;+;) 83
+85 data8(_atanf_r_1_24;0x0002;+;) F0
+E5 data8(_atanf_r_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_atanf_r_1_24;)
+85 83 data8(_atanf_r_1_24;0x0001;+;)
+85 F0 data8(_atanf_r_1_24;0x0002;+;)
+F5 data8(_atanf_r_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+78 data8(_atanf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fslt;)  
+AA 82
+E5 81
+24 FC
+F5 81
+EA
+60 rel2(L002011?;)
+E5 data8(_atanf_r_1_24;0x0003;+;)
+B2 E7
+F5 data8(_atanf_r_1_24;0x0003;+;)
+85 data8(_atanf_r_1_24;) 82
+85 data8(_atanf_r_1_24;0x0001;+;) 83
+85 data8(_atanf_r_1_24;0x0002;+;) F0
+E5 data8(_atanf_r_1_24;0x0003;+;)
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+00
+00
+00
+00
+92
+0A
+06
+3F
+DB
+0F
+C9
+3F
+92
+0A
+86
+3F
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+atan2f
+<OBJ>
+<MODULE>
+atan2f
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?2,data,0008,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0008,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0230,NO
+</SEGMENTS>
+<LOCALS>
+L002002?,R_CSEG,0049,0000
+_atan2f_r_1_24,?lib?dseg?2,0000,0004
+L002014?,R_CSEG,01FD,0000
+L002013?,R_CSEG,01F5,0000
+L002012?,R_CSEG,014F,0000
+L002011?,R_CSEG,0147,0000
+L002025?,R_CSEG,0138,0000
+L002024?,R_CSEG,0111,0000
+L002023?,R_CSEG,00A3,0000
+_atan2f_sloc0_1_0,?lib?dseg?2,0004,0004
+_atan2f_x_1_23,R_PSEG,0004,0004
+L002008?,R_CSEG,0224,0000
+L002007?,R_CSEG,0179,0000
+</LOCALS>
+<PUBLICS>
+_atan2f,R_CSEG,0000,0000
+_atan2f_PARM_2,R_PSEG,0000,0004
+</PUBLICS>
+<EXTERNALS>
+_fabsf,any,0000,0000
+___fslt,any,0000,0000
+___fsadd,any,0000,0000
+_errno,any,0000,0000
+___fsdiv,any,0000,0000
+_atanf,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+78 data8(_atan2f_x_1_23;)
+EA
+F2
+08
+EB
+F2
+08
+EC
+F2
+08
+ED
+F2
+78 data8(_atan2f_x_1_23;)
+E2
+F5 F0
+08
+E2
+42 F0
+08
+E2
+42 F0
+08
+E2
+45 F0
+70 rel2(L002002?;)
+78 data8(_atan2f_PARM_2;)
+E2
+F5 F0
+08
+E2
+42 F0
+08
+E2
+42 F0
+08
+E2
+45 F0
+70 rel2(L002002?;)
+78 data8(_errno;)
+74 21
+F2
+E4
+08
+F2
+90 00 00
+E4
+F5 F0
+22
+78 data8(_atan2f_PARM_2;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(_fabsf;)  
+85 82 data8(_atan2f_sloc0_1_0;)
+85 83 data8(_atan2f_sloc0_1_0;0x0001;+;)
+85 F0 data8(_atan2f_sloc0_1_0;0x0002;+;)
+F5 data8(_atan2f_sloc0_1_0;0x0003;+;)
+78 data8(_atan2f_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(_fabsf;)  
+AC 82
+AD 83
+AA F0
+FB
+C0 04
+C0 05
+C0 02
+C0 03
+85 data8(_atan2f_sloc0_1_0;) 82
+85 data8(_atan2f_sloc0_1_0;0x0001;+;) 83
+85 data8(_atan2f_sloc0_1_0;0x0002;+;) F0
+E5 data8(_atan2f_sloc0_1_0;0x0003;+;)
+12 addr16(___fslt;)  
+AA 82
+E5 81
+24 FC
+F5 81
+EA
+60 rel2(L002023?;)
+02 addr16(L002007?;)  
+78 data8(_atan2f_PARM_2;)
+E2
+C0 E0
+08
+E2
+C0 E0
+08
+E2
+C0 E0
+08
+E2
+C0 E0
+78 data8(_atan2f_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fsdiv;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(_atanf;)  
+85 82 data8(_atan2f_r_1_24;)
+85 83 data8(_atan2f_r_1_24;0x0001;+;)
+85 F0 data8(_atan2f_r_1_24;0x0002;+;)
+F5 data8(_atan2f_r_1_24;0x0003;+;)
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+78 data8(_atan2f_PARM_2;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fslt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+EE
+70 rel2(L002024?;)
+02 addr16(L002008?;)  
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+78 data8(_atan2f_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fslt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+EE
+B4 01 rel3(L002025?;)
+E4
+33
+FE
+60 rel2(L002011?;)
+7E DB
+7F 0F
+7A 49
+7B 40
+80 rel2(L002012?;)
+7E DB
+7F 0F
+7A 49
+7B C0
+C0 06
+C0 07
+C0 02
+C0 03
+85 data8(_atan2f_r_1_24;) 82
+85 data8(_atan2f_r_1_24;0x0001;+;) 83
+85 data8(_atan2f_r_1_24;0x0002;+;) F0
+E5 data8(_atan2f_r_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_atan2f_r_1_24;)
+85 83 data8(_atan2f_r_1_24;0x0001;+;)
+85 F0 data8(_atan2f_r_1_24;0x0002;+;)
+F5 data8(_atan2f_r_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+02 addr16(L002008?;)  
+78 data8(_atan2f_x_1_23;)
+E2
+C0 E0
+08
+E2
+C0 E0
+08
+E2
+C0 E0
+08
+E2
+C0 E0
+78 data8(_atan2f_PARM_2;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fsdiv;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(_atanf;)  
+AA 82
+AB 83
+AC F0
+FD
+8A data8(_atan2f_r_1_24;)
+8B data8(_atan2f_r_1_24;0x0001;+;)
+8C data8(_atan2f_r_1_24;0x0002;+;)
+ED
+B2 E7
+F5 data8(_atan2f_r_1_24;0x0003;+;)
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+78 data8(_atan2f_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fslt;)  
+AA 82
+E5 81
+24 FC
+F5 81
+EA
+60 rel2(L002013?;)
+7A DB
+7B 0F
+7C C9
+7D BF
+80 rel2(L002014?;)
+7A DB
+7B 0F
+7C C9
+7D 3F
+C0 02
+C0 03
+C0 04
+C0 05
+85 data8(_atan2f_r_1_24;) 82
+85 data8(_atan2f_r_1_24;0x0001;+;) 83
+85 data8(_atan2f_r_1_24;0x0002;+;) F0
+E5 data8(_atan2f_r_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_atan2f_r_1_24;)
+85 83 data8(_atan2f_r_1_24;0x0001;+;)
+85 F0 data8(_atan2f_r_1_24;0x0002;+;)
+F5 data8(_atan2f_r_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+85 data8(_atan2f_r_1_24;) 82
+85 data8(_atan2f_r_1_24;0x0001;+;) 83
+85 data8(_atan2f_r_1_24;0x0002;+;) F0
+E5 data8(_atan2f_r_1_24;0x0003;+;)
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+sincoshf
+<OBJ>
+<MODULE>
+sincoshf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0002,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?1,data,0010,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0004,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,03BA,NO
+</SEGMENTS>
+<LOCALS>
+L002005?,R_CSEG,0127,0000
+L002003?,R_CSEG,0064,0000
+L002002?,R_CSEG,0051,0000
+_sincoshf_x_1_23,R_PSEG,0000,0004
+_sincoshf_sign_1_24,R_BSEG,0001,0001
+_sincoshf_w_1_24,?lib?dseg?1,0004,0004
+_sincoshf_z_1_24,?lib?dseg?1,0008,0004
+L002019?,R_CSEG,03AE,0000
+L002018?,R_CSEG,022E,0000
+L002017?,R_CSEG,0090,0000
+L002015?,R_CSEG,0268,0000
+L002011?,R_CSEG,021F,0000
+L002010?,R_CSEG,018E,0000
+L002036?,R_CSEG,0225,0000
+L002033?,R_CSEG,00B9,0000
+L002032?,R_CSEG,0090,0000
+_sincoshf_y_1_24,?lib?dseg?1,0000,0004
+_sincoshf_sloc0_1_0,?lib?dseg?1,000C,0004
+L002008?,R_CSEG,01D4,0000
+</LOCALS>
+<PUBLICS>
+_sincoshf_PARM_2,R_BSEG,0000,0001
+_sincoshf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+___fsgt,any,0000,0000
+___fslt,any,0000,0000
+___fsmul,any,0000,0000
+___fsadd,any,0000,0000
+___fssub,any,0000,0000
+_errno,any,0000,0000
+_expf,any,0000,0000
+___fsdiv,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+78 data8(_sincoshf_x_1_23;)
+EA
+F2
+08
+EB
+F2
+08
+EC
+F2
+08
+ED
+F2
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+78 data8(_sincoshf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fslt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+EE
+60 rel2(L002002?;)
+78 data8(_sincoshf_x_1_23;)
+E2
+F5 data8(_sincoshf_y_1_24;)
+08
+E2
+F5 data8(_sincoshf_y_1_24;0x0001;+;)
+08
+E2
+F5 data8(_sincoshf_y_1_24;0x0002;+;)
+08
+E2
+B2 E7
+F5 data8(_sincoshf_y_1_24;0x0003;+;)
+D2 bit(_sincoshf_sign_1_24;)
+80 rel2(L002003?;)
+78 data8(_sincoshf_x_1_23;)
+E2
+F5 data8(_sincoshf_y_1_24;)
+08
+E2
+F5 data8(_sincoshf_y_1_24;0x0001;+;)
+08
+E2
+F5 data8(_sincoshf_y_1_24;0x0002;+;)
+08
+E2
+F5 data8(_sincoshf_y_1_24;0x0003;+;)
+C2 bit(_sincoshf_sign_1_24;)
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 3F
+C0 E0
+85 data8(_sincoshf_y_1_24;) 82
+85 data8(_sincoshf_y_1_24;0x0001;+;) 83
+85 data8(_sincoshf_y_1_24;0x0002;+;) F0
+E5 data8(_sincoshf_y_1_24;0x0003;+;)
+12 addr16(___fsgt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+EE
+70 rel2(L002017?;)
+20 bit(_sincoshf_PARM_2;) rel3(L002032?;)
+02 addr16(L002018?;)  
+E4
+C0 E0
+C0 E0
+74 10
+C0 E0
+74 41
+C0 E0
+85 data8(_sincoshf_y_1_24;) 82
+85 data8(_sincoshf_y_1_24;0x0001;+;) 83
+85 data8(_sincoshf_y_1_24;0x0002;+;) F0
+E5 data8(_sincoshf_y_1_24;0x0003;+;)
+12 addr16(___fsgt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+EE
+70 rel2(L002033?;)
+02 addr16(L002010?;)  
+E4
+C0 E0
+74 73
+C0 E0
+74 31
+C0 E0
+74 3F
+C0 E0
+85 data8(_sincoshf_y_1_24;) 82
+85 data8(_sincoshf_y_1_24;0x0001;+;) 83
+85 data8(_sincoshf_y_1_24;0x0002;+;) F0
+E5 data8(_sincoshf_y_1_24;0x0003;+;)
+12 addr16(___fssub;)  
+85 82 data8(_sincoshf_w_1_24;)
+85 83 data8(_sincoshf_w_1_24;0x0001;+;)
+85 F0 data8(_sincoshf_w_1_24;0x0002;+;)
+F5 data8(_sincoshf_w_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+74 CF
+C0 E0
+74 BD
+C0 E0
+74 33
+C0 E0
+74 42
+C0 E0
+85 data8(_sincoshf_w_1_24;) 82
+85 data8(_sincoshf_w_1_24;0x0001;+;) 83
+85 data8(_sincoshf_w_1_24;0x0002;+;) F0
+E5 data8(_sincoshf_w_1_24;0x0003;+;)
+12 addr16(___fsgt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+EE
+60 rel2(L002005?;)
+78 data8(_errno;)
+74 22
+F2
+E4
+08
+F2
+75 data8(_sincoshf_z_1_24;) FF
+75 data8(_sincoshf_z_1_24;0x0001;+;) FF
+75 data8(_sincoshf_z_1_24;0x0002;+;) 7F
+75 data8(_sincoshf_z_1_24;0x0003;+;) 7F
+02 addr16(L002011?;)  
+85 data8(_sincoshf_w_1_24;) 82
+85 data8(_sincoshf_w_1_24;0x0001;+;) 83
+85 data8(_sincoshf_w_1_24;0x0002;+;) F0
+E5 data8(_sincoshf_w_1_24;0x0003;+;)
+12 addr16(_expf;)  
+85 82 data8(_sincoshf_z_1_24;)
+85 83 data8(_sincoshf_z_1_24;0x0001;+;)
+85 F0 data8(_sincoshf_z_1_24;0x0002;+;)
+F5 data8(_sincoshf_z_1_24;0x0003;+;)
+C0 data8(_sincoshf_z_1_24;)
+C0 data8(_sincoshf_z_1_24;0x0001;+;)
+C0 data8(_sincoshf_z_1_24;0x0002;+;)
+C0 data8(_sincoshf_z_1_24;0x0003;+;)
+90 08 97
+75 F0 68
+74 37
+12 addr16(___fsmul;)  
+85 82 data8(_sincoshf_sloc0_1_0;)
+85 83 data8(_sincoshf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_sincoshf_sloc0_1_0;0x0002;+;)
+F5 data8(_sincoshf_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_sincoshf_sloc0_1_0;)
+C0 data8(_sincoshf_sloc0_1_0;0x0001;+;)
+C0 data8(_sincoshf_sloc0_1_0;0x0002;+;)
+C0 data8(_sincoshf_sloc0_1_0;0x0003;+;)
+85 data8(_sincoshf_z_1_24;) 82
+85 data8(_sincoshf_z_1_24;0x0001;+;) 83
+85 data8(_sincoshf_z_1_24;0x0002;+;) F0
+E5 data8(_sincoshf_z_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_sincoshf_z_1_24;)
+85 83 data8(_sincoshf_z_1_24;0x0001;+;)
+85 F0 data8(_sincoshf_z_1_24;0x0002;+;)
+F5 data8(_sincoshf_z_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+02 addr16(L002011?;)  
+85 data8(_sincoshf_y_1_24;) 82
+85 data8(_sincoshf_y_1_24;0x0001;+;) 83
+85 data8(_sincoshf_y_1_24;0x0002;+;) F0
+E5 data8(_sincoshf_y_1_24;0x0003;+;)
+12 addr16(_expf;)  
+85 82 data8(_sincoshf_z_1_24;)
+85 83 data8(_sincoshf_z_1_24;0x0001;+;)
+85 F0 data8(_sincoshf_z_1_24;0x0002;+;)
+F5 data8(_sincoshf_z_1_24;0x0003;+;)
+C0 data8(_sincoshf_z_1_24;)
+C0 data8(_sincoshf_z_1_24;0x0001;+;)
+C0 data8(_sincoshf_z_1_24;0x0002;+;)
+C0 data8(_sincoshf_z_1_24;0x0003;+;)
+90 00 00
+75 F0 80
+74 3F
+12 addr16(___fsdiv;)  
+85 82 data8(_sincoshf_w_1_24;)
+85 83 data8(_sincoshf_w_1_24;0x0001;+;)
+85 F0 data8(_sincoshf_w_1_24;0x0002;+;)
+F5 data8(_sincoshf_w_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+20 bit(_sincoshf_PARM_2;) rel3(L002008?;)
+E5 data8(_sincoshf_w_1_24;0x0003;+;)
+B2 E7
+F5 data8(_sincoshf_w_1_24;0x0003;+;)
+C0 data8(_sincoshf_w_1_24;)
+C0 data8(_sincoshf_w_1_24;0x0001;+;)
+C0 data8(_sincoshf_w_1_24;0x0002;+;)
+C0 data8(_sincoshf_w_1_24;0x0003;+;)
+85 data8(_sincoshf_z_1_24;) 82
+85 data8(_sincoshf_z_1_24;0x0001;+;) 83
+85 data8(_sincoshf_z_1_24;0x0002;+;) F0
+E5 data8(_sincoshf_z_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_sincoshf_sloc0_1_0;)
+85 83 data8(_sincoshf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_sincoshf_sloc0_1_0;0x0002;+;)
+F5 data8(_sincoshf_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_sincoshf_sloc0_1_0;)
+C0 data8(_sincoshf_sloc0_1_0;0x0001;+;)
+C0 data8(_sincoshf_sloc0_1_0;0x0002;+;)
+C0 data8(_sincoshf_sloc0_1_0;0x0003;+;)
+90 00 00
+E4
+F5 F0
+74 3F
+12 addr16(___fsmul;)  
+85 82 data8(_sincoshf_z_1_24;)
+85 83 data8(_sincoshf_z_1_24;0x0001;+;)
+85 F0 data8(_sincoshf_z_1_24;0x0002;+;)
+F5 data8(_sincoshf_z_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+20 bit(_sincoshf_sign_1_24;) rel3(L002036?;)
+02 addr16(L002019?;)  
+E5 data8(_sincoshf_z_1_24;0x0003;+;)
+B2 E7
+F5 data8(_sincoshf_z_1_24;0x0003;+;)
+02 addr16(L002019?;)  
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 39
+C0 E0
+85 data8(_sincoshf_y_1_24;) 82
+85 data8(_sincoshf_y_1_24;0x0001;+;) 83
+85 data8(_sincoshf_y_1_24;0x0002;+;) F0
+E5 data8(_sincoshf_y_1_24;0x0003;+;)
+12 addr16(___fslt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+EE
+60 rel2(L002015?;)
+78 data8(_sincoshf_x_1_23;)
+E2
+F5 data8(_sincoshf_z_1_24;)
+08
+E2
+F5 data8(_sincoshf_z_1_24;0x0001;+;)
+08
+E2
+F5 data8(_sincoshf_z_1_24;0x0002;+;)
+08
+E2
+F5 data8(_sincoshf_z_1_24;0x0003;+;)
+02 addr16(L002019?;)  
+78 data8(_sincoshf_x_1_23;)
+E2
+C0 E0
+08
+E2
+C0 E0
+08
+E2
+C0 E0
+08
+E2
+C0 E0
+78 data8(_sincoshf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fsmul;)  
+85 82 data8(_sincoshf_z_1_24;)
+85 83 data8(_sincoshf_z_1_24;0x0001;+;)
+85 F0 data8(_sincoshf_z_1_24;0x0002;+;)
+F5 data8(_sincoshf_z_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_sincoshf_z_1_24;)
+C0 data8(_sincoshf_z_1_24;0x0001;+;)
+C0 data8(_sincoshf_z_1_24;0x0002;+;)
+C0 data8(_sincoshf_z_1_24;0x0003;+;)
+78 data8(_sincoshf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fsmul;)  
+85 82 data8(_sincoshf_sloc0_1_0;)
+85 83 data8(_sincoshf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_sincoshf_sloc0_1_0;0x0002;+;)
+F5 data8(_sincoshf_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_sincoshf_z_1_24;)
+C0 data8(_sincoshf_z_1_24;0x0001;+;)
+C0 data8(_sincoshf_z_1_24;0x0002;+;)
+C0 data8(_sincoshf_z_1_24;0x0003;+;)
+90 E6 EA
+75 F0 42
+74 BE
+12 addr16(___fsmul;)  
+AC 82
+AD 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+74 F0
+C0 E0
+74 69
+C0 E0
+74 E4
+C0 E0
+74 C0
+C0 E0
+8C 82
+8D 83
+8A F0
+EB
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+85 data8(_sincoshf_sloc0_1_0;) 82
+85 data8(_sincoshf_sloc0_1_0;0x0001;+;) 83
+85 data8(_sincoshf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_sincoshf_sloc0_1_0;0x0003;+;)
+12 addr16(___fsmul;)  
+85 82 data8(_sincoshf_sloc0_1_0;)
+85 83 data8(_sincoshf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_sincoshf_sloc0_1_0;0x0002;+;)
+F5 data8(_sincoshf_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+74 93
+C0 E0
+74 4F
+C0 E0
+74 2B
+C0 E0
+74 C2
+C0 E0
+85 data8(_sincoshf_z_1_24;) 82
+85 data8(_sincoshf_z_1_24;0x0001;+;) 83
+85 data8(_sincoshf_z_1_24;0x0002;+;) F0
+E5 data8(_sincoshf_z_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 06
+C0 07
+C0 02
+C0 03
+85 data8(_sincoshf_sloc0_1_0;) 82
+85 data8(_sincoshf_sloc0_1_0;0x0001;+;) 83
+85 data8(_sincoshf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_sincoshf_sloc0_1_0;0x0003;+;)
+12 addr16(___fsdiv;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+78 data8(_sincoshf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fsadd;)  
+85 82 data8(_sincoshf_z_1_24;)
+85 83 data8(_sincoshf_z_1_24;0x0001;+;)
+85 F0 data8(_sincoshf_z_1_24;0x0002;+;)
+F5 data8(_sincoshf_z_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+85 data8(_sincoshf_z_1_24;) 82
+85 data8(_sincoshf_z_1_24;0x0001;+;) 83
+85 data8(_sincoshf_z_1_24;0x0002;+;) F0
+E5 data8(_sincoshf_z_1_24;0x0003;+;)
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+sinhf
+<OBJ>
+<MODULE>
+sinhf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0013,NO
+</SEGMENTS>
+<LOCALS>
+</LOCALS>
+<PUBLICS>
+_sinhf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+_sincoshf_PARM_2,any,0000,0000
+_sincoshf,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+C2 bit(_sincoshf_PARM_2;)
+8A 82
+8B 83
+8C F0
+ED
+02 addr16(_sincoshf;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+coshf
+<OBJ>
+<MODULE>
+coshf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0013,NO
+</SEGMENTS>
+<LOCALS>
+</LOCALS>
+<PUBLICS>
+_coshf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+_sincoshf_PARM_2,any,0000,0000
+_sincoshf,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+D2 bit(_sincoshf_PARM_2;)
+8A 82
+8B 83
+8C F0
+ED
+02 addr16(_sincoshf;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+tanhf
+<OBJ>
+<MODULE>
+tanhf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?2,data,0010,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0004,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,02F1,NO
+</SEGMENTS>
+<LOCALS>
+L002005?,R_CSEG,015B,0000
+L002002?,R_CSEG,0190,0000
+_tanhf_f_1_24,?lib?dseg?2,0000,0004
+_tanhf_x_1_23,R_PSEG,0000,0004
+_tanhf_sloc0_1_0,?lib?dseg?2,000C,0004
+L002019?,R_CSEG,0095,0000
+L002011?,R_CSEG,02E5,0000
+_tanhf_r_1_24,?lib?dseg?2,0008,0004
+_tanhf_g_1_24,?lib?dseg?2,0004,0004
+L002009?,R_CSEG,02B9,0000
+L002008?,R_CSEG,0069,0000
+</LOCALS>
+<PUBLICS>
+_tanhf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+_fabsf,any,0000,0000
+___fsgt,any,0000,0000
+___fslt,any,0000,0000
+___fsmul,any,0000,0000
+___fsadd,any,0000,0000
+___fssub,any,0000,0000
+_expf,any,0000,0000
+___fsdiv,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+78 data8(_tanhf_x_1_23;)
+EA
+F2
+08
+EB
+F2
+08
+EC
+F2
+08
+ED
+F2
+78 data8(_tanhf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(_fabsf;)  
+85 82 data8(_tanhf_f_1_24;)
+85 83 data8(_tanhf_f_1_24;0x0001;+;)
+85 F0 data8(_tanhf_f_1_24;0x0002;+;)
+F5 data8(_tanhf_f_1_24;0x0003;+;)
+74 B0
+C0 E0
+74 2C
+C0 E0
+74 10
+C0 E0
+74 41
+C0 E0
+85 data8(_tanhf_f_1_24;) 82
+85 data8(_tanhf_f_1_24;0x0001;+;) 83
+85 data8(_tanhf_f_1_24;0x0002;+;) F0
+E5 data8(_tanhf_f_1_24;0x0003;+;)
+12 addr16(___fsgt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+EE
+60 rel2(L002008?;)
+75 data8(_tanhf_r_1_24;) 00
+75 data8(_tanhf_r_1_24;0x0001;+;) 00
+75 data8(_tanhf_r_1_24;0x0002;+;) 80
+75 data8(_tanhf_r_1_24;0x0003;+;) 3F
+02 addr16(L002009?;)  
+74 54
+C0 E0
+74 9F
+C0 E0
+74 0C
+C0 E0
+74 3F
+C0 E0
+85 data8(_tanhf_f_1_24;) 82
+85 data8(_tanhf_f_1_24;0x0001;+;) 83
+85 data8(_tanhf_f_1_24;0x0002;+;) F0
+E5 data8(_tanhf_f_1_24;0x0003;+;)
+12 addr16(___fsgt;)  
+AA 82
+E5 81
+24 FC
+F5 81
+EA
+70 rel2(L002019?;)
+02 addr16(L002005?;)  
+C0 data8(_tanhf_f_1_24;)
+C0 data8(_tanhf_f_1_24;0x0001;+;)
+C0 data8(_tanhf_f_1_24;0x0002;+;)
+C0 data8(_tanhf_f_1_24;0x0003;+;)
+85 data8(_tanhf_f_1_24;) 82
+85 data8(_tanhf_f_1_24;0x0001;+;) 83
+85 data8(_tanhf_f_1_24;0x0002;+;) F0
+E5 data8(_tanhf_f_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(_expf;)  
+AA 82
+AB 83
+AC F0
+FD
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 3F
+C0 E0
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+90 00 00
+75 F0 80
+74 3F
+12 addr16(___fsdiv;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+90 00 00
+E4
+F5 F0
+74 3F
+12 addr16(___fssub;)  
+85 82 data8(_tanhf_r_1_24;)
+85 83 data8(_tanhf_r_1_24;0x0001;+;)
+85 F0 data8(_tanhf_r_1_24;0x0002;+;)
+F5 data8(_tanhf_r_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_tanhf_r_1_24;)
+C0 data8(_tanhf_r_1_24;0x0001;+;)
+C0 data8(_tanhf_r_1_24;0x0002;+;)
+C0 data8(_tanhf_r_1_24;0x0003;+;)
+85 data8(_tanhf_r_1_24;) 82
+85 data8(_tanhf_r_1_24;0x0001;+;) 83
+85 data8(_tanhf_r_1_24;0x0002;+;) F0
+E5 data8(_tanhf_r_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_tanhf_r_1_24;)
+85 83 data8(_tanhf_r_1_24;0x0001;+;)
+85 F0 data8(_tanhf_r_1_24;0x0002;+;)
+F5 data8(_tanhf_r_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+02 addr16(L002009?;)  
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 39
+C0 E0
+85 data8(_tanhf_f_1_24;) 82
+85 data8(_tanhf_f_1_24;0x0001;+;) 83
+85 data8(_tanhf_f_1_24;0x0002;+;) F0
+E5 data8(_tanhf_f_1_24;0x0003;+;)
+12 addr16(___fslt;)  
+AA 82
+E5 81
+24 FC
+F5 81
+EA
+60 rel2(L002002?;)
+85 data8(_tanhf_f_1_24;) data8(_tanhf_r_1_24;)
+85 data8(_tanhf_f_1_24;0x0001;+;) data8(_tanhf_r_1_24;0x0001;+;)
+85 data8(_tanhf_f_1_24;0x0002;+;) data8(_tanhf_r_1_24;0x0002;+;)
+85 data8(_tanhf_f_1_24;0x0003;+;) data8(_tanhf_r_1_24;0x0003;+;)
+02 addr16(L002009?;)  
+C0 data8(_tanhf_f_1_24;)
+C0 data8(_tanhf_f_1_24;0x0001;+;)
+C0 data8(_tanhf_f_1_24;0x0002;+;)
+C0 data8(_tanhf_f_1_24;0x0003;+;)
+85 data8(_tanhf_f_1_24;) 82
+85 data8(_tanhf_f_1_24;0x0001;+;) 83
+85 data8(_tanhf_f_1_24;0x0002;+;) F0
+E5 data8(_tanhf_f_1_24;0x0003;+;)
+12 addr16(___fsmul;)  
+85 82 data8(_tanhf_g_1_24;)
+85 83 data8(_tanhf_g_1_24;0x0001;+;)
+85 F0 data8(_tanhf_g_1_24;0x0002;+;)
+F5 data8(_tanhf_g_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+C0 data8(_tanhf_g_1_24;)
+C0 data8(_tanhf_g_1_24;0x0001;+;)
+C0 data8(_tanhf_g_1_24;0x0002;+;)
+C0 data8(_tanhf_g_1_24;0x0003;+;)
+90 11 B2
+75 F0 7B
+74 BB
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+74 C6
+C0 E0
+74 E2
+C0 E0
+74 52
+C0 E0
+74 BF
+C0 E0
+8E 82
+8F 83
+8A F0
+EB
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 data8(_tanhf_g_1_24;)
+C0 data8(_tanhf_g_1_24;0x0001;+;)
+C0 data8(_tanhf_g_1_24;0x0002;+;)
+C0 data8(_tanhf_g_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+ED
+12 addr16(___fsmul;)  
+85 82 data8(_tanhf_sloc0_1_0;)
+85 83 data8(_tanhf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_tanhf_sloc0_1_0;0x0002;+;)
+F5 data8(_tanhf_sloc0_1_0;0x0003;+;)
+E5 81
+24 FC
+F5 81
+74 1A
+C0 E0
+74 2A
+C0 E0
+74 1E
+C0 E0
+74 40
+C0 E0
+85 data8(_tanhf_g_1_24;) 82
+85 data8(_tanhf_g_1_24;0x0001;+;) 83
+85 data8(_tanhf_g_1_24;0x0002;+;) F0
+E5 data8(_tanhf_g_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 06
+C0 07
+C0 02
+C0 03
+85 data8(_tanhf_sloc0_1_0;) 82
+85 data8(_tanhf_sloc0_1_0;0x0001;+;) 83
+85 data8(_tanhf_sloc0_1_0;0x0002;+;) F0
+E5 data8(_tanhf_sloc0_1_0;0x0003;+;)
+12 addr16(___fsdiv;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+85 data8(_tanhf_f_1_24;) 82
+85 data8(_tanhf_f_1_24;0x0001;+;) 83
+85 data8(_tanhf_f_1_24;0x0002;+;) F0
+E5 data8(_tanhf_f_1_24;0x0003;+;)
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+C0 02
+C0 03
+C0 04
+C0 05
+85 data8(_tanhf_f_1_24;) 82
+85 data8(_tanhf_f_1_24;0x0001;+;) 83
+85 data8(_tanhf_f_1_24;0x0002;+;) F0
+E5 data8(_tanhf_f_1_24;0x0003;+;)
+12 addr16(___fsadd;)  
+85 82 data8(_tanhf_r_1_24;)
+85 83 data8(_tanhf_r_1_24;0x0001;+;)
+85 F0 data8(_tanhf_r_1_24;0x0002;+;)
+F5 data8(_tanhf_r_1_24;0x0003;+;)
+E5 81
+24 FC
+F5 81
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+78 data8(_tanhf_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fslt;)  
+AA 82
+E5 81
+24 FC
+F5 81
+EA
+60 rel2(L002011?;)
+E5 data8(_tanhf_r_1_24;0x0003;+;)
+B2 E7
+F5 data8(_tanhf_r_1_24;0x0003;+;)
+85 data8(_tanhf_r_1_24;) 82
+85 data8(_tanhf_r_1_24;0x0001;+;) 83
+85 data8(_tanhf_r_1_24;0x0002;+;) F0
+E5 data8(_tanhf_r_1_24;0x0003;+;)
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+floorf
+<OBJ>
+<MODULE>
+floorf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?1,data,0004,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,008F,NO
+</SEGMENTS>
+<LOCALS>
+L002006?,R_CSEG,0062,0000
+L002002?,R_CSEG,0081,0000
+_floorf_r_1_24,?lib?dseg?1,0000,0004
+</LOCALS>
+<PUBLICS>
+_floorf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+___fsgt,any,0000,0000
+___fs2slong,any,0000,0000
+___slong2fs,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+C0 02
+C0 03
+C0 04
+C0 05
+12 addr16(___fs2slong;)  
+85 82 data8(_floorf_r_1_24;)
+85 83 data8(_floorf_r_1_24;0x0001;+;)
+85 F0 data8(_floorf_r_1_24;0x0002;+;)
+F5 data8(_floorf_r_1_24;0x0003;+;)
+D0 05
+D0 04
+D0 03
+D0 02
+C3
+E4
+95 data8(_floorf_r_1_24;)
+E4
+95 data8(_floorf_r_1_24;0x0001;+;)
+E4
+95 data8(_floorf_r_1_24;0x0002;+;)
+E4
+64 80
+85 data8(_floorf_r_1_24;0x0003;+;) F0
+63 F0 80
+95 F0
+40 rel2(L002002?;)
+85 data8(_floorf_r_1_24;) 82
+85 data8(_floorf_r_1_24;0x0001;+;) 83
+85 data8(_floorf_r_1_24;0x0002;+;) F0
+E5 data8(_floorf_r_1_24;0x0003;+;)
+C0 02
+C0 03
+C0 04
+C0 05
+12 addr16(___slong2fs;)  
+12 addr16(___fsgt;)  
+AA 82
+E5 81
+24 FC
+F5 81
+EA
+60 rel2(L002006?;)
+74 FF
+FA
+33
+95 E0
+FB
+FC
+FD
+EA
+25 data8(_floorf_r_1_24;)
+FA
+EB
+35 data8(_floorf_r_1_24;0x0001;+;)
+FB
+EC
+35 data8(_floorf_r_1_24;0x0002;+;)
+FC
+ED
+35 data8(_floorf_r_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+02 addr16(___slong2fs;)  
+85 data8(_floorf_r_1_24;) 82
+85 data8(_floorf_r_1_24;0x0001;+;) 83
+85 data8(_floorf_r_1_24;0x0002;+;) F0
+E5 data8(_floorf_r_1_24;0x0003;+;)
+02 addr16(___slong2fs;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+ceilf
+<OBJ>
+<MODULE>
+ceilf
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?1,data,0008,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,008A,NO
+</SEGMENTS>
+<LOCALS>
+L002006?,R_CSEG,006A,0000
+_ceilf_r_1_24,?lib?dseg?1,0000,0004
+L002002?,R_CSEG,0044,0000
+_ceilf_sloc0_1_0,?lib?dseg?1,0004,0004
+</LOCALS>
+<PUBLICS>
+_ceilf,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+___fslt,any,0000,0000
+___fs2slong,any,0000,0000
+___slong2fs,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+C0 02
+C0 03
+C0 04
+C0 05
+12 addr16(___fs2slong;)  
+85 82 data8(_ceilf_r_1_24;)
+85 83 data8(_ceilf_r_1_24;0x0001;+;)
+85 F0 data8(_ceilf_r_1_24;0x0002;+;)
+F5 data8(_ceilf_r_1_24;0x0003;+;)
+D0 05
+D0 04
+D0 03
+D0 02
+E5 data8(_ceilf_r_1_24;0x0003;+;)
+30 E7 rel3(L002002?;)
+85 data8(_ceilf_r_1_24;) 82
+85 data8(_ceilf_r_1_24;0x0001;+;) 83
+85 data8(_ceilf_r_1_24;0x0002;+;) F0
+E5 data8(_ceilf_r_1_24;0x0003;+;)
+12 addr16(___slong2fs;)  
+85 82 data8(_ceilf_sloc0_1_0;)
+85 83 data8(_ceilf_sloc0_1_0;0x0001;+;)
+85 F0 data8(_ceilf_sloc0_1_0;0x0002;+;)
+F5 data8(_ceilf_sloc0_1_0;0x0003;+;)
+22
+85 data8(_ceilf_r_1_24;) 82
+85 data8(_ceilf_r_1_24;0x0001;+;) 83
+85 data8(_ceilf_r_1_24;0x0002;+;) F0
+E5 data8(_ceilf_r_1_24;0x0003;+;)
+C0 02
+C0 03
+C0 04
+C0 05
+12 addr16(___slong2fs;)  
+12 addr16(___fslt;)  
+AA 82
+E5 81
+24 FC
+F5 81
+EA
+60 rel2(L002006?;)
+74 01
+FA
+E4
+FB
+33
+95 E0
+FC
+FD
+EA
+25 data8(_ceilf_r_1_24;)
+FA
+EB
+35 data8(_ceilf_r_1_24;0x0001;+;)
+FB
+EC
+35 data8(_ceilf_r_1_24;0x0002;+;)
+FC
+ED
+35 data8(_ceilf_r_1_24;0x0003;+;)
+8A 82
+8B 83
+8C F0
+02 addr16(___slong2fs;)  
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+modff
+<OBJ>
+<MODULE>
+modff
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?1,data,0003,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0007,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0088,NO
+</SEGMENTS>
+<LOCALS>
+_modff_sloc0_1_0,?lib?dseg?1,0000,0003
+_modff_x_1_23,R_PSEG,0003,0004
+</LOCALS>
+<PUBLICS>
+_modff_PARM_2,R_PSEG,0000,0003
+_modff,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+___fs2slong,any,0000,0000
+___slong2fs,any,0000,0000
+__gptrput,any,0000,0000
+___fssub,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+78 data8(_modff_x_1_23;)
+EA
+F2
+08
+EB
+F2
+08
+EC
+F2
+08
+ED
+F2
+78 data8(_modff_PARM_2;)
+E2
+F5 data8(_modff_sloc0_1_0;)
+08
+E2
+F5 data8(_modff_sloc0_1_0;0x0001;+;)
+08
+E2
+F5 data8(_modff_sloc0_1_0;0x0002;+;)
+78 data8(_modff_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fs2slong;)  
+12 addr16(___slong2fs;)  
+AA 82
+AB 83
+AC F0
+FD
+85 data8(_modff_sloc0_1_0;) 82
+85 data8(_modff_sloc0_1_0;0x0001;+;) 83
+85 data8(_modff_sloc0_1_0;0x0002;+;) F0
+EA
+12 addr16(__gptrput;)  
+A3
+EB
+12 addr16(__gptrput;)  
+A3
+EC
+12 addr16(__gptrput;)  
+A3
+ED
+12 addr16(__gptrput;)  
+C0 02
+C0 03
+C0 04
+C0 05
+78 data8(_modff_x_1_23;)
+E2
+F5 82
+08
+E2
+F5 83
+08
+E2
+F5 F0
+08
+E2
+12 addr16(___fssub;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+8A 82
+8B 83
+8C F0
+ED
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+errno
+<OBJ>
+<MODULE>
+errno
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0002,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0000,NO
+</SEGMENTS>
+<LOCALS>
+</LOCALS>
+<PUBLICS>
+_errno,R_PSEG,0000,0002
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fsget1arg
+<OBJ>
+<MODULE>
+fsget1arg
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0012,NO
+</SEGMENTS>
+<LOCALS>
+_dummy,R_CSEG,0000,0000
+L00001?,R_CSEG,000D,0000
+</LOCALS>
+<PUBLICS>
+fsgetarg,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+A2 F7
+33
+92 D1
+60 rel2(L00001?;)
+D2 F7
+F5 82
+AC F0
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fsget2args
+<OBJ>
+<MODULE>
+fsget2args
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,002E,NO
+</SEGMENTS>
+<LOCALS>
+_dummy,R_CSEG,0000,0000
+L00001?,R_CSEG,000D,0000
+L00002?,R_CSEG,0029,0000
+</LOCALS>
+<PUBLICS>
+fsgetargs,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+A2 F7
+33
+92 D1
+60 rel2(L00001?;)
+D2 F7
+F5 82
+AC F0
+E5 81
+24 F9
+F8
+E6
+FD
+08
+E6
+FE
+08
+86 F0
+08
+E6
+A2 F7
+33
+92 D5
+60 rel2(L00002?;)
+D2 F7
+F5 83
+AF F0
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fsnormalize
+<OBJ>
+<MODULE>
+fsnormalize
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0033,NO
+</SEGMENTS>
+<LOCALS>
+_dummy,R_CSEG,0000,0000
+L00001?,R_CSEG,0003,0000
+L00002?,R_CSEG,0015,0000
+L00003?,R_CSEG,0016,0000
+L00004?,R_CSEG,001A,0000
+L00005?,R_CSEG,0021,0000
+L00006?,R_CSEG,0030,0000
+</LOCALS>
+<PUBLICS>
+fs_normalize_a,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+78 04
+EC
+70 rel2(L00003?;)
+E5 82
+24 F8
+50 rel2(L00002?;)
+F5 82
+E4
+C9
+CA
+CB
+FC
+D8 rel2(L00001?;)
+22
+EC
+78 20
+05 82
+20 E7 rel3(L00006?;)
+D5 82 rel3(L00005?;)
+22
+C3
+E9
+33
+F9
+EA
+33
+FA
+EB
+33
+FB
+EC
+33
+FC
+D8 rel2(L00004?;)
+15 82
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fsreturnval
+<OBJ>
+<MODULE>
+fsreturnval
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,004F,NO
+</SEGMENTS>
+<LOCALS>
+_dummy,R_CSEG,0000,0000
+L00001?,R_CSEG,0006,0000
+</LOCALS>
+<PUBLICS>
+fs_return_inf,R_CSEG,0037,0000
+fs_round_and_return,R_CSEG,0000,0000
+fs_direct_return,R_CSEG,0029,0000
+fs_return_nan,R_CSEG,0044,0000
+fs_return_zero,R_CSEG,0021,0000
+fs_zerocheck_return,R_CSEG,0018,0000
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+B9 80 rel3(L00001?;)
+EA
+13
+B3
+40 rel2(fs_zerocheck_return;)
+EA
+24 01
+FA
+E4
+3B
+FB
+E4
+3C
+FC
+50 rel2(fs_zerocheck_return;)
+7C 80
+05 82
+BC 00 rel3(fs_direct_return;)
+BB 00 rel3(fs_direct_return;)
+BA 00 rel3(fs_direct_return;)
+E4
+F5 F0
+F5 83
+F5 82
+22
+A2 D1
+E5 82
+13
+8C F0
+92 F7
+8B 83
+8A 82
+22
+E4
+F5 83
+F5 82
+75 F0 80
+F4
+A2 D1
+13
+22
+E4
+F5 83
+F5 82
+75 F0 C0
+74 7F
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fsrshift
+<OBJ>
+<MODULE>
+fsrshift
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0043,NO
+</SEGMENTS>
+<LOCALS>
+L00020?,R_CSEG,0042,0000
+_dummy,R_CSEG,0000,0000
+L00001?,R_CSEG,0009,0000
+L00003?,R_CSEG,002E,0000
+L00005?,R_CSEG,0033,0000
+</LOCALS>
+<PUBLICS>
+fs_rshift_a,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+60 rel2(L00020?;)
+F8
+25 82
+50 rel2(L00001?;)
+74 FF
+F5 82
+E8
+24 F8
+50 rel2(L00003?;)
+CC
+CB
+CA
+F9
+E4
+CC
+24 F8
+50 rel2(L00003?;)
+CB
+CA
+F9
+E4
+CB
+24 F8
+50 rel2(L00003?;)
+CA
+F9
+E4
+CA
+24 F8
+50 rel2(L00003?;)
+79 00
+22
+24 08
+60 rel2(L00020?;)
+F8
+C3
+EC
+13
+FC
+EB
+13
+FB
+EA
+13
+FA
+E9
+13
+F9
+D8 rel2(L00005?;)
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+fsswapargs
+<OBJ>
+<MODULE>
+fsswapargs
+</MODULE>
+<OPTC51>
+--model-medium
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,001A,NO
+</SEGMENTS>
+<LOCALS>
+_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+fs_swap_a_b,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+E5 82
+C5 83
+F5 82
+A2 D1
+33
+A2 D5
+92 D1
+13
+92 D5
+EC
+CF
+FC
+EB
+CE
+FB
+EA
+CD
+FA
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+</FILES>
+
+</CALL51LIB>

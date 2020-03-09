@@ -1,0 +1,805 @@
+<CALL51LIB>
+
+<INDEX>
+       543
+<MODULE>
+divsint 11
+__divsint,R_CSEG,0000,0000
+__divsint_PARM_2,R_XSEG,0000,0002
+</MODULE>
+
+<MODULE>
+divuint 1753
+__divuint_PARM_2,R_XSEG,0000,0002
+__divuint,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+modsint 3833
+__modsint_PARM_2,R_XSEG,0000,0002
+__modsint,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+moduint 5544
+__moduint_PARM_2,R_XSEG,0000,0002
+__moduint,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+mulint 7728
+__mulint,R_CSEG,0000,0000
+__mulint_PARM_2,R_XSEG,0000,0002
+</MODULE>
+
+</INDEX>
+
+<FILES>
+
+<FILE>
+divsint
+<OBJ>
+<MODULE>
+divsint
+</MODULE>
+<OPTC51>
+--model-large
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0004,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0075,NO
+</SEGMENTS>
+<LOCALS>
+L002006?,R_CSEG,0022,0000
+L002002?,R_CSEG,0070,0000
+__divsint_x_1_1,R_XSEG,0002,0002
+L002009?,R_CSEG,0045,0000
+L002008?,R_CSEG,0041,0000
+L002007?,R_CSEG,0026,0000
+</LOCALS>
+<PUBLICS>
+__divsint,R_CSEG,0000,0000
+__divsint_PARM_2,R_XSEG,0000,0002
+</PUBLICS>
+<EXTERNALS>
+__divuint_PARM_2,any,0000,0000
+__divuint,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 83
+E5 82
+90 data16(__divsint_x_1_1;)  
+F0
+A3
+EA
+F0
+90 data16(__divsint_x_1_1;)  
+E0
+FA
+A3
+E0
+FB
+33
+E4
+33
+FC
+60 rel2(L002006?;)
+C3
+E4
+9A
+FD
+E4
+9B
+FE
+80 rel2(L002007?;)
+8A 05
+8B 06
+8D 02
+8E 03
+90 data16(__divsint_PARM_2;)  
+E0
+FD
+A3
+E0
+FE
+33
+E4
+33
+FF
+60 rel2(L002008?;)
+C3
+E4
+9D
+F8
+E4
+9E
+F9
+80 rel2(L002009?;)
+8D 00
+8E 01
+90 data16(__divuint_PARM_2;)  
+E8
+F0
+A3
+E9
+F0
+8A 82
+8B 83
+C0 04
+C0 07
+12 addr16(__divuint;)  
+AA 82
+AB 83
+D0 07
+D0 04
+EF
+6C
+60 rel2(L002002?;)
+C3
+E4
+9A
+FC
+E4
+9B
+FD
+8C 82
+8D 83
+22
+8A 82
+8B 83
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+divuint
+<OBJ>
+<MODULE>
+divuint
+</MODULE>
+<OPTC51>
+--model-large
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0001,NO
+R_XSEG,xdata,0006,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,009A,NO
+</SEGMENTS>
+<LOCALS>
+L002006?,R_CSEG,008C,0000
+L002005?,R_CSEG,001C,0000
+__divuint_x_1_1,R_XSEG,0002,0002
+L002002?,R_CSEG,0060,0000
+__divuint_reste_1_2,R_XSEG,0004,0002
+__divuint_c_1_2,R_BSEG,0000,0001
+</LOCALS>
+<PUBLICS>
+__divuint_PARM_2,R_XSEG,0000,0002
+__divuint,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 83
+E5 82
+90 data16(__divuint_x_1_1;)  
+F0
+A3
+EA
+F0
+90 data16(__divuint_reste_1_2;)  
+E4
+F0
+A3
+F0
+90 data16(__divuint_PARM_2;)  
+E0
+FA
+A3
+E0
+FB
+7C 10
+90 data16(__divuint_x_1_1;)  
+E0
+FD
+A3
+E0
+FE
+33
+92 data8(__divuint_c_1_2;)
+EE
+CD
+25 E0
+CD
+33
+FE
+90 data16(__divuint_x_1_1;)  
+ED
+F0
+A3
+EE
+F0
+90 data16(__divuint_reste_1_2;)  
+E0
+FD
+A3
+E0
+CD
+25 E0
+CD
+33
+FE
+90 data16(__divuint_reste_1_2;)  
+ED
+F0
+A3
+EE
+F0
+30 bit(__divuint_c_1_2;) rel3(L002002?;)
+90 data16(__divuint_reste_1_2;)  
+E0
+FD
+A3
+E0
+FE
+90 data16(__divuint_reste_1_2;)  
+74 01
+4D
+F0
+A3
+EE
+F0
+90 data16(__divuint_reste_1_2;)  
+E0
+FD
+A3
+E0
+FE
+C3
+ED
+9A
+EE
+9B
+40 rel2(L002006?;)
+90 data16(__divuint_reste_1_2;)  
+ED
+C3
+9A
+F0
+EE
+9B
+A3
+F0
+90 data16(__divuint_x_1_1;)  
+E0
+FD
+A3
+E0
+FE
+90 data16(__divuint_x_1_1;)  
+74 01
+4D
+F0
+A3
+EE
+F0
+DC rel2(L002005?;)
+90 data16(__divuint_x_1_1;)  
+E0
+FA
+A3
+E0
+8A 82
+F5 83
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+modsint
+<OBJ>
+<MODULE>
+modsint
+</MODULE>
+<OPTC51>
+--model-large
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0004,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,006D,NO
+</SEGMENTS>
+<LOCALS>
+L002006?,R_CSEG,0022,0000
+L002002?,R_CSEG,0068,0000
+__modsint_a_1_1,R_XSEG,0002,0002
+L002009?,R_CSEG,0042,0000
+L002008?,R_CSEG,003E,0000
+L002007?,R_CSEG,0026,0000
+</LOCALS>
+<PUBLICS>
+__modsint_PARM_2,R_XSEG,0000,0002
+__modsint,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+__moduint_PARM_2,any,0000,0000
+__moduint,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 83
+E5 82
+90 data16(__modsint_a_1_1;)  
+F0
+A3
+EA
+F0
+90 data16(__modsint_a_1_1;)  
+E0
+FA
+A3
+E0
+FB
+33
+E4
+33
+FC
+60 rel2(L002006?;)
+C3
+E4
+9A
+FD
+E4
+9B
+FE
+80 rel2(L002007?;)
+8A 05
+8B 06
+8D 02
+8E 03
+90 data16(__modsint_PARM_2;)  
+E0
+FD
+A3
+E0
+FE
+30 E7 rel3(L002008?;)
+C3
+E4
+9D
+FF
+E4
+9E
+F8
+80 rel2(L002009?;)
+8D 07
+8E 00
+90 data16(__moduint_PARM_2;)  
+EF
+F0
+A3
+E8
+F0
+8A 82
+8B 83
+C0 04
+12 addr16(__moduint;)  
+AA 82
+AB 83
+D0 04
+EC
+60 rel2(L002002?;)
+C3
+E4
+9A
+FC
+E4
+9B
+FD
+8C 82
+8D 83
+22
+8A 82
+8B 83
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+moduint
+<OBJ>
+<MODULE>
+moduint
+</MODULE>
+<OPTC51>
+--model-large
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0005,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,00AD,NO
+</SEGMENTS>
+<LOCALS>
+L002003?,R_CSEG,001A,0000
+L002002?,R_CSEG,0057,0000
+__moduint_a_1_1,R_XSEG,0002,0002
+__moduint_count_1_2,R_XSEG,0004,0001
+L002017?,R_CSEG,005F,0000
+L002008?,R_CSEG,0064,0000
+L002007?,R_CSEG,0086,0000
+</LOCALS>
+<PUBLICS>
+__moduint_PARM_2,R_XSEG,0000,0002
+__moduint,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 83
+E5 82
+90 data16(__moduint_a_1_1;)  
+F0
+A3
+EA
+F0
+90 data16(__moduint_count_1_2;)  
+E4
+F0
+90 data16(__moduint_a_1_1;)  
+E0
+FA
+A3
+E0
+FB
+7C 00
+90 data16(__moduint_PARM_2;)  
+E0
+FD
+A3
+E0
+FE
+23
+54 01
+FF
+70 rel2(L002017?;)
+EE
+CD
+25 E0
+CD
+33
+FE
+90 data16(__moduint_PARM_2;)  
+ED
+F0
+A3
+EE
+F0
+90 data16(__moduint_PARM_2;)  
+E0
+FD
+A3
+E0
+FE
+C3
+EA
+9D
+EB
+9E
+50 rel2(L002002?;)
+EE
+C3
+13
+CD
+13
+CD
+FE
+90 data16(__moduint_PARM_2;)  
+ED
+F0
+A3
+EE
+F0
+80 rel2(L002017?;)
+0C
+90 data16(__moduint_count_1_2;)  
+EC
+F0
+80 rel2(L002003?;)
+90 data16(__moduint_count_1_2;)  
+E0
+FA
+90 data16(__moduint_a_1_1;)  
+E0
+FB
+A3
+E0
+FC
+90 data16(__moduint_PARM_2;)  
+E0
+FD
+A3
+E0
+FE
+C3
+EB
+9D
+EC
+9E
+40 rel2(L002007?;)
+90 data16(__moduint_a_1_1;)  
+EB
+C3
+9D
+F0
+EC
+9E
+A3
+F0
+90 data16(__moduint_PARM_2;)  
+E0
+FB
+A3
+E0
+C3
+13
+CB
+13
+CB
+FC
+90 data16(__moduint_PARM_2;)  
+EB
+F0
+A3
+EC
+F0
+8A 03
+1A
+EB
+70 rel2(L002008?;)
+90 data16(__moduint_a_1_1;)  
+E0
+FA
+A3
+E0
+8A 82
+F5 83
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+mulint
+<OBJ>
+<MODULE>
+mulint
+</MODULE>
+<OPTC51>
+--model-large
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0002,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0020,NO
+</SEGMENTS>
+<LOCALS>
+</LOCALS>
+<PUBLICS>
+__mulint,R_CSEG,0000,0000
+__mulint_PARM_2,R_XSEG,0000,0002
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 83
+AB 82
+8B F0
+90 data16(__mulint_PARM_2;)  
+E0
+A4
+F8
+A9 F0
+8A F0
+E0
+A4
+29
+F9
+8B F0
+A3
+E0
+A4
+29
+F5 83
+88 82
+22
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+</FILES>
+
+</CALL51LIB>

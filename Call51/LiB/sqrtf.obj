@@ -1,0 +1,511 @@
+<MODULE>
+sqrtf
+</MODULE>
+
+<OPTC51>
+--model-small
+</OPTC51>
+
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+?lib?dseg?2,data,0000,OV
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,02D5,NO
+</SEGMENTS>
+
+<LOCALS>
+L002004?,R_CSEG,0067,0000
+L002011?,R_CSEG,02CF,0000
+L002010?,R_CSEG,028B,0000
+L002021?,R_CSEG,028B,0000
+L002008?,R_CSEG,009A,0000
+L002007?,R_CSEG,0034,0000
+</LOCALS>
+
+<PUBLICS>
+_sqrtf,R_CSEG,0000,0000
+</PUBLICS>
+
+<EXTERNALS>
+___fseq,any,0000,0000
+___fslt,any,0000,0000
+___fsmul,any,0000,0000
+_bp,any,0000,0000
+___fsadd,any,0000,0000
+__divsint,any,0000,0000
+_errno,any,0000,0000
+___fsdiv,any,0000,0000
+_frexpf,any,0000,0000
+_ldexpf,any,0000,0000
+</EXTERNALS>
+
+<CODE AT 0000>
+</CODE>
+
+<CODE R_HOME>
+</CODE>
+
+<CODE R_GSINIT>
+</CODE>
+
+<CODE R_CSEG>
+</CODE>
+
+<CODE R_HOME>
+</CODE>
+
+<CODE R_GSINIT>
+</CODE>
+
+<CODE R_GSINIT>
+</CODE>
+
+<CODE R_DINIT>
+</CODE>
+
+<CODE R_CSEG>
+C0 data8(_bp;)
+85 81 data8(_bp;)
+C0 82
+C0 83
+C0 F0
+C0 E0
+E5 81
+24 12
+F5 81
+A8 data8(_bp;)
+08
+E6
+08
+46
+08
+46
+08
+86 F0
+C2 F7
+45 F0
+70 rel2(L002007?;)
+A8 data8(_bp;)
+08
+86 82
+08
+86 83
+08
+86 F0
+08
+E6
+02 addr16(L002011?;)  
+E4
+C0 E0
+C0 E0
+74 80
+C0 E0
+74 3F
+C0 E0
+A8 data8(_bp;)
+08
+86 82
+08
+86 83
+08
+86 F0
+08
+E6
+12 addr16(___fseq;)  
+AE 82
+E5 81
+24 FC
+F5 81
+EE
+60 rel2(L002004?;)
+90 00 00
+75 F0 80
+74 3F
+02 addr16(L002011?;)  
+E4
+C0 E0
+C0 E0
+C0 E0
+C0 E0
+A8 data8(_bp;)
+08
+86 82
+08
+86 83
+08
+86 F0
+08
+E6
+12 addr16(___fslt;)  
+AE 82
+E5 81
+24 FC
+F5 81
+EE
+60 rel2(L002008?;)
+75 data8(_errno;) 21
+E4
+F5 data8(_errno;0x0001;+;)
+90 00 00
+E4
+F5 F0
+02 addr16(L002011?;)  
+E5 data8(_bp;)
+24 0D
+FE
+7F 00
+7A 40
+C0 06
+C0 07
+C0 02
+A8 data8(_bp;)
+08
+86 82
+08
+86 83
+08
+86 F0
+08
+E6
+12 addr16(_frexpf;)  
+AA 82
+AB 83
+AC F0
+FD
+15 81
+15 81
+15 81
+E5 data8(_bp;)
+24 05
+F8
+A6 02
+08
+A6 03
+08
+A6 04
+08
+A6 05
+E5 data8(_bp;)
+24 05
+F8
+E6
+C0 E0
+08
+E6
+C0 E0
+08
+E6
+C0 E0
+08
+E6
+C0 E0
+90 14 BA
+75 F0 17
+74 3F
+12 addr16(___fsmul;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+74 A8
+C0 E0
+74 A9
+C0 E0
+74 D5
+C0 E0
+74 3E
+C0 E0
+8E 82
+8F 83
+8A F0
+EB
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+E5 data8(_bp;)
+24 09
+F8
+A6 02
+08
+A6 03
+08
+A6 04
+08
+A6 05
+E5 data8(_bp;)
+24 09
+F8
+E6
+C0 E0
+08
+E6
+C0 E0
+08
+E6
+C0 E0
+08
+E6
+C0 E0
+E5 data8(_bp;)
+24 05
+F8
+86 82
+08
+86 83
+08
+86 F0
+08
+E6
+12 addr16(___fsdiv;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 06
+C0 07
+C0 02
+C0 03
+E5 data8(_bp;)
+24 09
+F8
+86 82
+08
+86 83
+08
+86 F0
+08
+E6
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+E5 data8(_bp;)
+24 09
+F8
+A6 02
+08
+A6 03
+08
+A6 04
+08
+A6 05
+74 FE
+C0 E0
+74 FF
+C0 E0
+E5 data8(_bp;)
+24 09
+F8
+86 82
+08
+86 83
+08
+86 F0
+08
+E6
+12 addr16(_ldexpf;)  
+C8
+E5 data8(_bp;)
+24 0F
+C8
+A6 82
+08
+A6 83
+08
+A6 F0
+08
+F6
+15 81
+15 81
+E5 data8(_bp;)
+24 09
+F8
+E6
+C0 E0
+08
+E6
+C0 E0
+08
+E6
+C0 E0
+08
+E6
+C0 E0
+E5 data8(_bp;)
+24 05
+F8
+86 82
+08
+86 83
+08
+86 F0
+08
+E6
+12 addr16(___fsdiv;)  
+AE 82
+AF 83
+AA F0
+FB
+E5 81
+24 FC
+F5 81
+C0 06
+C0 07
+C0 02
+C0 03
+E5 data8(_bp;)
+24 0F
+F8
+86 82
+08
+86 83
+08
+86 F0
+08
+E6
+12 addr16(___fsadd;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+E5 data8(_bp;)
+24 09
+F8
+A6 02
+08
+A6 03
+08
+A6 04
+08
+A6 05
+E5 data8(_bp;)
+24 0D
+F8
+E6
+30 E0 rel3(L002010?;)
+E5 data8(_bp;)
+24 09
+F8
+E6
+C0 E0
+08
+E6
+C0 E0
+08
+E6
+C0 E0
+08
+E6
+C0 E0
+90 04 F3
+75 F0 35
+74 3F
+12 addr16(___fsmul;)  
+AA 82
+AB 83
+AC F0
+FD
+E5 81
+24 FC
+F5 81
+E5 data8(_bp;)
+24 09
+F8
+A6 02
+08
+A6 03
+08
+A6 04
+08
+A6 05
+E5 data8(_bp;)
+24 0D
+F8
+06
+B6 00 rel3(L002021?;)
+08
+06
+74 02
+C0 E0
+E4
+C0 E0
+E5 data8(_bp;)
+24 0D
+F8
+86 82
+08
+86 83
+12 addr16(__divsint;)  
+AA 82
+AB 83
+15 81
+15 81
+C0 02
+C0 03
+E5 data8(_bp;)
+24 09
+F8
+86 82
+08
+86 83
+08
+86 F0
+08
+E6
+12 addr16(_ldexpf;)  
+AA 82
+AB 83
+AC F0
+FD
+15 81
+15 81
+8A 82
+8B 83
+8C F0
+ED
+85 data8(_bp;) 81
+D0 data8(_bp;)
+22
+</CODE>
+
+<CODE R_CSEG>
+</CODE>
+
+<CODE R_XINIT>
+</CODE>
+
+<CODE R_CONST>
+</CODE>
+
+<CODE AT 0000>
+</CODE>

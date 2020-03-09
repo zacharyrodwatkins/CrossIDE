@@ -1,0 +1,14 @@
+crt0
+decdptr
+gptrget
+gptrput
+gptrgetc
+bp
+spx
+bpx
+c51_call_dptr
+c51_xpush_regs_r0
+c51_xpush_regs
+c51_xpop_regs_bits
+c51_xpop_regs
+c51_banked_call

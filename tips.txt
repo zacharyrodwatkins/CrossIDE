@@ -1,0 +1,11 @@
+If you double click on a warning/error number in the report window, the file with the warning/error will be open and the line with the warning/error will be highlighted.
+There is a menu with the most recently used make files.  Click `Makefile` then select the make file from the list.
+Editor colors are customizable.  Click `Options` then `Colors`.
+Pressing <Ctrl>+F2 will add/remove a bookmark on the open file.  To jump to a bookmark press F2.
+Right click at include files to open then.  This works for both <myfile.h> and "otherfile.h" includes.
+You can show source line numbers by clicking 'View', 'Line Numbers'.
+If you right click on an open Make file in the project pane, you can open it in the editor and modify it as needed.
+The toolbars are movable.  Just clik and hold and reposition as desired.
+You can jump to any line in the source code.  Right click and select 'Jump to line'.
+There is a toolbar button to quickly start a PUTTY serial terminal session. You can also use <Ctrl>+T.
+The editor screen can be split both vertically or horizontally.  Use the "grabs" at the left and top of the scroll bars.

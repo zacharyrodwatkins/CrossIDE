@@ -1,0 +1,15 @@
+This is a Color & Font configuration file for CrossIDE.
+If hand edited, don't leave spaces before or after the '='.
+Edit at your own risk!
+
+Preprocessor=0x00808000
+Comment=0x00008000
+Number=0x000000ff
+Operator=0x00206255
+Keyword=0x00ff0000
+Background=0x00dbdbdb
+Text=0x000d0d0d
+String=0x00800080
+Function=0x0061010b
+FontSize=18
+FontFaceName=MingLiU

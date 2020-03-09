@@ -1,0 +1,11 @@
+Preprocessor=0x000080ff
+Comment=0x0000ff00
+Number=0x007911c6
+Operator=0x0000ffff
+Keyword=0x00ffff00
+Background=0x00800000
+Text=0x00ffffff
+String=0x00ff82c0
+Function=0x00f0caa6
+FontSize=16
+FontFaceName=Lucida Console

@@ -1,0 +1,1202 @@
+<CALL51LIB>
+
+<INDEX>
+       593
+<MODULE>
+divslong 11
+__divslong_PARM_2,R_XSEG,0000,0004
+__divslong,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+divulong 3355
+__divulong,R_CSEG,0000,0000
+__divulong_PARM_2,R_XSEG,0000,0004
+</MODULE>
+
+<MODULE>
+modslong 6077
+__modslong_PARM_2,R_XSEG,0000,0004
+__modslong,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+modulong 9390
+__modulong,R_CSEG,0000,0000
+__modulong_PARM_2,R_XSEG,0000,0004
+</MODULE>
+
+<MODULE>
+mullong 13489
+__mullong,R_CSEG,0000,0000
+__mullong_PARM_2,R_XSEG,0000,0004
+__mullong_dummy,R_CSEG,0000,0000
+</MODULE>
+
+</INDEX>
+
+<FILES>
+
+<FILE>
+divslong
+<OBJ>
+<MODULE>
+divslong
+</MODULE>
+<OPTC51>
+--model-large
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0008,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0008,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,00D1,NO
+</SEGMENTS>
+<LOCALS>
+L002006?,R_CSEG,003C,0000
+L002002?,R_CSEG,00C9,0000
+__divslong_sloc0_1_0,R_DSEG,0000,0004
+__divslong_sloc1_1_0,R_DSEG,0004,0004
+__divslong_x_1_1,R_XSEG,0004,0004
+L002009?,R_CSEG,0087,0000
+L002008?,R_CSEG,007B,0000
+L002007?,R_CSEG,0044,0000
+</LOCALS>
+<PUBLICS>
+__divslong_PARM_2,R_XSEG,0000,0004
+__divslong,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+__divulong,any,0000,0000
+__divulong_PARM_2,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+90 data16(__divslong_x_1_1;)  
+EA
+F0
+A3
+EB
+F0
+A3
+EC
+F0
+A3
+ED
+F0
+90 data16(__divslong_x_1_1;)  
+E0
+FA
+A3
+E0
+FB
+A3
+E0
+FC
+A3
+E0
+FD
+33
+E4
+33
+FE
+60 rel2(L002006?;)
+C3
+E4
+9A
+F5 data8(__divslong_sloc0_1_0;)
+E4
+9B
+F5 data8(__divslong_sloc0_1_0;0x0001;+;)
+E4
+9C
+F5 data8(__divslong_sloc0_1_0;0x0002;+;)
+E4
+9D
+F5 data8(__divslong_sloc0_1_0;0x0003;+;)
+80 rel2(L002007?;)
+8A data8(__divslong_sloc0_1_0;)
+8B data8(__divslong_sloc0_1_0;0x0001;+;)
+8C data8(__divslong_sloc0_1_0;0x0002;+;)
+8D data8(__divslong_sloc0_1_0;0x0003;+;)
+AA data8(__divslong_sloc0_1_0;)
+AB data8(__divslong_sloc0_1_0;0x0001;+;)
+AC data8(__divslong_sloc0_1_0;0x0002;+;)
+AD data8(__divslong_sloc0_1_0;0x0003;+;)
+90 data16(__divslong_PARM_2;)  
+E0
+F5 data8(__divslong_sloc0_1_0;)
+A3
+E0
+F5 data8(__divslong_sloc0_1_0;0x0001;+;)
+A3
+E0
+F5 data8(__divslong_sloc0_1_0;0x0002;+;)
+A3
+E0
+F5 data8(__divslong_sloc0_1_0;0x0003;+;)
+33
+E4
+33
+FF
+60 rel2(L002008?;)
+C3
+E4
+95 data8(__divslong_sloc0_1_0;)
+F5 data8(__divslong_sloc1_1_0;)
+E4
+95 data8(__divslong_sloc0_1_0;0x0001;+;)
+F5 data8(__divslong_sloc1_1_0;0x0001;+;)
+E4
+95 data8(__divslong_sloc0_1_0;0x0002;+;)
+F5 data8(__divslong_sloc1_1_0;0x0002;+;)
+E4
+95 data8(__divslong_sloc0_1_0;0x0003;+;)
+F5 data8(__divslong_sloc1_1_0;0x0003;+;)
+80 rel2(L002009?;)
+85 data8(__divslong_sloc0_1_0;) data8(__divslong_sloc1_1_0;)
+85 data8(__divslong_sloc0_1_0;0x0001;+;) data8(__divslong_sloc1_1_0;0x0001;+;)
+85 data8(__divslong_sloc0_1_0;0x0002;+;) data8(__divslong_sloc1_1_0;0x0002;+;)
+85 data8(__divslong_sloc0_1_0;0x0003;+;) data8(__divslong_sloc1_1_0;0x0003;+;)
+90 data16(__divulong_PARM_2;)  
+E5 data8(__divslong_sloc1_1_0;)
+F0
+A3
+E5 data8(__divslong_sloc1_1_0;0x0001;+;)
+F0
+A3
+E5 data8(__divslong_sloc1_1_0;0x0002;+;)
+F0
+A3
+E5 data8(__divslong_sloc1_1_0;0x0003;+;)
+F0
+8A 82
+8B 83
+8C F0
+ED
+C0 06
+C0 07
+12 addr16(__divulong;)  
+AA 82
+AB 83
+AC F0
+FD
+D0 07
+D0 06
+EF
+6E
+60 rel2(L002002?;)
+C3
+E4
+9A
+FE
+E4
+9B
+FF
+E4
+9C
+F8
+E4
+9D
+8E 82
+8F 83
+88 F0
+22
+8A 82
+8B 83
+8C F0
+ED
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+divulong
+<OBJ>
+<MODULE>
+divulong
+</MODULE>
+<OPTC51>
+--model-large
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0001,NO
+R_XSEG,xdata,000C,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0001,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,010B,NO
+</SEGMENTS>
+<LOCALS>
+L002006?,R_CSEG,00EF,0000
+L002005?,R_CSEG,0031,0000
+L002002?,R_CSEG,00A5,0000
+__divulong_reste_1_2,R_XSEG,0008,0004
+__divulong_sloc0_1_0,R_OSEG,0000,0001
+L002018?,R_CSEG,00F7,0000
+L002017?,R_CSEG,00F4,0000
+__divulong_x_1_1,R_XSEG,0004,0004
+__divulong_c_1_2,R_BSEG,0000,0001
+</LOCALS>
+<PUBLICS>
+__divulong,R_CSEG,0000,0000
+__divulong_PARM_2,R_XSEG,0000,0004
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+90 data16(__divulong_x_1_1;)  
+EA
+F0
+A3
+EB
+F0
+A3
+EC
+F0
+A3
+ED
+F0
+90 data16(__divulong_reste_1_2;)  
+E4
+F0
+A3
+F0
+A3
+F0
+A3
+F0
+90 data16(__divulong_PARM_2;)  
+E0
+FA
+A3
+E0
+FB
+A3
+E0
+FC
+A3
+E0
+FD
+75 data8(__divulong_sloc0_1_0;) 20
+90 data16(__divulong_x_1_1;)  
+E0
+FF
+A3
+E0
+F8
+A3
+E0
+F9
+A3
+E0
+FE
+33
+92 data8(__divulong_c_1_2;)
+EF
+2F
+FF
+E8
+33
+F8
+E9
+33
+F9
+EE
+33
+FE
+90 data16(__divulong_x_1_1;)  
+EF
+F0
+A3
+E8
+F0
+A3
+E9
+F0
+A3
+EE
+F0
+90 data16(__divulong_reste_1_2;)  
+E0
+FE
+A3
+E0
+FF
+A3
+E0
+F8
+A3
+E0
+F9
+EE
+2E
+FE
+EF
+33
+FF
+E8
+33
+F8
+E9
+33
+F9
+90 data16(__divulong_reste_1_2;)  
+EE
+F0
+A3
+EF
+F0
+A3
+E8
+F0
+A3
+E9
+F0
+30 bit(__divulong_c_1_2;) rel3(L002002?;)
+90 data16(__divulong_reste_1_2;)  
+E0
+FF
+A3
+E0
+F8
+A3
+E0
+F9
+A3
+E0
+FE
+90 data16(__divulong_reste_1_2;)  
+74 01
+4F
+F0
+A3
+E8
+F0
+A3
+E9
+F0
+A3
+EE
+F0
+90 data16(__divulong_reste_1_2;)  
+E0
+FE
+A3
+E0
+FF
+A3
+E0
+F8
+A3
+E0
+F9
+C3
+EE
+9A
+EF
+9B
+E8
+9C
+E9
+9D
+40 rel2(L002006?;)
+90 data16(__divulong_reste_1_2;)  
+EE
+C3
+9A
+F0
+EF
+9B
+A3
+F0
+E8
+9C
+A3
+F0
+E9
+9D
+A3
+F0
+90 data16(__divulong_x_1_1;)  
+E0
+FE
+A3
+E0
+FF
+A3
+E0
+F8
+A3
+E0
+F9
+90 data16(__divulong_x_1_1;)  
+74 01
+4E
+F0
+A3
+EF
+F0
+A3
+E8
+F0
+A3
+E9
+F0
+D5 data8(__divulong_sloc0_1_0;) rel3(L002017?;)
+80 rel2(L002018?;)
+02 addr16(L002005?;)  
+90 data16(__divulong_x_1_1;)  
+E0
+FA
+A3
+E0
+FB
+A3
+E0
+FC
+A3
+E0
+8A 82
+8B 83
+8C F0
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+modslong
+<OBJ>
+<MODULE>
+modslong
+</MODULE>
+<OPTC51>
+--model-large
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0008,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0008,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,00C9,NO
+</SEGMENTS>
+<LOCALS>
+L002006?,R_CSEG,003C,0000
+L002002?,R_CSEG,00C1,0000
+__modslong_a_1_1,R_XSEG,0004,0004
+__modslong_sloc1_1_0,R_DSEG,0004,0004
+__modslong_sloc0_1_0,R_DSEG,0000,0004
+L002009?,R_CSEG,0084,0000
+L002008?,R_CSEG,0078,0000
+L002007?,R_CSEG,0044,0000
+</LOCALS>
+<PUBLICS>
+__modslong_PARM_2,R_XSEG,0000,0004
+__modslong,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+__modulong,any,0000,0000
+__modulong_PARM_2,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+90 data16(__modslong_a_1_1;)  
+EA
+F0
+A3
+EB
+F0
+A3
+EC
+F0
+A3
+ED
+F0
+90 data16(__modslong_a_1_1;)  
+E0
+FA
+A3
+E0
+FB
+A3
+E0
+FC
+A3
+E0
+FD
+33
+E4
+33
+FE
+60 rel2(L002006?;)
+C3
+E4
+9A
+F5 data8(__modslong_sloc0_1_0;)
+E4
+9B
+F5 data8(__modslong_sloc0_1_0;0x0001;+;)
+E4
+9C
+F5 data8(__modslong_sloc0_1_0;0x0002;+;)
+E4
+9D
+F5 data8(__modslong_sloc0_1_0;0x0003;+;)
+80 rel2(L002007?;)
+8A data8(__modslong_sloc0_1_0;)
+8B data8(__modslong_sloc0_1_0;0x0001;+;)
+8C data8(__modslong_sloc0_1_0;0x0002;+;)
+8D data8(__modslong_sloc0_1_0;0x0003;+;)
+AA data8(__modslong_sloc0_1_0;)
+AB data8(__modslong_sloc0_1_0;0x0001;+;)
+AC data8(__modslong_sloc0_1_0;0x0002;+;)
+AD data8(__modslong_sloc0_1_0;0x0003;+;)
+90 data16(__modslong_PARM_2;)  
+E0
+F5 data8(__modslong_sloc0_1_0;)
+A3
+E0
+F5 data8(__modslong_sloc0_1_0;0x0001;+;)
+A3
+E0
+F5 data8(__modslong_sloc0_1_0;0x0002;+;)
+A3
+E0
+F5 data8(__modslong_sloc0_1_0;0x0003;+;)
+30 E7 rel3(L002008?;)
+C3
+E4
+95 data8(__modslong_sloc0_1_0;)
+F5 data8(__modslong_sloc1_1_0;)
+E4
+95 data8(__modslong_sloc0_1_0;0x0001;+;)
+F5 data8(__modslong_sloc1_1_0;0x0001;+;)
+E4
+95 data8(__modslong_sloc0_1_0;0x0002;+;)
+F5 data8(__modslong_sloc1_1_0;0x0002;+;)
+E4
+95 data8(__modslong_sloc0_1_0;0x0003;+;)
+F5 data8(__modslong_sloc1_1_0;0x0003;+;)
+80 rel2(L002009?;)
+85 data8(__modslong_sloc0_1_0;) data8(__modslong_sloc1_1_0;)
+85 data8(__modslong_sloc0_1_0;0x0001;+;) data8(__modslong_sloc1_1_0;0x0001;+;)
+85 data8(__modslong_sloc0_1_0;0x0002;+;) data8(__modslong_sloc1_1_0;0x0002;+;)
+85 data8(__modslong_sloc0_1_0;0x0003;+;) data8(__modslong_sloc1_1_0;0x0003;+;)
+90 data16(__modulong_PARM_2;)  
+E5 data8(__modslong_sloc1_1_0;)
+F0
+A3
+E5 data8(__modslong_sloc1_1_0;0x0001;+;)
+F0
+A3
+E5 data8(__modslong_sloc1_1_0;0x0002;+;)
+F0
+A3
+E5 data8(__modslong_sloc1_1_0;0x0003;+;)
+F0
+8A 82
+8B 83
+8C F0
+ED
+C0 06
+12 addr16(__modulong;)  
+AA 82
+AB 83
+AC F0
+FD
+D0 06
+EE
+60 rel2(L002002?;)
+C3
+E4
+9A
+FE
+E4
+9B
+FF
+E4
+9C
+F8
+E4
+9D
+8E 82
+8F 83
+88 F0
+22
+8A 82
+8B 83
+8C F0
+ED
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+modulong
+<OBJ>
+<MODULE>
+modulong
+</MODULE>
+<OPTC51>
+--model-large
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0009,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0004,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0140,NO
+</SEGMENTS>
+<LOCALS>
+L002003?,R_CSEG,002A,0000
+L002002?,R_CSEG,00AD,0000
+__modulong_a_1_1,R_XSEG,0004,0004
+__modulong_sloc0_1_0,R_OSEG,0000,0004
+L002017?,R_CSEG,00B6,0000
+__modulong_count_1_2,R_XSEG,0008,0001
+L002008?,R_CSEG,00BB,0000
+L002007?,R_CSEG,0101,0000
+</LOCALS>
+<PUBLICS>
+__modulong,R_CSEG,0000,0000
+__modulong_PARM_2,R_XSEG,0000,0004
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+AA 82
+AB 83
+AC F0
+FD
+90 data16(__modulong_a_1_1;)  
+EA
+F0
+A3
+EB
+F0
+A3
+EC
+F0
+A3
+ED
+F0
+90 data16(__modulong_count_1_2;)  
+E4
+F0
+90 data16(__modulong_a_1_1;)  
+E0
+FA
+A3
+E0
+FB
+A3
+E0
+FC
+A3
+E0
+FD
+7E 00
+90 data16(__modulong_PARM_2;)  
+E0
+F5 data8(__modulong_sloc0_1_0;)
+A3
+E0
+F5 data8(__modulong_sloc0_1_0;0x0001;+;)
+A3
+E0
+F5 data8(__modulong_sloc0_1_0;0x0002;+;)
+A3
+E0
+F5 data8(__modulong_sloc0_1_0;0x0003;+;)
+23
+54 01
+FF
+70 rel2(L002017?;)
+C0 06
+E5 data8(__modulong_sloc0_1_0;)
+25 data8(__modulong_sloc0_1_0;)
+FF
+E5 data8(__modulong_sloc0_1_0;0x0001;+;)
+33
+F8
+E5 data8(__modulong_sloc0_1_0;0x0002;+;)
+33
+F9
+E5 data8(__modulong_sloc0_1_0;0x0003;+;)
+33
+FE
+90 data16(__modulong_PARM_2;)  
+EF
+F0
+A3
+E8
+F0
+A3
+E9
+F0
+A3
+EE
+F0
+90 data16(__modulong_PARM_2;)  
+E0
+F5 data8(__modulong_sloc0_1_0;)
+A3
+E0
+F5 data8(__modulong_sloc0_1_0;0x0001;+;)
+A3
+E0
+F5 data8(__modulong_sloc0_1_0;0x0002;+;)
+A3
+E0
+F5 data8(__modulong_sloc0_1_0;0x0003;+;)
+C3
+EA
+95 data8(__modulong_sloc0_1_0;)
+EB
+95 data8(__modulong_sloc0_1_0;0x0001;+;)
+EC
+95 data8(__modulong_sloc0_1_0;0x0002;+;)
+ED
+95 data8(__modulong_sloc0_1_0;0x0003;+;)
+D0 06
+50 rel2(L002002?;)
+E5 data8(__modulong_sloc0_1_0;0x0003;+;)
+C3
+13
+F5 data8(__modulong_sloc0_1_0;0x0003;+;)
+E5 data8(__modulong_sloc0_1_0;0x0002;+;)
+13
+F5 data8(__modulong_sloc0_1_0;0x0002;+;)
+E5 data8(__modulong_sloc0_1_0;0x0001;+;)
+13
+F5 data8(__modulong_sloc0_1_0;0x0001;+;)
+E5 data8(__modulong_sloc0_1_0;)
+13
+F5 data8(__modulong_sloc0_1_0;)
+90 data16(__modulong_PARM_2;)  
+F0
+A3
+E5 data8(__modulong_sloc0_1_0;0x0001;+;)
+F0
+A3
+E5 data8(__modulong_sloc0_1_0;0x0002;+;)
+F0
+A3
+E5 data8(__modulong_sloc0_1_0;0x0003;+;)
+F0
+80 rel2(L002017?;)
+0E
+90 data16(__modulong_count_1_2;)  
+EE
+F0
+02 addr16(L002003?;)  
+90 data16(__modulong_count_1_2;)  
+E0
+FA
+90 data16(__modulong_a_1_1;)  
+E0
+FB
+A3
+E0
+FC
+A3
+E0
+FD
+A3
+E0
+FE
+90 data16(__modulong_PARM_2;)  
+E0
+F5 data8(__modulong_sloc0_1_0;)
+A3
+E0
+F5 data8(__modulong_sloc0_1_0;0x0001;+;)
+A3
+E0
+F5 data8(__modulong_sloc0_1_0;0x0002;+;)
+A3
+E0
+F5 data8(__modulong_sloc0_1_0;0x0003;+;)
+C3
+EB
+95 data8(__modulong_sloc0_1_0;)
+EC
+95 data8(__modulong_sloc0_1_0;0x0001;+;)
+ED
+95 data8(__modulong_sloc0_1_0;0x0002;+;)
+EE
+95 data8(__modulong_sloc0_1_0;0x0003;+;)
+40 rel2(L002007?;)
+90 data16(__modulong_a_1_1;)  
+EB
+C3
+95 data8(__modulong_sloc0_1_0;)
+F0
+EC
+95 data8(__modulong_sloc0_1_0;0x0001;+;)
+A3
+F0
+ED
+95 data8(__modulong_sloc0_1_0;0x0002;+;)
+A3
+F0
+EE
+95 data8(__modulong_sloc0_1_0;0x0003;+;)
+A3
+F0
+90 data16(__modulong_PARM_2;)  
+E0
+FB
+A3
+E0
+FC
+A3
+E0
+FD
+A3
+E0
+C3
+13
+FE
+ED
+13
+FD
+EC
+13
+FC
+EB
+13
+90 data16(__modulong_PARM_2;)  
+F0
+A3
+EC
+F0
+A3
+ED
+F0
+A3
+EE
+F0
+8A 03
+1A
+EB
+70 rel2(L002008?;)
+90 data16(__modulong_a_1_1;)  
+E0
+FA
+A3
+E0
+FB
+A3
+E0
+FC
+A3
+E0
+8A 82
+8B 83
+8C F0
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+mullong
+<OBJ>
+<MODULE>
+mullong
+</MODULE>
+<OPTC51>
+--model-large
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0004,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,006C,NO
+</SEGMENTS>
+<LOCALS>
+</LOCALS>
+<PUBLICS>
+__mullong,R_CSEG,0000,0000
+__mullong_PARM_2,R_XSEG,0000,0004
+__mullong_dummy,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_CSEG>
+A8 82
+A9 83
+AA F0
+FB
+88 F0
+90 data16(__mullong_PARM_2;)  
+E0
+A4
+FC
+AD F0
+89 F0
+E0
+A4
+2D
+FD
+E4
+35 F0
+FE
+88 F0
+A3
+E0
+A4
+2D
+FD
+E5 F0
+3E
+FE
+E4
+33
+FF
+89 F0
+E0
+A4
+2E
+FE
+E5 F0
+3F
+FF
+88 F0
+A3
+E0
+A4
+2E
+FE
+E5 F0
+3F
+FF
+8A F0
+90 data16(__mullong_PARM_2;)  
+E0
+A4
+2E
+FE
+E5 F0
+3F
+FF
+8B F0
+E0
+A4
+2F
+FF
+8A F0
+A3
+E0
+A4
+2F
+FF
+89 F0
+A3
+E0
+A4
+2F
+FF
+88 F0
+A3
+E0
+A4
+2F
+8E F0
+8D 83
+8C 82
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+</FILES>
+
+</CALL51LIB>

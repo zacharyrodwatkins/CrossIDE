@@ -1,0 +1,557 @@
+0000              1   ;--------------------------------------------------------
+0000              2   ; File Created by C51
+0000              3   ; Version 1.0.0 #1069 (Dec 11 2012) (MSVC)
+0000              4   ; This file was generated Sat Jul 05 23:21:51 2014
+0000              5   ;--------------------------------------------------------
+                  5   $name sqrtf
+                  6   $optc51 --model-small
+0000              8            R_DSEG    segment data
+0000              9            R_CSEG    segment code
+0000             10            R_BSEG    segment bit
+0000             11            R_XSEG    segment xdata
+0000             12            R_PSEG    segment xdata
+0000             13            R_ISEG    segment idata
+0000             14            R_OSEG    segment data overlay
+0000             15            BIT_BANK  segment data overlay
+0000             16            R_HOME    segment code
+0000             17            R_GSINIT  segment code
+0000             18            R_IXSEG   segment xdata
+0000             19            R_CONST   segment code
+0000             20            R_XINIT   segment code
+0000             21            R_DINIT   segment code
+0000             22   
+0000             23   ;--------------------------------------------------------
+0000             24   ; Public variables in this module
+0000             25   ;--------------------------------------------------------
+0000             26            public _sqrtf
+0000             27   ;--------------------------------------------------------
+0000             28   ; Special Function Registers
+0000             29   ;--------------------------------------------------------
+0000             30   ;--------------------------------------------------------
+0000             31   ; special function bits
+0000             32   ;--------------------------------------------------------
+0000             33   ;--------------------------------------------------------
+0000             34   ; overlayable register banks
+0000             35   ;--------------------------------------------------------
+0000             36            rbank0 segment data overlay
+0000             37   ;--------------------------------------------------------
+0000             38   ; internal ram data
+0000             39   ;--------------------------------------------------------
+0000             40            ?lib?dseg?2     segment data overlay
+0000             41            rseg    ?lib?dseg?2
+0000             42   ;--------------------------------------------------------
+0000             43   ; overlayable items in internal ram 
+0000             44   ;--------------------------------------------------------
+0000             45            rseg R_OSEG
+0000             46   ;--------------------------------------------------------
+0000             47   ; indirectly addressable internal ram data
+0000             48   ;--------------------------------------------------------
+0000             49            rseg R_ISEG
+0000             50   ;--------------------------------------------------------
+0000             51   ; absolute internal ram data
+0000             52   ;--------------------------------------------------------
+0000             53            DSEG
+0000             54   ;--------------------------------------------------------
+0000             55   ; bit data
+0000             56   ;--------------------------------------------------------
+0000             57            rseg R_BSEG
+0000             58   ;--------------------------------------------------------
+0000             59   ; paged external ram data
+0000             60   ;--------------------------------------------------------
+0000             61            rseg R_PSEG
+0000             62   ;--------------------------------------------------------
+0000             63   ; external ram data
+0000             64   ;--------------------------------------------------------
+0000             65            rseg R_XSEG
+0000             66   ;--------------------------------------------------------
+0000             67   ; absolute external ram data
+0000             68   ;--------------------------------------------------------
+0000             69            XSEG
+0000             70   ;--------------------------------------------------------
+0000             71   ; external initialized ram data
+0000             72   ;--------------------------------------------------------
+0000             73            rseg R_IXSEG
+0000             74            rseg R_HOME
+0000             75            rseg R_GSINIT
+0000             76            rseg R_CSEG
+0000             77   ;--------------------------------------------------------
+0000             78   ; Interrupt vectors
+0000             79   ;--------------------------------------------------------
+0000             80   ;--------------------------------------------------------
+0000             81   ; global & static initialisations
+0000             82   ;--------------------------------------------------------
+0000             83            rseg R_HOME
+0000             84            rseg R_GSINIT
+0000             85            rseg R_GSINIT
+0000             86   ;--------------------------------------------------------
+0000             87   ; data variables initialization
+0000             88   ;--------------------------------------------------------
+0000             89            rseg R_DINIT
+0000             90            ; The linker places a 'ret' at the end of segment R_DINIT.
+0000             91   ;--------------------------------------------------------
+0000             92   ; code
+0000             93   ;--------------------------------------------------------
+0000             94            rseg R_CSEG
+0000             95   ;------------------------------------------------------------
+0000             96   ;Allocation info for local variables in function 'sqrtf'
+0000             97   ;------------------------------------------------------------
+0000             98   ;x                         Allocated to stack - offset 1
+0000             99   ;f                         Allocated to stack - offset 5
+0000            100   ;y                         Allocated to stack - offset 9
+0000            101   ;n                         Allocated to stack - offset 13
+0000            102   ;sloc0                     Allocated to stack - offset 15
+0000            103   ;------------------------------------------------------------
+0000            104   ;        src\sqrtf.c:30: float sqrtf(const float x)
+0000            105   ;        -----------------------------------------
+0000            106   ;         function sqrtf
+0000            107   ;        -----------------------------------------
+0000            108   _sqrtf:
+0000            109            using   0
+0000 C000       110            push    _bp
+0002 858100     111            mov     _bp,sp
+0005 C082       112            push    dpl
+0007 C083       113            push    dph
+0009 C0F0       114            push    b
+000B C0E0       115            push    acc
+000D E581       116            mov     a,sp
+000F 2412       117            add     a,#0x12
+0011 F581       118            mov     sp,a
+0013            119   ;        src\sqrtf.c:35: if (x==0.0) return x;
+0013 A800       120            mov     r0,_bp
+0015 08         121            inc     r0
+0016 E6         122            mov     a,@r0
+0017 08         123            inc     r0
+0018 46         124            orl     a,@r0
+0019 08         125            inc     r0
+001A 46         126            orl     a,@r0
+001B 08         127            inc     r0
+001C 86F0       128            mov     b,@r0
+001E C2F7       129            clr     b.7 ; Clear the sign bit
+0020 45F0       130            orl     a,b
+0022 7001       131            jnz     L002007?
+0024 A800       132            mov     r0,_bp
+0026 08         133            inc     r0
+0027 8682       134            mov     dpl,@r0
+0029 08         135            inc     r0
+002A 8683       136            mov     dph,@r0
+002C 08         137            inc     r0
+002D 86F0       138            mov     b,@r0
+002F 08         139            inc     r0
+0030 E6         140            mov     a,@r0
+0031 020100     141            ljmp    L002011?
+0034            142   L002007?:
+0034            143   ;        src\sqrtf.c:36: else if (x==1.0) return 1.0;
+0034 E4         144            clr     a
+0035 C0E0       145            push    acc
+0037 C0E0       146            push    acc
+0039 7480       147            mov     a,#0x80
+003B C0E0       148            push    acc
+003D 743F       149            mov     a,#0x3F
+003F C0E0       150            push    acc
+0041 A800       151            mov     r0,_bp
+0043 08         152            inc     r0
+0044 8682       153            mov     dpl,@r0
+0046 08         154            inc     r0
+0047 8683       155            mov     dph,@r0
+0049 08         156            inc     r0
+004A 86F0       157            mov     b,@r0
+004C 08         158            inc     r0
+004D E6         159            mov     a,@r0
+004E 120100     160            lcall   ___fseq
+0051 AE82       161            mov     r6,dpl
+0053 E581       162            mov     a,sp
+0055 24FC       163            add     a,#0xfc
+0057 F581       164            mov     sp,a
+0059 EE         165            mov     a,r6
+005A 6001       166            jz      L002004?
+005C 900000     167            mov     dptr,#0x0000
+005F 75F080     168            mov     b,#0x80
+0062 743F       169            mov     a,#0x3F
+0064 020100     170            ljmp    L002011?
+0067            171   L002004?:
+0067            172   ;        src\sqrtf.c:37: else if (x<0.0)
+0067 E4         173            clr     a
+0068 C0E0       174            push    acc
+006A C0E0       175            push    acc
+006C C0E0       176            push    acc
+006E C0E0       177            push    acc
+0070 A800       178            mov     r0,_bp
+0072 08         179            inc     r0
+0073 8682       180            mov     dpl,@r0
+0075 08         181            inc     r0
+0076 8683       182            mov     dph,@r0
+0078 08         183            inc     r0
+0079 86F0       184            mov     b,@r0
+007B 08         185            inc     r0
+007C E6         186            mov     a,@r0
+007D 120100     187            lcall   ___fslt
+0080 AE82       188            mov     r6,dpl
+0082 E581       189            mov     a,sp
+0084 24FC       190            add     a,#0xfc
+0086 F581       191            mov     sp,a
+0088 EE         192            mov     a,r6
+0089 6001       193            jz      L002008?
+008B            194   ;        src\sqrtf.c:39: errno=EDOM;
+008B 750021     195            mov     _errno,#0x21
+008E E4         196            clr     a
+008F F501       197            mov     (_errno + 1),a
+0091            198   ;        src\sqrtf.c:40: return 0.0;
+0091 900000     199            mov     dptr,#(0x00&0x00ff)
+0094 E4         200            clr     a
+0095 F5F0       201            mov     b,a
+0097 020100     202            ljmp    L002011?
+009A            203   L002008?:
+009A            204   ;        src\sqrtf.c:42: f=frexpf(x, &n);
+009A E500       205            mov     a,_bp
+009C 240D       206            add     a,#0x0d
+009E FE         207            mov     r6,a
+009F 7F00       208            mov     r7,#0x00
+00A1 7A40       209            mov     r2,#0x40
+00A3 C006       210            push    ar6
+00A5 C007       211            push    ar7
+00A7 C002       212            push    ar2
+00A9 A800       213            mov     r0,_bp
+00AB 08         214            inc     r0
+00AC 8682       215            mov     dpl,@r0
+00AE 08         216            inc     r0
+00AF 8683       217            mov     dph,@r0
+00B1 08         218            inc     r0
+00B2 86F0       219            mov     b,@r0
+00B4 08         220            inc     r0
+00B5 E6         221            mov     a,@r0
+00B6 120100     222            lcall   _frexpf
+00B9 AA82       223            mov     r2,dpl
+00BB AB83       224            mov     r3,dph
+00BD ACF0       225            mov     r4,b
+00BF FD         226            mov     r5,a
+00C0 1581       227            dec     sp
+00C2 1581       228            dec     sp
+00C4 1581       229            dec     sp
+00C6 E500       230            mov     a,_bp
+00C8 2405       231            add     a,#0x05
+00CA F8         232            mov     r0,a
+00CB A602       233            mov     @r0,ar2
+00CD 08         234            inc     r0
+00CE A603       235            mov     @r0,ar3
+00D0 08         236            inc     r0
+00D1 A604       237            mov     @r0,ar4
+00D3 08         238            inc     r0
+00D4 A605       239            mov     @r0,ar5
+00D6            240   ;        src\sqrtf.c:43: y=0.41731+0.59016*f; /*Educated guess*/
+00D6 E500       241            mov     a,_bp
+00D8 2405       242            add     a,#0x05
+00DA F8         243            mov     r0,a
+00DB E6         244            mov     a,@r0
+00DC C0E0       245            push    acc
+00DE 08         246            inc     r0
+00DF E6         247            mov     a,@r0
+00E0 C0E0       248            push    acc
+00E2 08         249            inc     r0
+00E3 E6         250            mov     a,@r0
+00E4 C0E0       251            push    acc
+00E6 08         252            inc     r0
+00E7 E6         253            mov     a,@r0
+00E8 C0E0       254            push    acc
+00EA 9014BA     255            mov     dptr,#0x14BA
+00ED 75F017     256            mov     b,#0x17
+00F0 743F       257            mov     a,#0x3F
+00F2 120100     258            lcall   ___fsmul
+00F5 AE82       259            mov     r6,dpl
+00F7 AF83       260            mov     r7,dph
+00F9 AAF0       261            mov     r2,b
+00FB FB         262            mov     r3,a
+00FC E581       263            mov     a,sp
+00FE 24FC       264            add     a,#0xfc
+0100 F581       265            mov     sp,a
+0102 74A8       266            mov     a,#0xA8
+0104 C0E0       267            push    acc
+0106 74A9       268            mov     a,#0xA9
+0108 C0E0       269            push    acc
+010A 74D5       270            mov     a,#0xD5
+010C C0E0       271            push    acc
+010E 743E       272            mov     a,#0x3E
+0110 C0E0       273            push    acc
+0112 8E82       274            mov     dpl,r6
+0114 8F83       275            mov     dph,r7
+0116 8AF0       276            mov     b,r2
+0118 EB         277            mov     a,r3
+0119 120100     278            lcall   ___fsadd
+011C AA82       279            mov     r2,dpl
+011E AB83       280            mov     r3,dph
+0120 ACF0       281            mov     r4,b
+0122 FD         282            mov     r5,a
+0123 E581       283            mov     a,sp
+0125 24FC       284            add     a,#0xfc
+0127 F581       285            mov     sp,a
+0129 E500       286            mov     a,_bp
+012B 2409       287            add     a,#0x09
+012D F8         288            mov     r0,a
+012E A602       289            mov     @r0,ar2
+0130 08         290            inc     r0
+0131 A603       291            mov     @r0,ar3
+0133 08         292            inc     r0
+0134 A604       293            mov     @r0,ar4
+0136 08         294            inc     r0
+0137 A605       295            mov     @r0,ar5
+0139            296   ;        src\sqrtf.c:45: y+=f/y;
+0139 E500       297            mov     a,_bp
+013B 2409       298            add     a,#0x09
+013D F8         299            mov     r0,a
+013E E6         300            mov     a,@r0
+013F C0E0       301            push    acc
+0141 08         302            inc     r0
+0142 E6         303            mov     a,@r0
+0143 C0E0       304            push    acc
+0145 08         305            inc     r0
+0146 E6         306            mov     a,@r0
+0147 C0E0       307            push    acc
+0149 08         308            inc     r0
+014A E6         309            mov     a,@r0
+014B C0E0       310            push    acc
+014D E500       311            mov     a,_bp
+014F 2405       312            add     a,#0x05
+0151 F8         313            mov     r0,a
+0152 8682       314            mov     dpl,@r0
+0154 08         315            inc     r0
+0155 8683       316            mov     dph,@r0
+0157 08         317            inc     r0
+0158 86F0       318            mov     b,@r0
+015A 08         319            inc     r0
+015B E6         320            mov     a,@r0
+015C 120100     321            lcall   ___fsdiv
+015F AE82       322            mov     r6,dpl
+0161 AF83       323            mov     r7,dph
+0163 AAF0       324            mov     r2,b
+0165 FB         325            mov     r3,a
+0166 E581       326            mov     a,sp
+0168 24FC       327            add     a,#0xfc
+016A F581       328            mov     sp,a
+016C C006       329            push    ar6
+016E C007       330            push    ar7
+0170 C002       331            push    ar2
+0172 C003       332            push    ar3
+0174 E500       333            mov     a,_bp
+0176 2409       334            add     a,#0x09
+0178 F8         335            mov     r0,a
+0179 8682       336            mov     dpl,@r0
+017B 08         337            inc     r0
+017C 8683       338            mov     dph,@r0
+017E 08         339            inc     r0
+017F 86F0       340            mov     b,@r0
+0181 08         341            inc     r0
+0182 E6         342            mov     a,@r0
+0183 120100     343            lcall   ___fsadd
+0186 AA82       344            mov     r2,dpl
+0188 AB83       345            mov     r3,dph
+018A ACF0       346            mov     r4,b
+018C FD         347            mov     r5,a
+018D E581       348            mov     a,sp
+018F 24FC       349            add     a,#0xfc
+0191 F581       350            mov     sp,a
+0193 E500       351            mov     a,_bp
+0195 2409       352            add     a,#0x09
+0197 F8         353            mov     r0,a
+0198 A602       354            mov     @r0,ar2
+019A 08         355            inc     r0
+019B A603       356            mov     @r0,ar3
+019D 08         357            inc     r0
+019E A604       358            mov     @r0,ar4
+01A0 08         359            inc     r0
+01A1 A605       360            mov     @r0,ar5
+01A3            361   ;        src\sqrtf.c:46: y=ldexpf(y, -2) + f/y; /*Faster version of 0.25 * y + f/y*/
+01A3 74FE       362            mov     a,#0xFE
+01A5 C0E0       363            push    acc
+01A7 74FF       364            mov     a,#0xFF
+01A9 C0E0       365            push    acc
+01AB E500       366            mov     a,_bp
+01AD 2409       367            add     a,#0x09
+01AF F8         368            mov     r0,a
+01B0 8682       369            mov     dpl,@r0
+01B2 08         370            inc     r0
+01B3 8683       371            mov     dph,@r0
+01B5 08         372            inc     r0
+01B6 86F0       373            mov     b,@r0
+01B8 08         374            inc     r0
+01B9 E6         375            mov     a,@r0
+01BA 120100     376            lcall   _ldexpf
+01BD C8         377            xch     a,r0
+01BE E500       378            mov     a,_bp
+01C0 240F       379            add     a,#0x0f
+01C2 C8         380            xch     a,r0
+01C3 A682       381            mov     @r0,dpl
+01C5 08         382            inc     r0
+01C6 A683       383            mov     @r0,dph
+01C8 08         384            inc     r0
+01C9 A6F0       385            mov     @r0,b
+01CB 08         386            inc     r0
+01CC F6         387            mov     @r0,a
+01CD 1581       388            dec     sp
+01CF 1581       389            dec     sp
+01D1 E500       390            mov     a,_bp
+01D3 2409       391            add     a,#0x09
+01D5 F8         392            mov     r0,a
+01D6 E6         393            mov     a,@r0
+01D7 C0E0       394            push    acc
+01D9 08         395            inc     r0
+01DA E6         396            mov     a,@r0
+01DB C0E0       397            push    acc
+01DD 08         398            inc     r0
+01DE E6         399            mov     a,@r0
+01DF C0E0       400            push    acc
+01E1 08         401            inc     r0
+01E2 E6         402            mov     a,@r0
+01E3 C0E0       403            push    acc
+01E5 E500       404            mov     a,_bp
+01E7 2405       405            add     a,#0x05
+01E9 F8         406            mov     r0,a
+01EA 8682       407            mov     dpl,@r0
+01EC 08         408            inc     r0
+01ED 8683       409            mov     dph,@r0
+01EF 08         410            inc     r0
+01F0 86F0       411            mov     b,@r0
+01F2 08         412            inc     r0
+01F3 E6         413            mov     a,@r0
+01F4 120100     414            lcall   ___fsdiv
+01F7 AE82       415            mov     r6,dpl
+01F9 AF83       416            mov     r7,dph
+01FB AAF0       417            mov     r2,b
+01FD FB         418            mov     r3,a
+01FE E581       419            mov     a,sp
+0200 24FC       420            add     a,#0xfc
+0202 F581       421            mov     sp,a
+0204 C006       422            push    ar6
+0206 C007       423            push    ar7
+0208 C002       424            push    ar2
+020A C003       425            push    ar3
+020C E500       426            mov     a,_bp
+020E 240F       427            add     a,#0x0f
+0210 F8         428            mov     r0,a
+0211 8682       429            mov     dpl,@r0
+0213 08         430            inc     r0
+0214 8683       431            mov     dph,@r0
+0216 08         432            inc     r0
+0217 86F0       433            mov     b,@r0
+0219 08         434            inc     r0
+021A E6         435            mov     a,@r0
+021B 120100     436            lcall   ___fsadd
+021E AA82       437            mov     r2,dpl
+0220 AB83       438            mov     r3,dph
+0222 ACF0       439            mov     r4,b
+0224 FD         440            mov     r5,a
+0225 E581       441            mov     a,sp
+0227 24FC       442            add     a,#0xfc
+0229 F581       443            mov     sp,a
+022B E500       444            mov     a,_bp
+022D 2409       445            add     a,#0x09
+022F F8         446            mov     r0,a
+0230 A602       447            mov     @r0,ar2
+0232 08         448            inc     r0
+0233 A603       449            mov     @r0,ar3
+0235 08         450            inc     r0
+0236 A604       451            mov     @r0,ar4
+0238 08         452            inc     r0
+0239 A605       453            mov     @r0,ar5
+023B            454   ;        src\sqrtf.c:48: if (n&1)
+023B E500       455            mov     a,_bp
+023D 240D       456            add     a,#0x0d
+023F F8         457            mov     r0,a
+0240 E6         458            mov     a,@r0
+0241 30E038     459            jnb     acc.0,L002010?
+0244            460   ;        src\sqrtf.c:50: y*=0.7071067812;
+0244 E500       461            mov     a,_bp
+0246 2409       462            add     a,#0x09
+0248 F8         463            mov     r0,a
+0249 E6         464            mov     a,@r0
+024A C0E0       465            push    acc
+024C 08         466            inc     r0
+024D E6         467            mov     a,@r0
+024E C0E0       468            push    acc
+0250 08         469            inc     r0
+0251 E6         470            mov     a,@r0
+0252 C0E0       471            push    acc
+0254 08         472            inc     r0
+0255 E6         473            mov     a,@r0
+0256 C0E0       474            push    acc
+0258 9004F3     475            mov     dptr,#0x04F3
+025B 75F035     476            mov     b,#0x35
+025E 743F       477            mov     a,#0x3F
+0260 120100     478            lcall   ___fsmul
+0263 AA82       479            mov     r2,dpl
+0265 AB83       480            mov     r3,dph
+0267 ACF0       481            mov     r4,b
+0269 FD         482            mov     r5,a
+026A E581       483            mov     a,sp
+026C 24FC       484            add     a,#0xfc
+026E F581       485            mov     sp,a
+0270 E500       486            mov     a,_bp
+0272 2409       487            add     a,#0x09
+0274 F8         488            mov     r0,a
+0275 A602       489            mov     @r0,ar2
+0277 08         490            inc     r0
+0278 A603       491            mov     @r0,ar3
+027A 08         492            inc     r0
+027B A604       493            mov     @r0,ar4
+027D 08         494            inc     r0
+027E A605       495            mov     @r0,ar5
+0280            496   ;        src\sqrtf.c:51: ++n;
+0280 E500       497            mov     a,_bp
+0282 240D       498            add     a,#0x0d
+0284 F8         499            mov     r0,a
+0285 06         500            inc     @r0
+0286 B60078     501            cjne    @r0,#0x00,L002021?
+0289 08         502            inc     r0
+028A 06         503            inc     @r0
+028B            504   L002021?:
+028B            505   L002010?:
+028B            506   ;        src\sqrtf.c:53: return ldexpf(y, n/2);
+028B 7402       507            mov     a,#0x02
+028D C0E0       508            push    acc
+028F E4         509            clr     a
+0290 C0E0       510            push    acc
+0292 E500       511            mov     a,_bp
+0294 240D       512            add     a,#0x0d
+0296 F8         513            mov     r0,a
+0297 8682       514            mov     dpl,@r0
+0299 08         515            inc     r0
+029A 8683       516            mov     dph,@r0
+029C 120100     517            lcall   __divsint
+029F AA82       518            mov     r2,dpl
+02A1 AB83       519            mov     r3,dph
+02A3 1581       520            dec     sp
+02A5 1581       521            dec     sp
+02A7 C002       522            push    ar2
+02A9 C003       523            push    ar3
+02AB E500       524            mov     a,_bp
+02AD 2409       525            add     a,#0x09
+02AF F8         526            mov     r0,a
+02B0 8682       527            mov     dpl,@r0
+02B2 08         528            inc     r0
+02B3 8683       529            mov     dph,@r0
+02B5 08         530            inc     r0
+02B6 86F0       531            mov     b,@r0
+02B8 08         532            inc     r0
+02B9 E6         533            mov     a,@r0
+02BA 120100     534            lcall   _ldexpf
+02BD AA82       535            mov     r2,dpl
+02BF AB83       536            mov     r3,dph
+02C1 ACF0       537            mov     r4,b
+02C3 FD         538            mov     r5,a
+02C4 1581       539            dec     sp
+02C6 1581       540            dec     sp
+02C8 8A82       541            mov     dpl,r2
+02CA 8B83       542            mov     dph,r3
+02CC 8CF0       543            mov     b,r4
+02CE ED         544            mov     a,r5
+02CF            545   L002011?:
+02CF 850081     546            mov     sp,_bp
+02D2 D000       547            pop     _bp
+02D4 22         548            ret
+02D5            549            rseg R_CSEG
+02D5            550   
+0000            551            rseg R_XINIT
+0000            552   
+0000            553            rseg R_CONST
+0000            554   
+0000            555            CSEG
+0000            556   
+0000            557   end

@@ -1,0 +1,710 @@
+<CALL51LIB>
+
+<INDEX>
+       592
+<MODULE>
+divslong 11
+__divslong,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+divulong 1724
+__divslong_PARM_2,R_OSEG,0000,0004
+__divulong,R_CSEG,0000,0000
+__divulong_PARM_2,R_OSEG,0000,0000
+</MODULE>
+
+<MODULE>
+modslong 3513
+__modslong,R_CSEG,0000,0000
+</MODULE>
+
+<MODULE>
+modulong 5215
+__modslong_PARM_2,R_OSEG,0000,0004
+__modulong,R_CSEG,0000,0000
+__modulong_PARM_2,R_OSEG,0000,0000
+</MODULE>
+
+<MODULE>
+mullong 7959
+__mullong,R_CSEG,0000,0000
+__mullong_PARM_2,R_OSEG,0000,0004
+__mullong_dummy,R_CSEG,0000,0000
+</MODULE>
+
+</INDEX>
+
+<FILES>
+
+<FILE>
+divslong
+<OBJ>
+<MODULE>
+divslong
+</MODULE>
+<OPTC51>
+--model-small
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0052,NO
+</SEGMENTS>
+<LOCALS>
+b_not_negative,R_CSEG,0037,0000
+not_negative,R_CSEG,0051,0000
+a_not_negative,R_CSEG,001B,0000
+__divslong_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+__divslong,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+__divslong_PARM_2,any,0000,0000
+__divulong,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+FB
+C2 D5
+30 E7 rel3(a_not_negative;)
+D2 D5
+E4
+C3
+95 82
+F5 82
+E4
+95 83
+F5 83
+E4
+95 F0
+F5 F0
+E4
+9B
+FB
+E5 data8(__divslong_PARM_2;0x0003;+;)
+30 E7 rel3(b_not_negative;)
+B2 D5
+E4
+C3
+95 data8(__divslong_PARM_2;)
+F5 data8(__divslong_PARM_2;)
+E4
+95 data8(__divslong_PARM_2;0x0001;+;)
+F5 data8(__divslong_PARM_2;0x0001;+;)
+E4
+95 data8(__divslong_PARM_2;0x0002;+;)
+F5 data8(__divslong_PARM_2;0x0002;+;)
+E4
+95 data8(__divslong_PARM_2;0x0003;+;)
+F5 data8(__divslong_PARM_2;0x0003;+;)
+EB
+12 addr16(__divulong;)  
+30 D5 rel3(not_negative;)
+FB
+E4
+C3
+95 82
+F5 82
+E4
+95 83
+F5 83
+E4
+95 F0
+F5 F0
+E4
+9B
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+divulong
+<OBJ>
+<MODULE>
+divulong
+</MODULE>
+<OPTC51>
+--model-small
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0004,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0065,NO
+</SEGMENTS>
+<LOCALS>
+minus,R_CSEG,0061,0000
+exit,R_CSEG,0063,0000
+loop,R_CSEG,0021,0000
+__divlong_dummy,R_CSEG,0000,0000
+in_lp,R_CSEG,0034,0000
+lp0,R_CSEG,0008,0000
+</LOCALS>
+<PUBLICS>
+__divslong_PARM_2,R_OSEG,0000,0004
+__divulong,R_CSEG,0000,0000
+__divulong_PARM_2,R_OSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_CSEG>
+FB
+7A 20
+E4
+FC
+FD
+FE
+FF
+E5 82
+25 82
+F5 82
+E5 83
+33
+F5 83
+E5 F0
+33
+F5 F0
+EB
+33
+FB
+40 rel2(in_lp;)
+DA rel2(lp0;)
+80 rel2(exit;)
+E5 82
+25 82
+F5 82
+E5 83
+33
+F5 83
+E5 F0
+33
+F5 F0
+EB
+33
+FB
+EC
+33
+FC
+ED
+33
+FD
+EE
+33
+FE
+EF
+33
+FF
+EC
+95 data8(__divulong_PARM_2;)
+ED
+95 data8(__divulong_PARM_2;0x0001;+;)
+EE
+95 data8(__divulong_PARM_2;0x0002;+;)
+EF
+95 data8(__divulong_PARM_2;0x0003;+;)
+40 rel2(minus;)
+EC
+95 data8(__divulong_PARM_2;)
+FC
+ED
+95 data8(__divulong_PARM_2;0x0001;+;)
+FD
+EE
+95 data8(__divulong_PARM_2;0x0002;+;)
+FE
+EF
+95 data8(__divulong_PARM_2;0x0003;+;)
+FF
+43 82 01
+DA rel2(loop;)
+EB
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+modslong
+<OBJ>
+<MODULE>
+modslong
+</MODULE>
+<OPTC51>
+--model-small
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0000,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,004F,NO
+</SEGMENTS>
+<LOCALS>
+b_not_negative,R_CSEG,0035,0000
+not_negative,R_CSEG,004E,0000
+a_not_negative,R_CSEG,001B,0000
+__modslong_dummy,R_CSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+__modslong,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+__modslong_PARM_2,any,0000,0000
+__modulong,any,0000,0000
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+F9
+C2 D5
+30 E7 rel3(a_not_negative;)
+D2 D5
+E4
+C3
+95 82
+F5 82
+E4
+95 83
+F5 83
+E4
+95 F0
+F5 F0
+E4
+99
+F9
+E5 data8(__modslong_PARM_2;0x0003;+;)
+30 E7 rel3(b_not_negative;)
+E4
+C3
+95 data8(__modslong_PARM_2;)
+F5 data8(__modslong_PARM_2;)
+E4
+95 data8(__modslong_PARM_2;0x0001;+;)
+F5 data8(__modslong_PARM_2;0x0001;+;)
+E4
+95 data8(__modslong_PARM_2;0x0002;+;)
+F5 data8(__modslong_PARM_2;0x0002;+;)
+E4
+95 data8(__modslong_PARM_2;0x0003;+;)
+F5 data8(__modslong_PARM_2;0x0003;+;)
+E9
+12 addr16(__modulong;)  
+30 D5 rel3(not_negative;)
+E4
+C3
+95 82
+F5 82
+E4
+95 83
+F5 83
+E4
+95 F0
+F5 F0
+E4
+99
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+modulong
+<OBJ>
+<MODULE>
+modulong
+</MODULE>
+<OPTC51>
+--model-small
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0004,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,0083,NO
+</SEGMENTS>
+<LOCALS>
+__modlong_dummy,R_CSEG,0000,0000
+div_by_0,R_CSEG,0082,0000
+loop1,R_CSEG,000E,0000
+loop2,R_CSEG,004F,0000
+smaller,R_CSEG,006A,0000
+</LOCALS>
+<PUBLICS>
+__modslong_PARM_2,R_OSEG,0000,0004
+__modulong,R_CSEG,0000,0000
+__modulong_PARM_2,R_OSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_CSEG>
+F9
+E5 data8(__modulong_PARM_2;)
+45 data8(__modulong_PARM_2;0x0001;+;)
+45 data8(__modulong_PARM_2;0x0002;+;)
+45 data8(__modulong_PARM_2;0x0003;+;)
+60 rel2(div_by_0;)
+78 00
+C3
+08
+E5 data8(__modulong_PARM_2;0x0003;+;)
+20 E7 rel3(loop2;)
+E5 data8(__modulong_PARM_2;)
+25 E0
+F5 data8(__modulong_PARM_2;)
+E5 data8(__modulong_PARM_2;0x0001;+;)
+33
+F5 data8(__modulong_PARM_2;0x0001;+;)
+E5 data8(__modulong_PARM_2;0x0002;+;)
+33
+F5 data8(__modulong_PARM_2;0x0002;+;)
+E5 data8(__modulong_PARM_2;0x0003;+;)
+33
+F5 data8(__modulong_PARM_2;0x0003;+;)
+E5 82
+95 data8(__modulong_PARM_2;)
+E5 83
+95 data8(__modulong_PARM_2;0x0001;+;)
+E5 F0
+95 data8(__modulong_PARM_2;0x0002;+;)
+E9
+95 data8(__modulong_PARM_2;0x0003;+;)
+50 rel2(loop1;)
+C3
+E5 data8(__modulong_PARM_2;0x0003;+;)
+13
+F5 data8(__modulong_PARM_2;0x0003;+;)
+E5 data8(__modulong_PARM_2;0x0002;+;)
+13
+F5 data8(__modulong_PARM_2;0x0002;+;)
+E5 data8(__modulong_PARM_2;0x0001;+;)
+13
+F5 data8(__modulong_PARM_2;0x0001;+;)
+E5 data8(__modulong_PARM_2;)
+13
+F5 data8(__modulong_PARM_2;)
+E5 82
+95 data8(__modulong_PARM_2;)
+FC
+E5 83
+95 data8(__modulong_PARM_2;0x0001;+;)
+FD
+E5 F0
+95 data8(__modulong_PARM_2;0x0002;+;)
+FE
+E9
+95 data8(__modulong_PARM_2;0x0003;+;)
+40 rel2(smaller;)
+F9
+8E F0
+8D 83
+8C 82
+C3
+E5 data8(__modulong_PARM_2;0x0003;+;)
+13
+F5 data8(__modulong_PARM_2;0x0003;+;)
+E5 data8(__modulong_PARM_2;0x0002;+;)
+13
+F5 data8(__modulong_PARM_2;0x0002;+;)
+E5 data8(__modulong_PARM_2;0x0001;+;)
+13
+F5 data8(__modulong_PARM_2;0x0001;+;)
+E5 data8(__modulong_PARM_2;)
+13
+F5 data8(__modulong_PARM_2;)
+D8 rel2(loop2;)
+E9
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+<FILE>
+mullong
+<OBJ>
+<MODULE>
+mullong
+</MODULE>
+<OPTC51>
+--model-small
+</OPTC51>
+<SEGMENTS>
+R_GSINIT,code,0000,NO
+R_BSEG,bit,0000,NO
+R_XSEG,xdata,0000,NO
+BIT_BANK,data,0000,OV
+R_CONST,code,0000,NO
+rbank0,data,0000,OV
+R_PSEG,xdata,0000,NO
+R_DINIT,code,0000,NO
+R_DSEG,data,0000,NO
+R_OSEG,data,0004,OV
+R_IXSEG,xdata,0000,NO
+R_ISEG,idata,0000,NO
+R_HOME,code,0000,NO
+R_XINIT,code,0000,NO
+R_CSEG,code,006E,NO
+</SEGMENTS>
+<LOCALS>
+b0,R_OSEG,0000,0000
+b1,R_OSEG,0000,0000
+b2,R_OSEG,0000,0000
+b3,R_OSEG,0000,0000
+</LOCALS>
+<PUBLICS>
+__mullong,R_CSEG,0000,0000
+__mullong_PARM_2,R_OSEG,0000,0004
+__mullong_dummy,R_CSEG,0000,0000
+</PUBLICS>
+<EXTERNALS>
+</EXTERNALS>
+<CODE AT 0000>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_HOME>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_GSINIT>
+</CODE>
+<CODE R_DINIT>
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_CSEG>
+AA F0
+FB
+E5 82
+85 data8(__mullong_PARM_2;) F0
+A4
+FC
+AD F0
+E5 83
+85 data8(__mullong_PARM_2;) F0
+A4
+2D
+FD
+E4
+35 F0
+FE
+E5 82
+85 data8(__mullong_PARM_2;0x0001;+;) F0
+A4
+2D
+FD
+E5 F0
+3E
+FE
+E4
+33
+FF
+EA
+85 data8(__mullong_PARM_2;) F0
+A4
+2E
+FE
+E5 F0
+3F
+FF
+E5 83
+85 data8(__mullong_PARM_2;0x0001;+;) F0
+A4
+2E
+FE
+E5 F0
+3F
+FF
+E5 82
+85 data8(__mullong_PARM_2;0x0002;+;) F0
+A4
+2E
+FE
+E5 F0
+3F
+FF
+EB
+85 data8(__mullong_PARM_2;) F0
+A4
+2F
+FF
+EA
+85 data8(__mullong_PARM_2;0x0001;+;) F0
+A4
+2F
+FF
+E5 83
+85 data8(__mullong_PARM_2;0x0002;+;) F0
+A4
+2F
+FF
+E5 82
+85 data8(__mullong_PARM_2;0x0003;+;) F0
+A4
+2F
+8E F0
+8D 83
+8C 82
+22
+</CODE>
+<CODE R_CSEG>
+</CODE>
+<CODE R_XINIT>
+</CODE>
+<CODE R_CONST>
+</CODE>
+<CODE AT 0000>
+</CODE>
+</OBJ>
+</FILE>
+
+</FILES>
+
+</CALL51LIB>

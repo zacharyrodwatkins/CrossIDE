@@ -1,0 +1,450 @@
+
+C:\Source\call51\Lib>set bin=..\..\bin 
+
+C:\Source\call51\Lib>cd src 
+
+C:\Source\call51\Lib\src>del ..\small-stack-auto\*.lib 
+
+C:\Source\call51\Lib\src>set CALL51_CC=..\..\bin\c51 --use-stdout --model-small --stack-auto -c 
+
+C:\Source\call51\Lib\src>..\..\bin\lib51 -l ..\small-stack-auto\libfloat.lib ..\libfloat.l51 
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c atof.c
+Adding: atof.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fsadd.c
+Adding: fsadd.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fsdiv.c
+Adding: fsdiv.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fseq.c
+Adding: fseq.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fsgt.c
+Adding: fsgt.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fslt.c
+Adding: fslt.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fscmp.c
+Adding: fscmp.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fsmul.c
+Adding: fsmul.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fsneq.c
+Adding: fsneq.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fssub.c
+Adding: fssub.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c uchar2fs.c
+Adding: uchar2fs.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c uint2fs.c
+Adding: uint2fs.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c ulong2fs.c
+Adding: ulong2fs.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c schar2fs.c
+Adding: schar2fs.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c sint2fs.c
+Adding: sint2fs.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c slong2fs.c
+Adding: slong2fs.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fs2uchar.c
+Adding: fs2uchar.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fs2uint.c
+Adding: fs2uint.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fs2ulong.c
+Adding: fs2ulong.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fs2schar.c
+Adding: fs2schar.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fs2sint.c
+Adding: fs2sint.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fs2slong.c
+Adding: fs2slong.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fabsf.c
+Adding: fabsf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c frexpf.c
+Adding: frexpf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c ldexpf.c
+Adding: ldexpf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c expf.c
+Adding: expf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c powf.c
+Adding: powf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c sincosf.c
+Adding: sincosf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c sinf.c
+Adding: sinf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c cosf.c
+Adding: cosf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c logf.c
+Adding: logf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c log10f.c
+Adding: log10f.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c sqrtf.c
+Adding: sqrtf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c tancotf.c
+Adding: tancotf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c tanf.c
+Adding: tanf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c cotf.c
+Adding: cotf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c asincosf.c
+Adding: asincosf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c asinf.c
+Adding: asinf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c acosf.c
+Adding: acosf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c atanf.c
+Adding: atanf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c atan2f.c
+Adding: atan2f.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c sincoshf.c
+Adding: sincoshf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c sinhf.c
+Adding: sinhf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c coshf.c
+Adding: coshf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c tanhf.c
+Adding: tanhf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c floorf.c
+Adding: floorf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c ceilf.c
+Adding: ceilf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c modff.c
+Adding: modff.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c errno.c
+Adding: errno.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fsget1arg.c
+Adding: fsget1arg.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fsget2args.c
+Adding: fsget2args.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fsnormalize.c
+Adding: fsnormalize.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fsreturnval.c
+Adding: fsreturnval.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fsrshift.c
+Adding: fsrshift.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c fsswapargs.c
+Adding: fsswapargs.obj
+
+C:\Source\call51\Lib\src>..\..\bin\lib51 -l ..\small-stack-auto\libint.lib ..\libint.l51 
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c divsint.c
+Adding: divsint.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c divuint.c
+Adding: divuint.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c modsint.c
+Adding: modsint.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c moduint.c
+Adding: moduint.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c mulint.c
+Adding: mulint.obj
+
+C:\Source\call51\Lib\src>..\..\bin\lib51 -l ..\small-stack-auto\liblong.lib ..\liblong.l51 
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c divslong.c
+Adding: divslong.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c divulong.c
+Adding: divulong.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c modslong.c
+Adding: modslong.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c modulong.c
+Adding: modulong.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c mullong.c
+Adding: mullong.obj
+
+C:\Source\call51\Lib\src>..\..\bin\lib51 -l ..\small-stack-auto\libc51.lib ..\libc51.l51 
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c crt0.c
+Adding: crt0.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c decdptr.c
+Adding: decdptr.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c gptrget.c
+Adding: gptrget.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c gptrput.c
+Adding: gptrput.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c gptrgetc.c
+Adding: gptrgetc.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c bp.c
+Adding: bp.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c spx.c
+Adding: spx.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c bpx.c
+Adding: bpx.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c c51_call_dptr.c
+Adding: c51_call_dptr.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c setjmp.c
+Adding: setjmp.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c iscntrl.c
+Adding: iscntrl.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c isdigit.c
+Adding: isdigit.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c isgraph.c
+Adding: isgraph.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c islower.c
+Adding: islower.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c isprint.c
+Adding: isprint.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c ispunct.c
+Adding: ispunct.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c isspace.c
+Adding: isspace.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c isupper.c
+Adding: isupper.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c isxdigit.c
+Adding: isxdigit.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c itoa.c
+Adding: itoa.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c ltoa.c
+Adding: ltoa.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c taos.c
+Adding: taos.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c ftoa.c
+Adding: ftoa.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c ultoso.c
+Adding: ultoso.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c ultosd.c
+Adding: ultosd.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c ultosh.c
+Adding: ultosh.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c strcat.c
+Adding: strcat.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c strchr.c
+Adding: strchr.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c strcmp.c
+Adding: strcmp.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c strcpy.c
+Adding: strcpy.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c strcspn.c
+Adding: strcspn.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c strlen.c
+Adding: strlen.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c strncat.c
+Adding: strncat.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c strncmp.c
+Adding: strncmp.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c strncpy.c
+Adding: strncpy.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c strpbrk.c
+Adding: strpbrk.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c strrchr.c
+Adding: strrchr.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c strspn.c
+Adding: strspn.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c strstr.c
+Adding: strstr.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c strtok.c
+Adding: strtok.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c memcmp.c
+Adding: memcmp.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c memcpy.c
+Adding: memcpy.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c memmove.c
+Adding: memmove.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c memset.c
+Adding: memset.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c abs.c
+Adding: abs.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c labs.c
+Adding: labs.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c rand.c
+Adding: rand.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c atoi.c
+Adding: atoi.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c atol.c
+Adding: atol.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c heap.c
+Adding: heap.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c calloc.c
+Adding: calloc.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c malloc.c
+Adding: malloc.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c realloc.c
+Adding: realloc.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c free.c
+Adding: free.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c startup.c
+Adding: startup.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c puts.c
+Adding: puts.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c gets.c
+Adding: gets.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c print_format.c
+Adding: print_format.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c printfl.c
+Adding: printfl.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c printf_fast.c
+Adding: printf_fast.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c printf_fast_f.c
+Adding: printf_fast_f.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c printf_tiny.c
+Adding: printf_tiny.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c sprintf.c
+Adding: sprintf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c vprintf.c
+Adding: vprintf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c scan_format.c
+Adding: scan_format.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c sscanf.c
+Adding: sscanf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c vscanf.c
+Adding: vscanf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c assert.c
+Adding: assert.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c time.c
+Adding: time.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c putchar.c
+Adding: putchar.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c getchar.c
+Adding: getchar.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c setbaud1.c
+Adding: setbaud1.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -c setbaud2.c
+Adding: setbaud2.obj
+
+C:\Source\call51\Lib\src>set CALL51_CC=..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c 
+
+C:\Source\call51\Lib\src>..\..\bin\lib51 -l ..\small-stack-auto\libc51f.lib ..\libc51.l51 
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c crt0.c
+Adding: crt0.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c decdptr.c
+Adding: decdptr.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c gptrget.c
+Adding: gptrget.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c gptrput.c
+Adding: gptrput.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c gptrgetc.c
+Adding: gptrgetc.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c bp.c
+Adding: bp.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c spx.c
+Adding: spx.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c bpx.c
+Adding: bpx.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c c51_call_dptr.c
+Adding: c51_call_dptr.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c setjmp.c
+Adding: setjmp.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c iscntrl.c
+Adding: iscntrl.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c isdigit.c
+Adding: isdigit.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c isgraph.c
+Adding: isgraph.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c islower.c
+Adding: islower.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c isprint.c
+Adding: isprint.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c ispunct.c
+Adding: ispunct.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c isspace.c
+Adding: isspace.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c isupper.c
+Adding: isupper.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c isxdigit.c
+Adding: isxdigit.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c itoa.c
+Adding: itoa.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c ltoa.c
+Adding: ltoa.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c taos.c
+Adding: taos.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c ftoa.c
+Adding: ftoa.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c ultoso.c
+Adding: ultoso.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c ultosd.c
+Adding: ultosd.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c ultosh.c
+Adding: ultosh.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c strcat.c
+Adding: strcat.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c strchr.c
+Adding: strchr.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c strcmp.c
+Adding: strcmp.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c strcpy.c
+Adding: strcpy.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c strcspn.c
+Adding: strcspn.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c strlen.c
+Adding: strlen.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c strncat.c
+Adding: strncat.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c strncmp.c
+Adding: strncmp.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c strncpy.c
+Adding: strncpy.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c strpbrk.c
+Adding: strpbrk.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c strrchr.c
+Adding: strrchr.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c strspn.c
+Adding: strspn.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c strstr.c
+Adding: strstr.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c strtok.c
+Adding: strtok.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c memcmp.c
+Adding: memcmp.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c memcpy.c
+Adding: memcpy.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c memmove.c
+Adding: memmove.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c memset.c
+Adding: memset.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c abs.c
+Adding: abs.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c labs.c
+Adding: labs.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c rand.c
+Adding: rand.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c atoi.c
+Adding: atoi.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c atol.c
+Adding: atol.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c heap.c
+Adding: heap.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c calloc.c
+Adding: calloc.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c malloc.c
+Adding: malloc.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c realloc.c
+Adding: realloc.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c free.c
+Adding: free.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c startup.c
+Adding: startup.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c puts.c
+Adding: puts.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c gets.c
+Adding: gets.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c print_format.c
+Adding: print_format.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c printfl.c
+Adding: printfl.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c printf_fast.c
+Adding: printf_fast.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c printf_fast_f.c
+Adding: printf_fast_f.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c printf_tiny.c
+Adding: printf_tiny.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c sprintf.c
+Adding: sprintf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c vprintf.c
+Adding: vprintf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c scan_format.c
+Adding: scan_format.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c sscanf.c
+Adding: sscanf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c vscanf.c
+Adding: vscanf.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c assert.c
+Adding: assert.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c time.c
+Adding: time.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c putchar.c
+Adding: putchar.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c getchar.c
+Adding: getchar.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c setbaud1.c
+Adding: setbaud1.obj
+..\..\bin\c51 --use-stdout --model-small --stack-auto -DUSE_FLOATS -c setbaud2.c
+Adding: setbaud2.obj
+
+C:\Source\call51\Lib\src>set CALL51_CC= 
+
+C:\Source\call51\Lib\src>set bin= 
+
+C:\Source\call51\Lib\src>del *.asm *.lst *.obj 
+
+C:\Source\call51\Lib\src>cd .. 
